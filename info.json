@@ -1,0 +1,11 @@
+
+{
+  "name": "factorio-not-included",
+  "title": "Factorio Not Included",
+  "version": "1.0.0",
+  "author": "hayato.iida",
+  "factorio_version": "1.0.0",
+  "contact": "hayato.iida on forums.factorio.com",
+  "dependencies": ["base >= 1.0.0"],
+  "description": ""
+}
