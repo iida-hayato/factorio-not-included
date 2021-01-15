@@ -7,6 +7,7 @@ data:extend({
         icon_size = 64,
         order = "w-b-a",
         place_result = "colony-1",
+        subgroup = "fni-colony",
         stack_size = 10,
     },
 })
