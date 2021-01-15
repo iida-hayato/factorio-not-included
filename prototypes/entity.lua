@@ -3,7 +3,7 @@ data:extend(
             {
                 type = "assembling-machine",
                 name = "colony-1",
-                icon = "__factorio-not-included__/graphics/150x150.png",
+                icon = "__factorio-not-included__/graphics/empty.png",
                 icon_size = 32,
                 flags = { "placeable-neutral", "placeable-player", "player-creation", "not-repairable" },
                 minable = { hardness = 0.2, mining_time = 0.5, result = "colony-1", count = 22 },
@@ -32,7 +32,7 @@ data:extend(
                     layers =
                     {
                         {
-                            filename = "__factorio-not-included__/graphics/150x150.png",
+                            filename = "__factorio-not-included__/graphics/empty.png",
                             frame_count = 1,
                             height = 150,
                             width = 150,

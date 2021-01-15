@@ -1,7 +1,7 @@
 -- main data
 require("prototypes.item")
---require("prototypes.fluids")
---require("prototypes.recipe")
+require("prototypes.fluids")
+require("prototypes.recipe")
 require("prototypes.entity")
---require("prototypes.technology")
---require("prototypes.category")
+require("prototypes.tech")
+require("prototypes.category")
