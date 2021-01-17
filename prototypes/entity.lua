@@ -1,3 +1,4 @@
+require ("util")
 data:extend(
         {
             {
@@ -5,10 +6,22 @@ data:extend(
                 name = "colony-1",
                 icon = "__factorio-not-included__/graphics/empty.png",
                 icon_size = 32,
-                flags = { "placeable-neutral", "placeable-player", "player-creation", "not-repairable" },
-                minable = { hardness = 0.2, mining_time = 0.5, result = "colony-1", count = 22 },
-                max_health = 100,
-                crafting_categories = {"crafting"},
+                flags = { "placeable-neutral", "placeable-player", "player-creation" },
+                minable = { mining_time = 3, result = "colony-1"},
+                max_health = 600,
+                fluid_boxes =
+                {
+                    {
+                        production_type = "input",
+                        pipe_picture = assembler2pipepictures(),
+                        pipe_covers = pipecoverspictures(),
+                        base_area = 10,
+                        base_level = -2,
+                        pipe_connections = {{ type="input", position = {2.5, -4.5}},{ type="input", position = {-2.5, -4.5} }}
+                    },
+                    off_when_no_fluid_recipe = false
+                },
+                crafting_categories = {"colony-1"},
                 crafting_speed = 1,
                 selection_box = { { -2.75, -2.75 }, { 2.75, 2.75 } },
                 collision_box = { { -2.75, -2.75 }, { 2.75, 2.75 } },
