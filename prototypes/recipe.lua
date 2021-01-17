@@ -1,4 +1,41 @@
+data:extend(
+    {
+        {
+            type = "recipe-category",
+            name = "colony-1"
+        },
+        {
+            type = "recipe-category",
+            name = "farm-1"
+        },
+        {
+            type = "recipe-category",
+            name = "pasture-1"
+        },
+        {
+            type = "recipe-category",
+            name = "coocker-1"
+        },
+        {
+            type = "recipe-category",
+            name = "water-sieve-1"
+        },
+        {
+            type = "recipe-category",
+            name = "compost-1"
+        },
+        {
+            type = "recipe-category",
+            name = "air-cleaner-1"
+        },
+        {
+            type = "recipe-category",
+            name = "carbon-skimmer-1"
+        },
+    }
+)
 data:extend({
+
     {
         type = "recipe",
         name = "human-1",
