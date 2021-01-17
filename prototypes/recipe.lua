@@ -87,7 +87,7 @@ data:extend({
         subgroup = "fni-item",
         ingredients =
         {
-            {"coal", 100},
+            {"coal", 1},
             {type="fluid", name="co2", amount=200},
         },
         results =
@@ -162,7 +162,7 @@ data:extend({
         subgroup = "fni-fluid",
         ingredients =
         {
-            {"sand", 100},
+            {"sand", 1},
             {type="fluid", name="polluted-oxygen", amount=100},
         },
         results =
