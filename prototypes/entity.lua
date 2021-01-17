@@ -17,7 +17,12 @@ data:extend(
                         pipe_covers = pipecoverspictures(),
                         base_area = 10,
                         base_level = -2,
-                        pipe_connections = {{ type="input", position = {2.5, -4.5}},{ type="input", position = {-2.5, -4.5} }}
+                        pipe_connections = {
+                            { type="input", position = {3, -1}},{ type="input", position = {-2.5, -4.5} } ,
+                            { type="input", position = {-1.5, -1}},{ type="input", position = {-2.5, -4.5}} ,
+                            { type="input", position = {1, -1}},{ type="input", position = {-2.5, -4.5} } ,
+                            { type="input", position = {0, -1}},{ type="input", position = {-2.5, -4.5} } ,
+                        }
                     },
                     off_when_no_fluid_recipe = false
                 },
