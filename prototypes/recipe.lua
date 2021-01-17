@@ -46,15 +46,15 @@ data:extend({
         subgroup = "fni-item",
         ingredients =
         {
-            {"o2", 1000},
-            {"water", 1000},
+            {type="fluid", name="o2", amount=1000},
+            {type="fluid", name="water", amount=1000},
             {"food-1", 1},
         },
         results =
         {
             {"human-1", 1},
-            {"co2", 100},
-            {"polluted-water", 1400},
+            {type="fluid", name="co2", amount=100},
+            {type="fluid", name="polluted-water", amount=1400},
         }
     },
     {
@@ -67,14 +67,14 @@ data:extend({
         subgroup = "fni-item",
         ingredients =
         {
-            {"dirt", 100},
-            {"water", 1000},
-            {"n2", 500},
+            {"dirt", 1},
+            {type="fluid", name="water", amount=1000},
+            {type="fluid", name="n2", amount=500},
         },
         results =
         {
             {"plant-1", 1},
-            {"polluted-water", 600},
+            {type="fluid", name="polluted-water", amount=600},
         }
     },
     {
@@ -88,12 +88,13 @@ data:extend({
         ingredients =
         {
             {"coal", 100},
-            {"co2", 200},
+            {type="fluid", name="co2", amount=200},
         },
         results =
         {
             {"meat-1", 1},
-            {"polluted-oxygen", 400},
+            {type="fluid", name="polluted-oxygen", amount=400},
+
         }
     },
     {
@@ -124,13 +125,13 @@ data:extend({
         subgroup = "fni-fluid",
         ingredients =
         {
-            {"polluted-water", 100},
             {"sand", 1},
+            {type="fluid", name="polluted-water", amount=100},
         },
         results =
         {
-            {"water", 90},
             {"polluted-dirt", 1},
+            {type="fluid", name="water", amount=90},
         }
     },
     {
@@ -148,7 +149,7 @@ data:extend({
         results =
         {
             {"dirt", 1},
-            {"polluted-oxygen", 100},
+            {type="fluid", name="polluted-oxygen", amount=100},
         }
     },
     {
@@ -161,13 +162,13 @@ data:extend({
         subgroup = "fni-fluid",
         ingredients =
         {
-            {"polluted-oxygen", 100},
             {"sand", 100},
+            {type="fluid", name="polluted-oxygen", amount=100},
         },
         results =
         {
-            {"oxygen", 50},
             {"polluted-dirt", 1},
+            {type="fluid", name="oxygen", amount=50},
         }
     },
     {
@@ -180,12 +181,12 @@ data:extend({
         subgroup = "fni-fluid",
         ingredients =
         {
-            {"co2", 100},
-            {"water", 1000},
+            {type="fluid", name="co2", amount=100},
+            {type="fluid", name="water", amount=1000},
         },
         results =
         {
-            {"polluted-water", 1000},
+            {type="fluid", name="polluted-water", amount=1000},
         }
     },
     {
@@ -205,5 +206,4 @@ data:extend({
             {"sand", 1},
         }
     },
-
 })
