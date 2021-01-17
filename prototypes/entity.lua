@@ -18,10 +18,37 @@ data:extend(
                         base_area = 10,
                         base_level = -2,
                         pipe_connections = {
-                            { type="input", position = {3, -3}},
-                            { type="input", position = {-1.5, -3}},
-                            { type="input", position = {1, -3}},
-                            { type="input", position = {0, -3}},
+                            { type="input", position = {3, -2}},
+                        }
+                    },
+                    {
+                        production_type = "input",
+                        pipe_picture = assembler2pipepictures(),
+                        pipe_covers = pipecoverspictures(),
+                        base_area = 10,
+                        base_level = -2,
+                        pipe_connections = {
+                            { type="input", position = {3, 2}},
+                        }
+                    },
+                    {
+                        production_type = "output",
+                        pipe_picture = assembler2pipepictures(),
+                        pipe_covers = pipecoverspictures(),
+                        base_area = 10,
+                        base_level = -2,
+                        pipe_connections = {
+                            { type="output", position = {-3, -2}},
+                        }
+                    },
+                    {
+                        production_type = "output",
+                        pipe_picture = assembler2pipepictures(),
+                        pipe_covers = pipecoverspictures(),
+                        base_area = 10,
+                        base_level = -2,
+                        pipe_connections = {
+                            { type="output", position = {-3, 2}},
                         }
                     },
                     off_when_no_fluid_recipe = false
@@ -29,7 +56,7 @@ data:extend(
                 crafting_categories = {"colony-1"},
                 crafting_speed = 1,
                 selection_box = { { -2.75, -2.75 }, { 2.75, 2.75 } },
-                collision_box = { { -2.75, -2.75 }, { 2.75, 2.75 } },
+                collision_box = { { -2.50, -2.50 }, { 2.50, 2.50 } },
                 collision_mask = { "item-layer", "object-layer", "water-tile", "resource-layer", "player-layer" },
                 open_sound = { filename = "__base__/sound/machine-open.ogg", volume = 0.85 },
                 close_sound = { filename = "__base__/sound/machine-close.ogg", volume = 0.75 },
@@ -59,7 +86,7 @@ data:extend(
                 },
 
                 order = "d-b",
-                allowed_effects = { "consumption" }
+                allowed_effects = {"consumption", "speed", "productivity", "pollution"}
             }
         }
 )
