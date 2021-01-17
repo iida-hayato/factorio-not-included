@@ -39,7 +39,7 @@ data:extend({
     {
         type = "recipe",
         name = "human-1",
-        enabled = false,
+        enabled = true,
         icon = "__factorio-not-included__/graphics/empty.png",
         icon_size = 32,
         category = "colony-1",
@@ -60,7 +60,7 @@ data:extend({
     {
         type = "recipe",
         name = "plant-1",
-        enabled = false,
+        enabled = true,
         icon = "__factorio-not-included__/graphics/empty.png",
         icon_size = 32,
         category = "farm-1",
@@ -80,7 +80,7 @@ data:extend({
     {
         type = "recipe",
         name = "meat-1",
-        enabled = false,
+        enabled = true,
         icon = "__factorio-not-included__/graphics/empty.png",
         icon_size = 32,
         category = "pasture-1",
@@ -100,7 +100,7 @@ data:extend({
     {
         type = "recipe",
         name = "food-1",
-        enabled = false,
+        enabled = true,
         icon = "__factorio-not-included__/graphics/empty.png",
         icon_size = 32,
         category = "coocker-1",
@@ -118,7 +118,7 @@ data:extend({
     {
         type = "recipe",
         name = "water-sieve-1",
-        enabled = false,
+        enabled = true,
         icon = "__factorio-not-included__/graphics/empty.png",
         icon_size = 32,
         category = "water-sieve-1",
@@ -137,7 +137,7 @@ data:extend({
     {
         type = "recipe",
         name = "compost-1",
-        enabled = false,
+        enabled = true,
         icon = "__factorio-not-included__/graphics/empty.png",
         icon_size = 32,
         category = "compost-1",
@@ -155,7 +155,7 @@ data:extend({
     {
         type = "recipe",
         name = "air-cleaner-1",
-        enabled = false,
+        enabled = true,
         icon = "__factorio-not-included__/graphics/empty.png",
         icon_size = 32,
         category = "air-cleaner-1",
@@ -174,7 +174,7 @@ data:extend({
     {
         type = "recipe",
         name = "carbon-skimmer-1",
-        enabled = false,
+        enabled = true,
         icon = "__factorio-not-included__/graphics/empty.png",
         icon_size = 32,
         category = "carbon-skimmer-1",
@@ -192,7 +192,7 @@ data:extend({
     {
         type = "recipe",
         name = "sand",
-        enabled = false,
+        enabled = true,
         icon = "__factorio-not-included__/graphics/empty.png",
         icon_size = 32,
         category = "crafting",
