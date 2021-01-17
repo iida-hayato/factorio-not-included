@@ -42,7 +42,7 @@ data:extend(
             {
                 type = "item-subgroup",
                 name = "fni-item",
-                group = "food",
+                group = "fni",
                 order = "g-f",
             },
             {
