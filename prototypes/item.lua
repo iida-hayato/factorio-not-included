@@ -2,7 +2,7 @@ data:extend({
     {
         type = "item",
         name = "human-1",
-        icon = "__factorio-not-included__/graphics/human-1/item/32.png",
+        icon = "__factorio-not-included__/graphics/item/human-1/64.png",
         icon_size = 64,
         order = "w-b-a",
         subgroup = "fni-item",
@@ -11,7 +11,7 @@ data:extend({
     {
         type = "item",
         name = "food-1",
-        icon = "__factorio-not-included__/graphics/food-1/item/32.png",
+        icon = "__factorio-not-included__/graphics/item/food-1/64.png",
         icon_size = 64,
         order = "w-b-a",
         subgroup = "fni-item",
@@ -20,7 +20,7 @@ data:extend({
     {
         type = "item",
         name = "dirt",
-        icon = "__factorio-not-included__/graphics/dirt/item/32.png",
+        icon = "__factorio-not-included__/graphics/item/dirt/64.png",
         icon_size = 64,
         order = "w-b-a",
         subgroup = "fni-item",
@@ -29,7 +29,7 @@ data:extend({
     {
         type = "item",
         name = "plant-1",
-        icon = "__factorio-not-included__/graphics/plant-1/item/32.png",
+        icon = "__factorio-not-included__/graphics/item/plant-1/64.png",
         icon_size = 64,
         order = "w-b-a",
         subgroup = "fni-item",
@@ -38,7 +38,7 @@ data:extend({
     {
         type = "item",
         name = "meat-1",
-        icon = "__factorio-not-included__/graphics/meat-1/item/32.png",
+        icon = "__factorio-not-included__/graphics/item/meat-1/64.png",
         icon_size = 64,
         order = "w-b-a",
         subgroup = "fni-item",
@@ -47,7 +47,7 @@ data:extend({
     {
         type = "item",
         name = "sand",
-        icon = "__factorio-not-included__/graphics/sand/item/32.png",
+        icon = "__factorio-not-included__/graphics/item/sand/64.png",
         icon_size = 64,
         order = "w-b-a",
         subgroup = "fni-item",
@@ -56,7 +56,7 @@ data:extend({
     {
         type = "item",
         name = "polluted-dirt",
-        icon = "__factorio-not-included__/graphics/polluted-dirt/item/32.png",
+        icon = "__factorio-not-included__/graphics/item/polluted-dirt/64.png",
         icon_size = 64,
         order = "w-b-a",
         subgroup = "fni-item",
