@@ -35,7 +35,7 @@ data:extend({
                 pipe_picture = assembler2pipepictures(),
                 pipe_covers = pipecoverspictures(),
                 base_area = 10,
-                base_level = -2,
+                base_level = 2,
                 pipe_connections = {
                     { type = "output", position = { -3, -2 } },
                 }
@@ -45,7 +45,7 @@ data:extend({
                 pipe_picture = assembler2pipepictures(),
                 pipe_covers = pipecoverspictures(),
                 base_area = 10,
-                base_level = -2,
+                base_level = 2,
                 pipe_connections = {
                     { type = "output", position = { -3, 2 } },
                 }
@@ -121,7 +121,7 @@ data:extend({
                 pipe_picture = assembler2pipepictures(),
                 pipe_covers = pipecoverspictures(),
                 base_area = 10,
-                base_level = -2,
+                base_level = 2,
                 pipe_connections = {
                     { type = "output", position = { -3, -2 } },
                 }
@@ -187,7 +187,7 @@ data:extend({
                 pipe_picture = assembler2pipepictures(),
                 pipe_covers = pipecoverspictures(),
                 base_area = 10,
-                base_level = -2,
+                base_level = 2,
                 pipe_connections = {
                     { type = "output", position = { -3, 0 } },
                 }
@@ -326,7 +326,7 @@ data:extend({
                 pipe_picture = assembler2pipepictures(),
                 pipe_covers = pipecoverspictures(),
                 base_area = 10,
-                base_level = -2,
+                base_level = 2,
                 pipe_connections = {
                     { type = "output", position = { -3, 0 } },
                 }
@@ -382,7 +382,7 @@ data:extend({
                 pipe_picture = assembler2pipepictures(),
                 pipe_covers = pipecoverspictures(),
                 base_area = 10,
-                base_level = -2,
+                base_level = 2,
                 pipe_connections = {
                     { type = "output", position = { -3, 0 } },
                 }
@@ -448,7 +448,7 @@ data:extend({
                 pipe_picture = assembler2pipepictures(),
                 pipe_covers = pipecoverspictures(),
                 base_area = 10,
-                base_level = -2,
+                base_level = 2,
                 pipe_connections = {
                     { type = "output", position = { -3, 0 } },
                 }
@@ -524,7 +524,7 @@ data:extend({
                 pipe_picture = assembler2pipepictures(),
                 pipe_covers = pipecoverspictures(),
                 base_area = 10,
-                base_level = -2,
+                base_level = 2,
                 pipe_connections = {
                     { type = "output", position = { -3, 0 } },
                 }
@@ -580,7 +580,7 @@ data:extend({
                 pipe_picture = assembler2pipepictures(),
                 pipe_covers = pipecoverspictures(),
                 base_area = 10,
-                base_level = -2,
+                base_level = 2,
                 pipe_connections = {
                     { type = "output", position = { -3, 2 } },
                 }
@@ -590,7 +590,7 @@ data:extend({
                 pipe_picture = assembler2pipepictures(),
                 pipe_covers = pipecoverspictures(),
                 base_area = 10,
-                base_level = -2,
+                base_level = 2,
                 pipe_connections = {
                     { type = "output", position = { -3, -2 } },
                 }
