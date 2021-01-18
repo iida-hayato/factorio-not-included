@@ -65,7 +65,7 @@ data:extend({
             drain = "25kW",
         },
         energy_usage = "150kW",
-        ingredient_count = 1,
+        ingredient_count = 4,
         module_specification = {
             module_slots = 2,
             module_info_icon_shift = { 0, 0.5 },
@@ -141,7 +141,7 @@ data:extend({
             drain = "25kW",
         },
         energy_usage = "150kW",
-        ingredient_count = 1,
+        ingredient_count = 4,
         module_specification = {
             module_slots = 2,
             module_info_icon_shift = { 0, 0.5 },
@@ -207,7 +207,7 @@ data:extend({
             drain = "25kW",
         },
         energy_usage = "150kW",
-        ingredient_count = 1,
+        ingredient_count = 4,
         module_specification = {
             module_slots = 2,
             module_info_icon_shift = { 0, 0.5 },
@@ -249,7 +249,7 @@ data:extend({
             drain = "25kW",
         },
         energy_usage = "150kW",
-        ingredient_count = 1,
+        ingredient_count = 4,
         module_specification = {
             module_slots = 2,
             module_info_icon_shift = { 0, 0.5 },
@@ -291,7 +291,7 @@ data:extend({
             drain = "25kW",
         },
         energy_usage = "150kW",
-        ingredient_count = 1,
+        ingredient_count = 4,
         module_specification = {
             module_slots = 2,
             module_info_icon_shift = { 0, 0.5 },
@@ -357,7 +357,7 @@ data:extend({
             drain = "25kW",
         },
         energy_usage = "150kW",
-        ingredient_count = 1,
+        ingredient_count = 4,
         module_specification = {
             module_slots = 2,
             module_info_icon_shift = { 0, 0.5 },
@@ -413,7 +413,7 @@ data:extend({
             drain = "25kW",
         },
         energy_usage = "150kW",
-        ingredient_count = 1,
+        ingredient_count = 4,
         module_specification = {
             module_slots = 2,
             module_info_icon_shift = { 0, 0.5 },
@@ -479,7 +479,7 @@ data:extend({
             drain = "25kW",
         },
         energy_usage = "150kW",
-        ingredient_count = 1,
+        ingredient_count = 4,
         module_specification = {
             module_slots = 2,
             module_info_icon_shift = { 0, 0.5 },
@@ -555,7 +555,7 @@ data:extend({
             drain = "25kW",
         },
         energy_usage = "150kW",
-        ingredient_count = 1,
+        ingredient_count = 4,
         module_specification = {
             module_slots = 2,
             module_info_icon_shift = { 0, 0.5 },
