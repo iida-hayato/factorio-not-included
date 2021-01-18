@@ -86,7 +86,7 @@ data:extend(
                 },
 
                 order = "d-b",
-                allowed_effects = {"consumption", "speed", "productivity", "pollution"}
+                allowed_effects = {"consumption",  "pollution"}
             }
         }
 )
