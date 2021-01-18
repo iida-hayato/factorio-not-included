@@ -3,7 +3,7 @@ data:extend({
     {
         type = "assembling-machine",
         name = "colony-1",
-        icon = "__factorio-not-included__/graphics/empty.png",
+        icon = "__factorio-not-included__/graphics/colony-1/entity/32.png",
         icon_size = 32,
         flags = { "placeable-neutral", "placeable-player", "player-creation" },
         minable = { mining_time = 3, result = "colony-1" },
@@ -76,7 +76,7 @@ data:extend({
             layers =
             {
                 {
-                    filename = "__factorio-not-included__/graphics/empty.png",
+                    filename = "__factorio-not-included__/graphics/farm-1/entity/150.png",
                     frame_count = 1,
                     height = 150,
                     width = 150,
@@ -89,7 +89,7 @@ data:extend({
     {
         type = "assembling-machine",
         name = "farm-1",
-        icon = "__factorio-not-included__/graphics/empty.png",
+        icon = "__factorio-not-included__/graphics/colony-1/entity/32.png",
         icon_size = 32,
         flags = { "placeable-neutral", "placeable-player", "player-creation" },
         minable = { mining_time = 3, result = "farm-1" },
@@ -152,7 +152,7 @@ data:extend({
             layers =
             {
                 {
-                    filename = "__factorio-not-included__/graphics/empty.png",
+                    filename = "__factorio-not-included__/graphics/farm-1/entity/150.png",
                     frame_count = 1,
                     height = 150,
                     width = 150,
@@ -165,7 +165,7 @@ data:extend({
     {
         type = "assembling-machine",
         name = "pasture-1",
-        icon = "__factorio-not-included__/graphics/empty.png",
+        icon = "__factorio-not-included__/graphics/pasture-1/entity/32.png",
         icon_size = 32,
         flags = { "placeable-neutral", "placeable-player", "player-creation" },
         minable = { mining_time = 3, result = "pasture-1" },
@@ -218,7 +218,7 @@ data:extend({
             layers =
             {
                 {
-                    filename = "__factorio-not-included__/graphics/empty.png",
+                    filename = "__factorio-not-included__/graphics/pasture-1/entity/150.png",
                     frame_count = 1,
                     height = 150,
                     width = 150,
@@ -230,10 +230,10 @@ data:extend({
     },
     {
         type = "assembling-machine",
-        name = "coocker-1",
-        minable = { mining_time = 3, result = "coocker-1" },
-        crafting_categories = { "coocker-1" },
-        icon = "__factorio-not-included__/graphics/empty.png",
+        name = "cooker-1",
+        minable = { mining_time = 3, result = "cooker-1" },
+        crafting_categories = { "cooker-1" },
+        icon = "__factorio-not-included__/graphics/cooker-1/entity/150.png",
         icon_size = 32,
         flags = { "placeable-neutral", "placeable-player", "player-creation" },
         max_health = 600,
@@ -260,7 +260,7 @@ data:extend({
             layers =
             {
                 {
-                    filename = "__factorio-not-included__/graphics/empty.png",
+                    filename = "__factorio-not-included__/graphics/cooker-1/entity/150.png",
                     frame_count = 1,
                     height = 150,
                     width = 150,
@@ -275,7 +275,7 @@ data:extend({
         name = "water-sieve-1",
         minable = { mining_time = 3, result = "water-sieve-1" },
         crafting_categories = { "water-sieve-1" },
-        icon = "__factorio-not-included__/graphics/empty.png",
+        icon = "__factorio-not-included__/graphics/water-sieve-1/entity/32.png",
         icon_size = 32,
         flags = { "placeable-neutral", "placeable-player", "player-creation" },
         max_health = 600,
@@ -302,7 +302,7 @@ data:extend({
             layers =
             {
                 {
-                    filename = "__factorio-not-included__/graphics/empty.png",
+                    filename = "__factorio-not-included__/graphics/water-sieve-1/entity/150.png",
                     frame_count = 1,
                     height = 150,
                     width = 150,
@@ -341,7 +341,7 @@ data:extend({
         name = "compost-1",
         minable = { mining_time = 3, result = "compost-1" },
         crafting_categories = { "compost-1" },
-        icon = "__factorio-not-included__/graphics/empty.png",
+        icon = "__factorio-not-included__/graphics/compost-1/entity/150.png",
         icon_size = 32,
         flags = { "placeable-neutral", "placeable-player", "player-creation" },
         max_health = 600,
@@ -368,7 +368,7 @@ data:extend({
             layers =
             {
                 {
-                    filename = "__factorio-not-included__/graphics/empty.png",
+                    filename = "__factorio-not-included__/graphics/compost-1/entity/150.png",
                     frame_count = 1,
                     height = 150,
                     width = 150,
@@ -397,7 +397,7 @@ data:extend({
         name = "air-cleaner-1",
         minable = { mining_time = 3, result = "air-cleaner-1" },
         crafting_categories = { "air-cleaner-1" },
-        icon = "__factorio-not-included__/graphics/empty.png",
+        icon = "__factorio-not-included__/graphics/air-cleaner-1/entity/32.png",
         icon_size = 32,
         flags = { "placeable-neutral", "placeable-player", "player-creation" },
         max_health = 600,
@@ -424,7 +424,7 @@ data:extend({
             layers =
             {
                 {
-                    filename = "__factorio-not-included__/graphics/empty.png",
+                    filename = "__factorio-not-included__/graphics/air-cleaner-1/entity/150.png",
                     frame_count = 1,
                     height = 150,
                     width = 150,
@@ -463,7 +463,7 @@ data:extend({
         name = "carbon-skimmer-1",
         minable = { mining_time = 3, result = "carbon-skimmer-1" },
         crafting_categories = { "carbon-skimmer-1" },
-        icon = "__factorio-not-included__/graphics/empty.png",
+        icon = "__factorio-not-included__/graphics/carbon-skimmer-1/entity/32.png",
         icon_size = 32,
         flags = { "placeable-neutral", "placeable-player", "player-creation" },
         max_health = 600,
@@ -490,7 +490,7 @@ data:extend({
             layers =
             {
                 {
-                    filename = "__factorio-not-included__/graphics/empty.png",
+                    filename = "__factorio-not-included__/graphics/carbon-skimmer-1/entity/150.png",
                     frame_count = 1,
                     height = 150,
                     width = 150,
@@ -539,7 +539,7 @@ data:extend({
         name = "gas-pump-1",
         minable = { mining_time = 3, result = "gas-pump-1" },
         crafting_categories = { "gas-pump-1" },
-        icon = "__factorio-not-included__/graphics/empty.png",
+        icon = "__factorio-not-included__/graphics/gas-pump-1/entity/32.png",
         icon_size = 32,
         flags = { "placeable-neutral", "placeable-player", "player-creation" },
         max_health = 600,
@@ -566,7 +566,7 @@ data:extend({
             layers =
             {
                 {
-                    filename = "__factorio-not-included__/graphics/empty.png",
+                    filename = "__factorio-not-included__/graphics/gas-pump-1/entity/150.png",
                     frame_count = 1,
                     height = 150,
                     width = 150,

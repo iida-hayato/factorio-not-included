@@ -6,7 +6,7 @@ data:extend(
                 name = "fni",
                 order = "f-a",
                 inventory_order = "f-a",
-                icon = "__factorio-not-included__/graphics/empty.png",
+                icon = "__factorio-not-included__/graphics/FNI.png",
                 icon_size = 128,
             },
             {
