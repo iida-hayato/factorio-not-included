@@ -1,45 +1,42 @@
-data:extend(
-    {
-        {
-            type = "recipe-category",
-            name = "colony-1"
-        },
-        {
-            type = "recipe-category",
-            name = "farm-1"
-        },
-        {
-            type = "recipe-category",
-            name = "pasture-1"
-        },
-        {
-            type = "recipe-category",
-            name = "coocker-1"
-        },
-        {
-            type = "recipe-category",
-            name = "water-sieve-1"
-        },
-        {
-            type = "recipe-category",
-            name = "compost-1"
-        },
-        {
-            type = "recipe-category",
-            name = "air-cleaner-1"
-        },
-        {
-            type = "recipe-category",
-            name = "gas-pump-1"
-        },
-        {
-            type = "recipe-category",
-            name = "carbon-skimmer-1"
-        },
-    }
-)
 data:extend({
-
+    {
+        type = "recipe-category",
+        name = "colony-1"
+    },
+    {
+        type = "recipe-category",
+        name = "farm-1"
+    },
+    {
+        type = "recipe-category",
+        name = "pasture-1"
+    },
+    {
+        type = "recipe-category",
+        name = "coocker-1"
+    },
+    {
+        type = "recipe-category",
+        name = "water-sieve-1"
+    },
+    {
+        type = "recipe-category",
+        name = "compost-1"
+    },
+    {
+        type = "recipe-category",
+        name = "air-cleaner-1"
+    },
+    {
+        type = "recipe-category",
+        name = "gas-pump-1"
+    },
+    {
+        type = "recipe-category",
+        name = "carbon-skimmer-1"
+    },
+})
+data:extend({
     {
         type = "recipe",
         name = "human-1",
@@ -50,15 +47,15 @@ data:extend({
         subgroup = "fni-item",
         ingredients =
         {
-            {type="fluid", name="o2", amount=1000},
-            {type="fluid", name="water", amount=1000},
-            {"food-1", 1},
+            { type = "fluid", name = "o2", amount = 1000 },
+            { type = "fluid", name = "water", amount = 1000 },
+            { "food-1", 1 },
         },
         results =
         {
-            {"human-1", 1},
-            {type="fluid", name="co2", amount=100},
-            {type="fluid", name="polluted-water", amount=1400},
+            { "human-1", 1 },
+            { type = "fluid", name = "co2", amount = 100 },
+            { type = "fluid", name = "polluted-water", amount = 1400 },
         }
     },
     {
@@ -71,14 +68,14 @@ data:extend({
         subgroup = "fni-item",
         ingredients =
         {
-            {"dirt", 1},
-            {type="fluid", name="water", amount=1000},
-            {type="fluid", name="n2", amount=500},
+            { "dirt", 1 },
+            { type = "fluid", name = "water", amount = 1000 },
+            { type = "fluid", name = "n2", amount = 500 },
         },
         results =
         {
-            {"plant-1", 1},
-            {type="fluid", name="polluted-water", amount=600},
+            { "plant-1", 1 },
+            { type = "fluid", name = "polluted-water", amount = 600 },
         }
     },
     {
@@ -91,14 +88,13 @@ data:extend({
         subgroup = "fni-item",
         ingredients =
         {
-            {"coal", 1},
-            {type="fluid", name="n2", amount=200},
+            { "coal", 1 },
+            { type = "fluid", name = "n2", amount = 200 },
         },
         results =
         {
-            {"meat-1", 1},
-            {type="fluid", name="polluted-oxygen", amount=400},
-
+            { "meat-1", 1 },
+            { type = "fluid", name = "polluted-oxygen", amount = 400 },
         }
     },
     {
@@ -111,12 +107,12 @@ data:extend({
         subgroup = "fni-item",
         ingredients =
         {
-            {"meat-1", 1},
-            {"plant-1", 1},
+            { "meat-1", 1 },
+            { "plant-1", 1 },
         },
         results =
         {
-            {"food-1", 1},
+            { "food-1", 1 },
         }
     },
     {
@@ -129,13 +125,13 @@ data:extend({
         subgroup = "fni-fluid",
         ingredients =
         {
-            {"sand", 1},
-            {type="fluid", name="polluted-water", amount=1000},
+            { "sand", 1 },
+            { type = "fluid", name = "polluted-water", amount = 1000 },
         },
         results =
         {
-            {"polluted-dirt", 1},
-            {type="fluid", name="water", amount=900},
+            { "polluted-dirt", 1 },
+            { type = "fluid", name = "water", amount = 900 },
         }
     },
     {
@@ -148,12 +144,12 @@ data:extend({
         subgroup = "fni-item",
         ingredients =
         {
-            {"polluted-dirt", 1},
+            { "polluted-dirt", 1 },
         },
         results =
         {
-            {"dirt", 1},
-            {type="fluid", name="polluted-oxygen", amount=100},
+            { "dirt", 1 },
+            { type = "fluid", name = "polluted-oxygen", amount = 100 },
         }
     },
     {
@@ -166,13 +162,13 @@ data:extend({
         subgroup = "fni-fluid",
         ingredients =
         {
-            {"sand", 1},
-            {type="fluid", name="polluted-oxygen", amount=1000},
+            { "sand", 1 },
+            { type = "fluid", name = "polluted-oxygen", amount = 1000 },
         },
         results =
         {
-            {"polluted-dirt", 1},
-            {type="fluid", name="o2", amount=500},
+            { "polluted-dirt", 1 },
+            { type = "fluid", name = "o2", amount = 500 },
         }
     },
     {
@@ -185,12 +181,12 @@ data:extend({
         subgroup = "fni-fluid",
         ingredients =
         {
-            {type="fluid", name="co2", amount=100},
-            {type="fluid", name="water", amount=1000},
+            { type = "fluid", name = "co2", amount = 100 },
+            { type = "fluid", name = "water", amount = 1000 },
         },
         results =
         {
-            {type="fluid", name="polluted-water", amount=1000},
+            { type = "fluid", name = "polluted-water", amount = 1000 },
         }
     },
     {
@@ -201,10 +197,11 @@ data:extend({
         icon_size = 32,
         category = "gas-pump-1",
         subgroup = "fni-fluid",
+        ingredients = {},
         results =
         {
-            {type="fluid", name="o2", amount=10},
-            {type="fluid", name="n2", amount=100},
+            { type = "fluid", name = "o2", amount = 10 },
+            { type = "fluid", name = "n2", amount = 100 },
         }
     },
     {
@@ -217,11 +214,11 @@ data:extend({
         subgroup = "fni-item",
         ingredients =
         {
-            {"stone", 100},
+            { "stone", 100 },
         },
         results =
         {
-            {"sand", 1},
+            { "sand", 1 },
         }
     },
 })
