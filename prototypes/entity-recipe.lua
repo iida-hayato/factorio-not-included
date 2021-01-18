@@ -1,7 +1,7 @@
 data:extend({
     {
         type = "recipe",
-        name = "colony-1",
+        name = "entity-colony-1",
         enabled = true,
         icon = "__factorio-not-included__/graphics/empty.png",
         icon_size = 32,
@@ -11,7 +11,7 @@ data:extend({
         {
             {"iron-plate", 10},
             {"copper-plate", 10},
-            {"electronic-circit-board", 6},
+            {"electronic-circuit", 6},
             {"iron-stick", 8},
             {"iron-gear-wheel", 12},
         },
@@ -19,7 +19,7 @@ data:extend({
     },
     {
         type = "recipe",
-        name = "farm-1",
+        name = "entity-farm-1",
         results = "farm-1",
         enabled = true,
         icon = "__factorio-not-included__/graphics/empty.png",
@@ -29,13 +29,13 @@ data:extend({
         ingredients =
         {
             {"copper-plate", 5},
-            {"electronic-circit-board", 3},
+            {"electronic-circuit", 3},
             {"iron-gear-wheel", 6},
         },
     },
     {
         type = "recipe",
-        name = "coocker-1",
+        name = "entity-coocker-1",
         results = "coocker-1",
         enabled = true,
         icon = "__factorio-not-included__/graphics/empty.png",
@@ -46,12 +46,12 @@ data:extend({
         {
             {"iron-plate", 5},
             {"copper-plate", 3},
-            {"electronic-circit-board", 6},
+            {"electronic-circuit", 6},
         },
     },
     {
         type = "recipe",
-        name = "water-sieve-1",
+        name = "entity-water-sieve-1",
         results = "water-sieve-1",
         enabled = true,
         icon = "__factorio-not-included__/graphics/empty.png",
@@ -62,12 +62,12 @@ data:extend({
         {
             {"iron-plate", 10},
             {"copper-plate", 3},
-            {"electronic-circit-board", 6},
+            {"electronic-circuit", 6},
         },
     },
     {
         type = "recipe",
-        name = "compost-1",
+        name = "entity-compost-1",
         results = "compost-1",
         enabled = true,
         icon = "__factorio-not-included__/graphics/empty.png",
@@ -77,12 +77,12 @@ data:extend({
         ingredients =
         {
             {"iron-plate", 10},
-            {"electronic-circit-board", 6},
+            {"electronic-circuit", 6},
         },
     },
     {
         type = "recipe",
-        name = "air-cleaner-1",
+        name = "entity-air-cleaner-1",
         results = "air-cleaner-1",
         enabled = true,
         icon = "__factorio-not-included__/graphics/empty.png",
@@ -93,12 +93,12 @@ data:extend({
         {
             {"iron-plate", 10},
             {"iron-gear-wheel", 6},
-            {"electronic-circit-board", 6},
+            {"electronic-circuit", 6},
         },
     },
     {
         type = "recipe",
-        name = "carbon-skimmer-1",
+        name = "entity-carbon-skimmer-1",
         results = "carbon-skimmer-1",
         enabled = true,
         icon = "__factorio-not-included__/graphics/empty.png",
@@ -109,12 +109,12 @@ data:extend({
         {
             {"iron-plate", 10},
             {"iron-gear-wheel", 6},
-            {"electronic-circit-board", 6},
+            {"electronic-circuit", 6},
         },
     },
     {
         type = "recipe",
-        name = "gas-pump-1",
+        name = "entity-gas-pump-1",
         results = "gas-pump-1",
         enabled = true,
         icon = "__factorio-not-included__/graphics/empty.png",
@@ -125,7 +125,7 @@ data:extend({
         {
             {"iron-plate", 10},
             {"iron-gear-wheel", 8},
-            {"electronic-circit-board", 6},
+            {"electronic-circuit", 6},
         },
     },
 })
