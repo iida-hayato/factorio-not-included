@@ -23,7 +23,7 @@ data:extend(
             },
             {
                 type = "item-subgroup",
-                name = "fni-machine",
+                name = "fni-building",
                 group = "fni",
                 order = "g-c",
             },

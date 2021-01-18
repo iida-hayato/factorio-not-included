@@ -30,6 +30,10 @@ data:extend(
         },
         {
             type = "recipe-category",
+            name = "gas-pump-1"
+        },
+        {
+            type = "recipe-category",
             name = "carbon-skimmer-1"
         },
     }
@@ -88,7 +92,7 @@ data:extend({
         ingredients =
         {
             {"coal", 1},
-            {type="fluid", name="co2", amount=200},
+            {type="fluid", name="n2", amount=200},
         },
         results =
         {
@@ -126,12 +130,12 @@ data:extend({
         ingredients =
         {
             {"sand", 1},
-            {type="fluid", name="polluted-water", amount=100},
+            {type="fluid", name="polluted-water", amount=1000},
         },
         results =
         {
             {"polluted-dirt", 1},
-            {type="fluid", name="water", amount=90},
+            {type="fluid", name="water", amount=900},
         }
     },
     {
@@ -163,12 +167,12 @@ data:extend({
         ingredients =
         {
             {"sand", 1},
-            {type="fluid", name="polluted-oxygen", amount=100},
+            {type="fluid", name="polluted-oxygen", amount=1000},
         },
         results =
         {
             {"polluted-dirt", 1},
-            {type="fluid", name="o2", amount=50},
+            {type="fluid", name="o2", amount=500},
         }
     },
     {
@@ -187,6 +191,20 @@ data:extend({
         results =
         {
             {type="fluid", name="polluted-water", amount=1000},
+        }
+    },
+    {
+        type = "recipe",
+        name = "gas-pump-1",
+        enabled = true,
+        icon = "__factorio-not-included__/graphics/empty.png",
+        icon_size = 32,
+        category = "gas-pump-1",
+        subgroup = "fni-fluid",
+        results =
+        {
+            {type="fluid", name="o2", amount=10},
+            {type="fluid", name="n2", amount=100},
         }
     },
     {
