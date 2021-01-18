@@ -37,7 +37,7 @@ dirt	item	64
 plant-1	item	64
 meat-1	item	64
 sand	item	64
-polluted-dirt	item	32
+polluted-dirt	item	64
 human-1	item-recipe	32
 plant-1	item-recipe	32
 meat-1	item-recipe	32
