@@ -149,7 +149,7 @@ data:extend({
         results =
         {
             { "dirt", 1 },
-            { type = "fluid", name = "polluted-oxygen", amount = 100 },
+            { type = "fluid", name = "polluted-oxygen", amount = 1000 },
         }
     },
     {
@@ -200,8 +200,8 @@ data:extend({
         ingredients = {},
         results =
         {
-            { type = "fluid", name = "o2", amount = 10 },
-            { type = "fluid", name = "n2", amount = 100 },
+            { type = "fluid", name = "o2", amount = 300 },
+            { type = "fluid", name = "n2", amount = 1000 },
         }
     },
     {
