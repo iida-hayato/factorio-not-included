@@ -201,7 +201,7 @@ data:extend({
         results =
         {
             { type = "fluid", name = "o2", amount = 300 },
-            { type = "fluid", name = "n2", amount = 1000 },
+            { type = "fluid", name = "n2", amount = 500 },
         }
     },
     {
