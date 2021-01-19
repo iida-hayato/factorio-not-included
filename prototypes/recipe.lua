@@ -214,7 +214,7 @@ data:extend({
         subgroup = "fni-item",
         ingredients =
         {
-            { "stone", 100 },
+            { "stone", 10 },
         },
         results =
         {
