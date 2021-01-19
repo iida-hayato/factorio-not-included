@@ -9,7 +9,7 @@ def download_file(url, dst_path):
 import random
 def generate_random_color(seed):
     random.seed(seed)
-    return '00{:X}{:X}'.format(*[random.randint(128, 255) for _ in range(3)])
+    return '{:X}{:X}{:X}'.format(*[random.randint(128, 255) for _ in range(3)])
 
 # load tsv
 import csv
