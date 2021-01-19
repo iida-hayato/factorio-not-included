@@ -9,7 +9,7 @@ def download_file(url, dst_path):
 import random
 def generate_random_color(seed):
     random.seed(seed)
-    return '00{:X}{:X}'.format(*[random.randint(0, 255) for _ in range(3)])
+    return '00{:X}{:X}'.format(*[random.randint(128, 255) for _ in range(3)])
 
 # load tsv
 import csv
@@ -21,7 +21,7 @@ with open('./dummy_img.tsv', mode='r', newline='', encoding='utf-8') as f:
         local_path = './graphics/' + row[0] + '/' + row[1] + '/'
         local_file = local_path + row[2] + '.png'
         # dl path
-        dl_path = 'https://dummyimage.com/{}x{}/{}/EEA47FFF.png&text={}'.format(row[2],row[2] , generate_random_color(row[0]+row[1]), row[0])
+        dl_path = 'https://dummyimage.com/{}x{}/{}/000000FF.png&text={}'.format(row[2],row[2] , generate_random_color(row[0]+row[1]), row[0])
         # check local
         from pathlib import Path
         import os
