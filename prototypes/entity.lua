@@ -76,7 +76,7 @@ data:extend({
             layers =
             {
                 {
-                    filename = "__factorio-not-included__/graphics/farm-1/entity/150.png",
+                    filename = "__factorio-not-included__/graphics/colony-1/entity/150.png",
                     frame_count = 1,
                     height = 150,
                     width = 150,

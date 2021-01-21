@@ -17,11 +17,12 @@ with open('./dummy_img.tsv', mode='r', newline='', encoding='utf-8') as f:
     tsv_reader = csv.reader(f, delimiter='\t')
     read_data = [row for row in tsv_reader]
     for row in read_data:
+        name = row[0]
         # local path
         local_path = './graphics/' + row[0] + '/' + row[1] + '/'
         local_file = local_path + row[2] + '.png'
         # dl path
-        dl_path = 'https://dummyimage.com/{}x{}/{}/000000FF.png&text={}'.format(row[2],row[2] , generate_random_color(row[0]+row[1]), row[0])
+        dl_path = 'https://dummyimage.com/{}x{}/{}/000000FF.png&text={}'.format(row[2],row[2] , generate_random_color(row[0]), row[0])
         # check local
         from pathlib import Path
         import os
