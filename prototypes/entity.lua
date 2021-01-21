@@ -6,7 +6,7 @@ data:extend({
         icon = "__factorio-not-included__/graphics/colony-1/entity/32.png",
         icon_size = 32,
         flags = { "placeable-neutral", "placeable-player", "player-creation" },
-        minable = { mining_time = 3, result = "colony-1" },
+        minable = { mining_time = 1, result = "colony-1" },
         max_health = 600,
         fluid_boxes =
         {
@@ -92,7 +92,7 @@ data:extend({
         icon = "__factorio-not-included__/graphics/colony-1/entity/32.png",
         icon_size = 32,
         flags = { "placeable-neutral", "placeable-player", "player-creation" },
-        minable = { mining_time = 3, result = "farm-1" },
+        minable = { mining_time = 1, result = "farm-1" },
         max_health = 600,
         fluid_boxes =
         {
@@ -168,7 +168,7 @@ data:extend({
         icon = "__factorio-not-included__/graphics/pasture-1/entity/32.png",
         icon_size = 32,
         flags = { "placeable-neutral", "placeable-player", "player-creation" },
-        minable = { mining_time = 3, result = "pasture-1" },
+        minable = { mining_time = 1, result = "pasture-1" },
         max_health = 600,
         fluid_boxes =
         {
@@ -231,7 +231,7 @@ data:extend({
     {
         type = "assembling-machine",
         name = "cooker-1",
-        minable = { mining_time = 3, result = "cooker-1" },
+        minable = { mining_time = 1, result = "cooker-1" },
         crafting_categories = { "cooker-1" },
         icon = "__factorio-not-included__/graphics/cooker-1/entity/150.png",
         icon_size = 32,
@@ -273,7 +273,7 @@ data:extend({
     {
         type = "assembling-machine",
         name = "water-sieve-1",
-        minable = { mining_time = 3, result = "water-sieve-1" },
+        minable = { mining_time = 1, result = "water-sieve-1" },
         crafting_categories = { "water-sieve-1" },
         icon = "__factorio-not-included__/graphics/water-sieve-1/entity/32.png",
         icon_size = 32,
@@ -339,7 +339,7 @@ data:extend({
     {
         type = "assembling-machine",
         name = "compost-1",
-        minable = { mining_time = 3, result = "compost-1" },
+        minable = { mining_time = 1, result = "compost-1" },
         crafting_categories = { "compost-1" },
         icon = "__factorio-not-included__/graphics/compost-1/entity/150.png",
         icon_size = 32,
@@ -395,7 +395,7 @@ data:extend({
     {
         type = "assembling-machine",
         name = "air-cleaner-1",
-        minable = { mining_time = 3, result = "air-cleaner-1" },
+        minable = { mining_time = 1, result = "air-cleaner-1" },
         crafting_categories = { "air-cleaner-1" },
         icon = "__factorio-not-included__/graphics/air-cleaner-1/entity/32.png",
         icon_size = 32,
@@ -461,7 +461,7 @@ data:extend({
     {
         type = "assembling-machine",
         name = "carbon-skimmer-1",
-        minable = { mining_time = 3, result = "carbon-skimmer-1" },
+        minable = { mining_time = 1, result = "carbon-skimmer-1" },
         crafting_categories = { "carbon-skimmer-1" },
         icon = "__factorio-not-included__/graphics/carbon-skimmer-1/entity/32.png",
         icon_size = 32,
@@ -537,7 +537,7 @@ data:extend({
     {
         type = "assembling-machine",
         name = "gas-pump-1",
-        minable = { mining_time = 3, result = "gas-pump-1" },
+        minable = { mining_time = 1, result = "gas-pump-1" },
         crafting_categories = { "gas-pump-1" },
         icon = "__factorio-not-included__/graphics/gas-pump-1/entity/32.png",
         icon_size = 32,
