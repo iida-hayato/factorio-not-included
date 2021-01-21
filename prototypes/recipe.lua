@@ -45,6 +45,7 @@ data:extend({
         icon_size = 32,
         category = "colony-1",
         subgroup = "fni-item",
+        energy_required = 5,
         ingredients =
         {
             { type = "fluid", name = "o2", amount = 1000 },
@@ -66,6 +67,7 @@ data:extend({
         icon_size = 32,
         category = "farm-1",
         subgroup = "fni-item",
+        energy_required = 5,
         ingredients =
         {
             { "dirt", 1 },
@@ -86,6 +88,7 @@ data:extend({
         icon_size = 32,
         category = "pasture-1",
         subgroup = "fni-item",
+        energy_required = 5,
         ingredients =
         {
             { "coal", 1 },
@@ -105,6 +108,7 @@ data:extend({
         icon_size = 32,
         category = "cooker-1",
         subgroup = "fni-item",
+        energy_required = 5,
         ingredients =
         {
             { "meat-1", 1 },
@@ -123,6 +127,7 @@ data:extend({
         icon_size = 32,
         category = "water-sieve-1",
         subgroup = "fni-fluid",
+        energy_required = 5,
         ingredients =
         {
             { "sand", 1 },
@@ -142,6 +147,7 @@ data:extend({
         icon_size = 32,
         category = "compost-1",
         subgroup = "fni-item",
+        energy_required = 5,
         ingredients =
         {
             { "polluted-dirt", 1 },
@@ -160,6 +166,7 @@ data:extend({
         icon_size = 32,
         category = "air-cleaner-1",
         subgroup = "fni-fluid",
+        energy_required = 5,
         ingredients =
         {
             { "sand", 1 },
@@ -179,6 +186,7 @@ data:extend({
         icon_size = 32,
         category = "carbon-skimmer-1",
         subgroup = "fni-fluid",
+        energy_required = 5,
         ingredients =
         {
             { type = "fluid", name = "co2", amount = 100 },
@@ -197,6 +205,7 @@ data:extend({
         icon_size = 32,
         category = "gas-pump-1",
         subgroup = "fni-fluid",
+        energy_required = 5,
         ingredients = {},
         results =
         {
@@ -212,6 +221,7 @@ data:extend({
         icon_size = 32,
         category = "crafting",
         subgroup = "fni-item",
+        energy_required = 5,
         ingredients =
         {
             { "stone", 10 },
