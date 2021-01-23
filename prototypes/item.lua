@@ -74,7 +74,7 @@ data:extend({
     {
         type = "item",
         name = "food-2",
-        icon = "__factorio-not-included__/graphics/human-2/item/64.png",
+        icon = "__factorio-not-included__/graphics/food-2/item/64.png",
         icon_size = 64,
         order = "w-b-a",
         subgroup = "fni-item",
