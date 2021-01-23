@@ -369,9 +369,9 @@ data:extend({
     },
     {
         type = "recipe",
-        name = "pasture-2-1",
+        name = "meat-2-1",
         enabled = true,
-        icon = "__factorio-not-included__/graphics/pasture-2-1/item-recipe/32.png",
+        icon = "__factorio-not-included__/graphics/meat-2-1/item-recipe/32.png",
         icon_size = 32,
         category = "pasture-2-1",
         subgroup = "fni-item",
@@ -391,9 +391,9 @@ data:extend({
     },
     {
         type = "recipe",
-        name = "pasture-2-2",
+        name = "meat-2-2",
         enabled = true,
-        icon = "__factorio-not-included__/graphics/pasture-2-2/item-recipe/32.png",
+        icon = "__factorio-not-included__/graphics/meat-2-2/item-recipe/32.png",
         icon_size = 32,
         category = "pasture-2-2",
         subgroup = "fni-item",
