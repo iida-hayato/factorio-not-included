@@ -35,22 +35,6 @@ data:extend({
     },
     {
         type = "recipe",
-        name = "entity-pasture-1",
-        result = "pasture-1",
-        enabled = true,
-        icon = "__factorio-not-included__/graphics/pasture-1/entity/32.png",
-        icon_size = 32,
-        category = "crafting",
-        subgroup = "fni-building",
-        ingredients =
-        {
-            { "copper-plate", 5 },
-            { "electronic-circuit", 3 },
-            { "iron-gear-wheel", 6 },
-        },
-    },
-    {
-        type = "recipe",
         name = "entity-cooker-1",
         result = "cooker-1",
         enabled = true,
@@ -142,6 +126,127 @@ data:extend({
             { "iron-plate", 10 },
             { "iron-gear-wheel", 8 },
             { "electronic-circuit", 6 },
+        },
+    },
+    {
+        type = "recipe",
+        name = "entity-colony-2",
+        enabled = true,
+        icon = "__factorio-not-included__/graphics/colony-2/entity/32.png",
+        icon_size = 32,
+        category = "crafting",
+        subgroup = "fni-building",
+        ingredients =
+        {
+            { "steel-plate", 10 },
+            { "copper-plate", 10 },
+            { "electronic-circuit", 6 },
+            { "iron-stick", 8 },
+            { "iron-gear-wheel", 12 },
+        },
+        result = "colony-2"
+    },
+
+    {
+        type = "recipe",
+        name = "entity-farm-2-1",
+        result = "farm-2-1",
+        enabled = true,
+        icon = "__factorio-not-included__/graphics/farm-2-1/entity/32.png",
+        icon_size = 32,
+        category = "crafting",
+        subgroup = "fni-building",
+        ingredients =
+        {
+            { "steel-plate", 5 },
+            { "copper-plate", 5 },
+            { "electronic-circuit", 3 },
+            { "iron-gear-wheel", 6 },
+        },
+    },
+    {
+        type = "recipe",
+        name = "entity-farm-2-2",
+        result = "farm-2-2",
+        enabled = true,
+        icon = "__factorio-not-included__/graphics/farm-2-2/entity/32.png",
+        icon_size = 32,
+        category = "crafting",
+        subgroup = "fni-building",
+        ingredients =
+        {
+            { "steel-plate", 5 },
+            { "copper-plate", 5 },
+            { "electronic-circuit", 3 },
+            { "iron-gear-wheel", 6 },
+        },
+    },
+    {
+        type = "recipe",
+        name = "entity-pasture-2-1",
+        result = "pasture-2-1",
+        enabled = true,
+        icon = "__factorio-not-included__/graphics/pasture-2-1/entity/32.png",
+        icon_size = 32,
+        category = "crafting",
+        subgroup = "fni-building",
+        ingredients =
+        {
+            { "steel-plate", 5 },
+            { "copper-plate", 5 },
+            { "electronic-circuit", 3 },
+            { "iron-gear-wheel", 6 },
+        },
+    },
+    {
+        type = "recipe",
+        name = "entity-pasture-2-2",
+        result = "pasture-2-2",
+        enabled = true,
+        icon = "__factorio-not-included__/graphics/pasture-2-2/entity/32.png",
+        icon_size = 32,
+        category = "crafting",
+        subgroup = "fni-building",
+        ingredients =
+        {
+            { "steel-plate", 5 },
+            { "copper-plate", 5 },
+            { "electronic-circuit", 3 },
+            { "iron-gear-wheel", 6 },
+        },
+    },
+    {
+        type = "recipe",
+        name = "entity-distiller-1",
+        result = "distiller-1",
+        enabled = true,
+        icon = "__factorio-not-included__/graphics/distiller-1/entity/32.png",
+        icon_size = 32,
+        category = "crafting",
+        subgroup = "fni-building",
+        ingredients =
+        {
+            { "steel-plate", 5 },
+            { "copper-plate", 5 },
+            { "electronic-circuit", 3 },
+            { "iron-gear-wheel", 6 },
+        },
+    },
+    {
+        type = "recipe",
+        name = "entity-terrarium-1",
+        result = "terrarium-1",
+        enabled = true,
+        icon = "__factorio-not-included__/graphics/terrarium-1/entity/32.png",
+        icon_size = 32,
+        category = "crafting",
+        subgroup = "fni-building",
+        ingredients =
+        {
+            { "steel-plate", 5 },
+            { "copper-plate", 5 },
+            { "electronic-circuit", 3 },
+            { "iron-gear-wheel", 6 },
         },
     },
 })
