@@ -98,7 +98,7 @@ data:extend({
         energy_required = 5,
         ingredients =
         {
-            { "dirt", 1 },
+            { "dirt", 2 },
             { type = "fluid", name = "water", amount = 1000 },
             { type = "fluid", name = "n2", amount = 500 },
         },
