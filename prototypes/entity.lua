@@ -770,6 +770,16 @@ data:extend({
                     { type = "output", position = { -3, -2 } },
                 }
             },
+            {
+                production_type = "output",
+                pipe_picture = assembler2pipepictures(),
+                pipe_covers = pipecoverspictures(),
+                base_area = 10,
+                base_level = 2,
+                pipe_connections = {
+                    { type = "output", position = { -3, 2 } },
+                }
+            },
             off_when_no_fluid_recipe = false
         },
         crafting_categories = { "farm-2-1" },
@@ -844,6 +854,16 @@ data:extend({
                 base_level = 2,
                 pipe_connections = {
                     { type = "output", position = { -3, -2 } },
+                }
+            },
+            {
+                production_type = "output",
+                pipe_picture = assembler2pipepictures(),
+                pipe_covers = pipecoverspictures(),
+                base_area = 10,
+                base_level = 2,
+                pipe_connections = {
+                    { type = "output", position = { -3, 2 } },
                 }
             },
             off_when_no_fluid_recipe = false
