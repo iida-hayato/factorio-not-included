@@ -423,7 +423,7 @@ data:extend({
         ingredients =
         {
             { "slime", 1 },
-            { type = "fluid", name = "chlorine", amount = 200 },
+            { type = "fluid", name = "chlorine", amount = 400 },
         },
         results =
         {
