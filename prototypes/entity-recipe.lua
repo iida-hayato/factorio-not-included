@@ -35,6 +35,22 @@ data:extend({
     },
     {
         type = "recipe",
+        name = "entity-pasture-1",
+        result = "pasture-1",
+        enabled = true,
+        icon = "__factorio-not-included__/graphics/pasture-1/entity/32.png",
+        icon_size = 32,
+        category = "crafting",
+        subgroup = "fni-building",
+        ingredients =
+        {
+            { "copper-plate", 5 },
+            { "electronic-circuit", 3 },
+            { "iron-gear-wheel", 6 },
+        },
+    },
+    {
+        type = "recipe",
         name = "entity-cooker-1",
         result = "cooker-1",
         enabled = true,
