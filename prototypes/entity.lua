@@ -422,13 +422,43 @@ data:extend({
         fluid_boxes =
         {
             {
+                production_type = "input",
+                pipe_picture = assembler2pipepictures(),
+                pipe_covers = pipecoverspictures(),
+                base_area = 10,
+                base_level = -2,
+                pipe_connections = {
+                    { type = "input", position = { 3, 2 } },
+                }
+            },
+            {
+                production_type = "input",
+                pipe_picture = assembler2pipepictures(),
+                pipe_covers = pipecoverspictures(),
+                base_area = 10,
+                base_level = -2,
+                pipe_connections = {
+                    { type = "input", position = { 3, -2 } },
+                }
+            },
+            {
                 production_type = "output",
                 pipe_picture = assembler2pipepictures(),
                 pipe_covers = pipecoverspictures(),
                 base_area = 10,
                 base_level = 2,
                 pipe_connections = {
-                    { type = "output", position = { -3, 0 } },
+                    { type = "output", position = { -3, 2 } },
+                }
+            },
+            {
+                production_type = "output",
+                pipe_picture = assembler2pipepictures(),
+                pipe_covers = pipecoverspictures(),
+                base_area = 10,
+                base_level = 2,
+                pipe_connections = {
+                    { type = "output", position = { -3, -2 } },
                 }
             },
             off_when_no_fluid_recipe = false
