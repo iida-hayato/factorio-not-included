@@ -298,6 +298,7 @@ data:extend({
         results =
         {
             { type = "fluid", name = "drinkable-water", amount = 1200 },
+            { type = "fluid", name = "polluted-water", amount = 200 },
         }
     },
     {
