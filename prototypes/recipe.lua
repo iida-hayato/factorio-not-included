@@ -262,7 +262,7 @@ data:extend({
     {
         type = "recipe",
         name = "human-2",
-        enabled = true,
+        enabled = false,
         icon = "__factorio-not-included__/graphics/human-2/item-recipe/32.png",
         icon_size = 32,
         category = "colony-2",
@@ -284,7 +284,7 @@ data:extend({
     {
         type = "recipe",
         name = "drinkable-water-1",
-        enabled = true,
+        enabled = false,
         icon = "__factorio-not-included__/graphics/drinkable-water-1/item-recipe/32.png",
         icon_size = 32,
         category = "water-sieve-1",
@@ -304,7 +304,7 @@ data:extend({
     {
         type = "recipe",
         name = "food-2",
-        enabled = true,
+        enabled = false,
         icon = "__factorio-not-included__/graphics/food-2/item-recipe/32.png",
         icon_size = 32,
         category = "cooker-1",
@@ -327,7 +327,7 @@ data:extend({
     {
         type = "recipe",
         name = "plant-2-1",
-        enabled = true,
+        enabled = false,
         icon = "__factorio-not-included__/graphics/plant-2-1/item-recipe/32.png",
         icon_size = 32,
         category = "farm-2-1",
@@ -349,7 +349,7 @@ data:extend({
     {
         type = "recipe",
         name = "plant-2-2",
-        enabled = true,
+        enabled = false,
         icon = "__factorio-not-included__/graphics/plant-2-2/item-recipe/32.png",
         icon_size = 32,
         category = "farm-2-2",
@@ -371,7 +371,7 @@ data:extend({
     {
         type = "recipe",
         name = "meat-2-1",
-        enabled = true,
+        enabled = false,
         icon = "__factorio-not-included__/graphics/meat-2-1/item-recipe/32.png",
         icon_size = 32,
         category = "pasture-2-1",
@@ -393,7 +393,7 @@ data:extend({
     {
         type = "recipe",
         name = "meat-2-2",
-        enabled = true,
+        enabled = false,
         icon = "__factorio-not-included__/graphics/meat-2-2/item-recipe/32.png",
         icon_size = 32,
         category = "pasture-2-2",
@@ -414,7 +414,7 @@ data:extend({
     {
         type = "recipe",
         name = "distiller-1",
-        enabled = true,
+        enabled = false,
         icon = "__factorio-not-included__/graphics/distiller-1/item-recipe/32.png",
         icon_size = 32,
         category = "distiller-1",
@@ -434,7 +434,7 @@ data:extend({
     {
         type = "recipe",
         name = "terrarium-1",
-        enabled = true,
+        enabled = false,
         icon = "__factorio-not-included__/graphics/terrarium-1/item-recipe/32.png",
         icon_size = 32,
         category = "terrarium-1",
@@ -455,7 +455,7 @@ data:extend({
     {
         type = "recipe",
         name = "compost-plant-1",
-        enabled = true,
+        enabled = false,
         icon = "__factorio-not-included__/graphics/compost-plant-1/item-recipe/32.png",
         icon_size = 32,
         category = "compost-1",
@@ -475,7 +475,7 @@ data:extend({
     {
         type = "recipe",
         name = "compost-meat-1",
-        enabled = true,
+        enabled = false,
         icon = "__factorio-not-included__/graphics/compost-meat-1/item-recipe/32.png",
         icon_size = 32,
         category = "compost-1",
@@ -495,7 +495,7 @@ data:extend({
     {
         type = "recipe",
         name = "compost-plant-2-1",
-        enabled = true,
+        enabled = false,
         icon = "__factorio-not-included__/graphics/compost-plant-2-1/item-recipe/32.png",
         icon_size = 32,
         category = "compost-1",
@@ -515,7 +515,7 @@ data:extend({
     {
         type = "recipe",
         name = "compost-plant-2-2",
-        enabled = true,
+        enabled = false,
         icon = "__factorio-not-included__/graphics/compost-plant-2-2/item-recipe/32.png",
         icon_size = 32,
         category = "compost-1",
@@ -535,7 +535,7 @@ data:extend({
     {
         type = "recipe",
         name = "compost-meat-2-1",
-        enabled = true,
+        enabled = false,
         icon = "__factorio-not-included__/graphics/compost-meat-2-1/item-recipe/32.png",
         icon_size = 32,
         category = "compost-1",
@@ -555,7 +555,7 @@ data:extend({
     {
         type = "recipe",
         name = "compost-meat-2-2",
-        enabled = true,
+        enabled = false,
         icon = "__factorio-not-included__/graphics/compost-meat-2-2/item-recipe/32.png",
         icon_size = 32,
         category = "compost-1",
