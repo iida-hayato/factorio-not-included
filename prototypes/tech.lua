@@ -60,7 +60,7 @@ data:extend({
         type = "technology",
         name = "colony-2",
         icon_size = 256,
-        icon = "__factorio-not-included__/graphics/human-2/tech/256.png",
+        icon = "__factorio-not-included__/graphics/colony-2/tech/256.png",
         effects =
         {
             {
