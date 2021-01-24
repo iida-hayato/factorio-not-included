@@ -44,7 +44,7 @@ data:extend({
             },
             {
                 type = "unlock-recipe",
-                recipe = "compost-meat-2-1"
+                recipe = "compost-meat-2-2"
             },
         },
         unit =
