@@ -217,7 +217,7 @@ data:extend({
         energy_required = 5,
         ingredients =
         {
-            { type = "fluid", name = "co2", amount = 100 },
+            { type = "fluid", name = "co2", amount = 600 },
             { type = "fluid", name = "water", amount = 1000 },
         },
         results =
