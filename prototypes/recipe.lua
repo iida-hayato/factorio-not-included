@@ -342,7 +342,7 @@ data:extend({
         results =
         {
             { "plant-2-1", 1 },
-            { type = "fluid", name = "chlorine", amount = 600 },
+            { type = "fluid", name = "chlorine", amount = 400 },
             { type = "fluid", name = "co2", amount = 200 },
         }
     },
