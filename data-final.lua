@@ -10,3 +10,10 @@ data.raw.recipe["logistic-science-pack"].ingredients =
     { "transport-belt", 1 },
     { "human-2", 1 },
 }
+data.raw.recipe["military-science-pack"].ingredients =
+{
+    {"piercing-rounds-magazine", 1},
+    {"grenade", 1},
+    {"stone-wall", 2 },
+    { "human-2", 1 },
+}
