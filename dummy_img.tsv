@@ -98,3 +98,14 @@ compost-plant-2-2	item-recipe	32
 compost-meat-1	item-recipe	32
 compost-meat-2-1	item-recipe	32
 compost-meat-2-2	item-recipe	32
+compost-1	tech	256
+compost-2	tech	256
+colony-2	tech	256
+food-2	tech	256
+farm-2-1	tech	256
+farm-2-2	tech	256
+pasture-2-1	tech	256
+pasture-2-2	tech	256
+drinkable-water-1	tech	256
+distiller-1	tech	256
+terrarium-1	tech	256
