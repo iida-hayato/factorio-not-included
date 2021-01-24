@@ -78,7 +78,7 @@ data:extend({
             ingredients = { { "automation-science-pack", 1 } },
             time = 15
         },
-        prerequisites = { "steel-plate" },
+        prerequisites = { "steel-processing" },
         order = "c-a"
     },
     {
@@ -99,7 +99,7 @@ data:extend({
             ingredients = { { "automation-science-pack", 1 } },
             time = 15
         },
-        prerequisites = { "steel-plate" },
+        prerequisites = { "steel-processing" },
         order = "c-a"
     },
     {
@@ -124,7 +124,7 @@ data:extend({
             ingredients = { { "automation-science-pack", 1 } },
             time = 15
         },
-        prerequisites = { "steel-plate" },
+        prerequisites = { "steel-processing" },
         order = "c-a"
     },
     {
@@ -149,7 +149,7 @@ data:extend({
             ingredients = { { "automation-science-pack", 1 } },
             time = 15
         },
-        prerequisites = { "steel-plate" },
+        prerequisites = { "steel-processing" },
         order = "c-a"
     },
     {
@@ -174,7 +174,7 @@ data:extend({
             ingredients = { { "automation-science-pack", 1 } },
             time = 15
         },
-        prerequisites = { "steel-plate" },
+        prerequisites = { "steel-processing" },
         order = "c-a"
     },
     {
@@ -199,7 +199,7 @@ data:extend({
             ingredients = { { "automation-science-pack", 1 } },
             time = 15
         },
-        prerequisites = { "steel-plate" },
+        prerequisites = { "steel-processing" },
         order = "c-a"
     },
     {
@@ -220,7 +220,7 @@ data:extend({
             ingredients = { { "automation-science-pack", 1 } },
             time = 15
         },
-        prerequisites = { "steel-plate" },
+        prerequisites = { "steel-processing" },
         order = "c-a"
     },
     {
@@ -245,7 +245,7 @@ data:extend({
             ingredients = { { "automation-science-pack", 1 } },
             time = 15
         },
-        prerequisites = { "steel-plate" },
+        prerequisites = { "steel-processing" },
         order = "c-a"
     },
     {
@@ -270,7 +270,7 @@ data:extend({
             ingredients = { { "automation-science-pack", 1 } },
             time = 15
         },
-        prerequisites = { "steel-plate" },
+        prerequisites = { "steel-processing" },
         order = "c-a"
     },
 })
