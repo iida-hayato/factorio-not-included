@@ -4,7 +4,7 @@ data.raw.recipe["automation-science-pack"].ingredients =
     { "iron-gear-wheel", 1 },
     { "human-1", 1 },
 }
-data.raw.recipe["automation-science-pack"].ingredients =
+data.raw.recipe["logistic-science-pack"].ingredients =
 {
     { "inserter", 1 },
     { "transport-belt", 1 },
