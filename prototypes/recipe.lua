@@ -463,12 +463,12 @@ data:extend({
         energy_required = 5,
         ingredients =
         {
-            { "plant-1", 1 },
+            { "plant-1", 4 },
             { type = "fluid", name = "polluted-oxygen", amount = 400 },
         },
         results =
         {
-            { "polluted-dirt", 1 },
+            { "polluted-dirt", 3 },
             { type = "fluid", name = "co2", amount = 200 },
         }
     },
@@ -483,12 +483,12 @@ data:extend({
         energy_required = 5,
         ingredients =
         {
-            { "meat-1", 1 },
+            { "meat-1", 4 },
             { type = "fluid", name = "polluted-oxygen", amount = 400 },
         },
         results =
         {
-            { "polluted-dirt", 1 },
+            { "polluted-dirt", 3 },
             { type = "fluid", name = "co2", amount = 200 },
         }
     },
@@ -503,12 +503,12 @@ data:extend({
         energy_required = 5,
         ingredients =
         {
-            { "plant-2-1", 1 },
+            { "plant-2-1", 4 },
             { type = "fluid", name = "polluted-oxygen", amount = 400 },
         },
         results =
         {
-            { "polluted-dirt", 1 },
+            { "polluted-dirt", 3 },
             { type = "fluid", name = "co2", amount = 200 },
         }
     },
@@ -523,12 +523,12 @@ data:extend({
         energy_required = 5,
         ingredients =
         {
-            { "plant-2-2", 1 },
+            { "plant-2-2", 4 },
             { type = "fluid", name = "polluted-oxygen", amount = 400 },
         },
         results =
         {
-            { "polluted-dirt", 1 },
+            { "polluted-dirt", 3 },
             { type = "fluid", name = "co2", amount = 200 },
         }
     },
@@ -543,12 +543,12 @@ data:extend({
         energy_required = 5,
         ingredients =
         {
-            { "meat-2-1", 1 },
+            { "meat-2-1", 4 },
             { type = "fluid", name = "polluted-oxygen", amount = 400 },
         },
         results =
         {
-            { "polluted-dirt", 1 },
+            { "polluted-dirt", 3 },
             { type = "fluid", name = "chlorine", amount = 200 },
         }
     },
@@ -563,12 +563,12 @@ data:extend({
         energy_required = 5,
         ingredients =
         {
-            { "meat-2-2", 1 },
+            { "meat-2-2", 4 },
             { type = "fluid", name = "polluted-oxygen", amount = 400 },
         },
         results =
         {
-            { "polluted-dirt", 1 },
+            { "polluted-dirt", 3 },
             { type = "fluid", name = "chlorine", amount = 200 },
         }
     },
