@@ -17,7 +17,7 @@ data:extend({
         },
         unit =
         {
-            count = 50,
+            count = 20,
             ingredients = { { "automation-science-pack", 1 } },
             time = 15
         },
