@@ -73,7 +73,7 @@ data:extend({
         icon_size = 32,
         category = "colony-1",
         subgroup = "fni-item",
-        energy_required = 5,
+        energy_required = 10,
         ingredients =
         {
             { type = "fluid", name = "o2", amount = 1000 },
@@ -82,7 +82,7 @@ data:extend({
         },
         results =
         {
-            { "human-1", 1 },
+            { "human-1", 5 },
             { type = "fluid", name = "co2", amount = 100 },
             { type = "fluid", name = "polluted-water", amount = 1400 },
         }
@@ -183,7 +183,8 @@ data:extend({
         results =
         {
             { "dirt", 1 },
-            { type = "fluid", name = "polluted-oxygen", amount = 1000 },
+            { type = "fluid", name = "polluted-oxygen", amount = 800 },
+            { type = "fluid", name = "co2", amount = 200 },
         }
     },
     {
@@ -267,7 +268,7 @@ data:extend({
         icon_size = 32,
         category = "colony-2",
         subgroup = "fni-item",
-        energy_required = 5,
+        energy_required = 15,
         ingredients =
         {
             { type = "fluid", name = "o2", amount = 3000 },
@@ -276,7 +277,7 @@ data:extend({
         },
         results =
         {
-            { "human-2", 1 },
+            { "human-2", 5 },
             { type = "fluid", name = "co2", amount = 1800 },
             { type = "fluid", name = "polluted-water", amount = 1200 },
         }
