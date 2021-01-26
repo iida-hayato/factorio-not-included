@@ -56,7 +56,6 @@ data:extend({
         crafting_speed = 1,
         selection_box = { { -2.75, -2.75 }, { 2.75, 2.75 } },
         collision_box = { { -2.25, -2.25 }, { 2.25, 2.25 } },
-        collision_mask = { "item-layer", "object-layer", "water-tile", "resource-layer", "player-layer" },
         open_sound = { filename = "__base__/sound/machine-open.ogg", volume = 0.85 },
         close_sound = { filename = "__base__/sound/machine-close.ogg", volume = 0.75 },
         energy_source = {
@@ -132,7 +131,6 @@ data:extend({
         crafting_speed = 1,
         selection_box = { { -2.75, -2.75 }, { 2.75, 2.75 } },
         collision_box = { { -2.25, -2.25 }, { 2.25, 2.25 } },
-        collision_mask = { "item-layer", "object-layer", "water-tile", "resource-layer", "player-layer" },
         open_sound = { filename = "__base__/sound/machine-open.ogg", volume = 0.85 },
         close_sound = { filename = "__base__/sound/machine-close.ogg", volume = 0.75 },
         energy_source = {
@@ -198,7 +196,6 @@ data:extend({
         crafting_speed = 1,
         selection_box = { { -2.75, -2.75 }, { 2.75, 2.75 } },
         collision_box = { { -2.25, -2.25 }, { 2.25, 2.25 } },
-        collision_mask = { "item-layer", "object-layer", "water-tile", "resource-layer", "player-layer" },
         open_sound = { filename = "__base__/sound/machine-open.ogg", volume = 0.85 },
         close_sound = { filename = "__base__/sound/machine-close.ogg", volume = 0.75 },
         energy_source = {
@@ -264,7 +261,6 @@ data:extend({
         crafting_speed = 1,
         selection_box = { { -2.75, -2.75 }, { 2.75, 2.75 } },
         collision_box = { { -2.25, -2.25 }, { 2.25, 2.25 } },
-        collision_mask = { "item-layer", "object-layer", "water-tile", "resource-layer", "player-layer" },
         open_sound = { filename = "__base__/sound/machine-open.ogg", volume = 0.85 },
         close_sound = { filename = "__base__/sound/machine-close.ogg", volume = 0.75 },
         energy_source = {
@@ -306,7 +302,6 @@ data:extend({
         crafting_speed = 1,
         selection_box = { { -2.75, -2.75 }, { 2.75, 2.75 } },
         collision_box = { { -2.25, -2.25 }, { 2.25, 2.25 } },
-        collision_mask = { "item-layer", "object-layer", "water-tile", "resource-layer", "player-layer" },
         open_sound = { filename = "__base__/sound/machine-open.ogg", volume = 0.85 },
         close_sound = { filename = "__base__/sound/machine-close.ogg", volume = 0.75 },
         energy_source = {
@@ -392,7 +387,6 @@ data:extend({
         crafting_speed = 1,
         selection_box = { { -2.75, -2.75 }, { 2.75, 2.75 } },
         collision_box = { { -2.25, -2.25 }, { 2.25, 2.25 } },
-        collision_mask = { "item-layer", "object-layer", "water-tile", "resource-layer", "player-layer" },
         open_sound = { filename = "__base__/sound/machine-open.ogg", volume = 0.85 },
         close_sound = { filename = "__base__/sound/machine-close.ogg", volume = 0.75 },
         energy_source = {
@@ -478,7 +472,6 @@ data:extend({
         crafting_speed = 1,
         selection_box = { { -2.75, -2.75 }, { 2.75, 2.75 } },
         collision_box = { { -2.25, -2.25 }, { 2.25, 2.25 } },
-        collision_mask = { "item-layer", "object-layer", "water-tile", "resource-layer", "player-layer" },
         open_sound = { filename = "__base__/sound/machine-open.ogg", volume = 0.85 },
         close_sound = { filename = "__base__/sound/machine-close.ogg", volume = 0.75 },
         energy_source = {
@@ -544,7 +537,6 @@ data:extend({
         crafting_speed = 1,
         selection_box = { { -2.75, -2.75 }, { 2.75, 2.75 } },
         collision_box = { { -2.25, -2.25 }, { 2.25, 2.25 } },
-        collision_mask = { "item-layer", "object-layer", "water-tile", "resource-layer", "player-layer" },
         open_sound = { filename = "__base__/sound/machine-open.ogg", volume = 0.85 },
         close_sound = { filename = "__base__/sound/machine-close.ogg", volume = 0.75 },
         energy_source = {
@@ -620,7 +612,6 @@ data:extend({
         crafting_speed = 1,
         selection_box = { { -2.75, -2.75 }, { 2.75, 2.75 } },
         collision_box = { { -2.25, -2.25 }, { 2.25, 2.25 } },
-        collision_mask = { "item-layer", "object-layer", "water-tile", "resource-layer", "player-layer" },
         open_sound = { filename = "__base__/sound/machine-open.ogg", volume = 0.85 },
         close_sound = { filename = "__base__/sound/machine-close.ogg", volume = 0.75 },
         energy_source = {
@@ -730,7 +721,6 @@ data:extend({
         crafting_speed = 1,
         selection_box = { { -2.75, -2.75 }, { 2.75, 2.75 } },
         collision_box = { { -2.25, -2.25 }, { 2.25, 2.25 } },
-        collision_mask = { "item-layer", "object-layer", "water-tile", "resource-layer", "player-layer" },
         open_sound = { filename = "__base__/sound/machine-open.ogg", volume = 0.85 },
         close_sound = { filename = "__base__/sound/machine-close.ogg", volume = 0.75 },
         energy_source = {
@@ -816,7 +806,6 @@ data:extend({
         crafting_speed = 1,
         selection_box = { { -2.75, -2.75 }, { 2.75, 2.75 } },
         collision_box = { { -2.25, -2.25 }, { 2.25, 2.25 } },
-        collision_mask = { "item-layer", "object-layer", "water-tile", "resource-layer", "player-layer" },
         open_sound = { filename = "__base__/sound/machine-open.ogg", volume = 0.85 },
         close_sound = { filename = "__base__/sound/machine-close.ogg", volume = 0.75 },
         energy_source = {
@@ -902,7 +891,6 @@ data:extend({
         crafting_speed = 1,
         selection_box = { { -2.75, -2.75 }, { 2.75, 2.75 } },
         collision_box = { { -2.25, -2.25 }, { 2.25, 2.25 } },
-        collision_mask = { "item-layer", "object-layer", "water-tile", "resource-layer", "player-layer" },
         open_sound = { filename = "__base__/sound/machine-open.ogg", volume = 0.85 },
         close_sound = { filename = "__base__/sound/machine-close.ogg", volume = 0.75 },
         energy_source = {
@@ -968,7 +956,6 @@ data:extend({
         crafting_speed = 1,
         selection_box = { { -2.75, -2.75 }, { 2.75, 2.75 } },
         collision_box = { { -2.25, -2.25 }, { 2.25, 2.25 } },
-        collision_mask = { "item-layer", "object-layer", "water-tile", "resource-layer", "player-layer" },
         open_sound = { filename = "__base__/sound/machine-open.ogg", volume = 0.85 },
         close_sound = { filename = "__base__/sound/machine-close.ogg", volume = 0.75 },
         energy_source = {
@@ -1034,7 +1021,6 @@ data:extend({
         crafting_speed = 1,
         selection_box = { { -2.75, -2.75 }, { 2.75, 2.75 } },
         collision_box = { { -2.25, -2.25 }, { 2.25, 2.25 } },
-        collision_mask = { "item-layer", "object-layer", "water-tile", "resource-layer", "player-layer" },
         open_sound = { filename = "__base__/sound/machine-open.ogg", volume = 0.85 },
         close_sound = { filename = "__base__/sound/machine-close.ogg", volume = 0.75 },
         energy_source = {
@@ -1100,7 +1086,6 @@ data:extend({
         crafting_speed = 1,
         selection_box = { { -2.75, -2.75 }, { 2.75, 2.75 } },
         collision_box = { { -2.25, -2.25 }, { 2.25, 2.25 } },
-        collision_mask = { "item-layer", "object-layer", "water-tile", "resource-layer", "player-layer" },
         open_sound = { filename = "__base__/sound/machine-open.ogg", volume = 0.85 },
         close_sound = { filename = "__base__/sound/machine-close.ogg", volume = 0.75 },
         energy_source = {
@@ -1166,7 +1151,6 @@ data:extend({
         crafting_speed = 1,
         selection_box = { { -2.75, -2.75 }, { 2.75, 2.75 } },
         collision_box = { { -2.25, -2.25 }, { 2.25, 2.25 } },
-        collision_mask = { "item-layer", "object-layer", "water-tile", "resource-layer", "player-layer" },
         open_sound = { filename = "__base__/sound/machine-open.ogg", volume = 0.85 },
         close_sound = { filename = "__base__/sound/machine-close.ogg", volume = 0.75 },
         energy_source = {
@@ -1252,7 +1236,6 @@ data:extend({
         crafting_speed = 1,
         selection_box = { { -2.75, -2.75 }, { 2.75, 2.75 } },
         collision_box = { { -2.25, -2.25 }, { 2.25, 2.25 } },
-        collision_mask = { "item-layer", "object-layer", "water-tile", "resource-layer", "player-layer" },
         open_sound = { filename = "__base__/sound/machine-open.ogg", volume = 0.85 },
         close_sound = { filename = "__base__/sound/machine-close.ogg", volume = 0.75 },
         energy_source = {
