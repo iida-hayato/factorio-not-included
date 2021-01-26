@@ -12,6 +12,10 @@ human-3	item
 clothes-1	item
 general-waste	item
 fiber	item
+plant-3-1	item
+plant-3-2	item
+meat-3-1	item
+meat-3-2	item
 human-3	recipe	colony-3
 food-3	recipe	cooker-1
 sparkling-water	recipe	cooker-1
