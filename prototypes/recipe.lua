@@ -642,13 +642,16 @@ data:extend({
         energy_required = 10,
         ingredients =
         {
-            { type = "fluid", name = "water", amount = 600 },
-            { type = "fluid", name = "co2", amount = 200 },
+            { type = "fluid", name = "drinkable-water", amount = 600 },
+            { "plant-3-1", 1 },
+            { "plant-3-2", 1 },
+            { "meat-3-1", 1 },
+            { "meat-3-2", 1 },
         },
         results =
         {
-            { type = "fluid", name = "sparkling-water", amount = 400 },
-            { type = "fluid", name = "polluted-water", amount = 200 },
+            { "food-3", 1 },
+            { type = "fluid", name = "polluted-water", amount = 600 },
         }
     },
     {
@@ -662,16 +665,13 @@ data:extend({
         energy_required = 10,
         ingredients =
         {
-            { type = "fluid", name = "drinkable-water", amount = 600 },
-            { "plant-3-1", 1 },
-            { "plant-3-2", 1 },
-            { "meat-3-1", 1 },
-            { "meat-3-2", 1 },
+            { type = "fluid", name = "water", amount = 600 },
+            { type = "fluid", name = "co2", amount = 200 },
         },
         results =
         {
-            { "food-3", 1 },
-            { type = "fluid", name = "polluted-water", amount = 600 },
+            { type = "fluid", name = "sparkling-water", amount = 400 },
+            { type = "fluid", name = "polluted-water", amount = 200 },
         }
     },
     {
