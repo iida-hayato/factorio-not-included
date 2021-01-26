@@ -692,7 +692,7 @@ data:extend({
         results =
         {
             { "plant-3-1", 1 },
-            { type = "fluid", name = "2", amount = 400 },
+            { type = "fluid", name = "h2", amount = 400 },
         }
     },
     {
