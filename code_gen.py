@@ -1,7 +1,7 @@
 import urllib
 import urllib.request
 import urllib.error
-
+print("starting code_gen")
 # load tsv
 import csv
 with open('./code_gen.tsv', mode='r', newline='', encoding='utf-8') as f:

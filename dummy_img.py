@@ -1,6 +1,8 @@
 import urllib
 import urllib.request
 import urllib.error
+print("starting dummy_img")
+
 def download_file(url, dst_path):
     try:
         urllib.request.urlretrieve(url, dst_path)
