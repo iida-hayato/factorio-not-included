@@ -1,0 +1,6 @@
+colony-3	entity
+farm-3-1	entity
+farm-3-2	entity
+d	fluid
+a	item
+human-3	recipe	colony-3
