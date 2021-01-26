@@ -612,7 +612,7 @@ data:extend({
         enabled = true,
         icon = "__factorio-not-included__/graphics/human-3/item-recipe/32.png",
         icon_size = 32,
-        category = "human-3",
+        category = "colony-3",
         subgroup = "fni-item",
         energy_required = 10,
         ingredients =
@@ -637,7 +637,7 @@ data:extend({
         enabled = true,
         icon = "__factorio-not-included__/graphics/food-3/item-recipe/32.png",
         icon_size = 32,
-        category = "food-3",
+        category = "cooker-1",
         subgroup = "fni-item",
         energy_required = 10,
         ingredients =
@@ -657,7 +657,7 @@ data:extend({
         enabled = true,
         icon = "__factorio-not-included__/graphics/sparkling-water/item-recipe/32.png",
         icon_size = 32,
-        category = "sparkling-water",
+        category = "cooker-1",
         subgroup = "fni-item",
         energy_required = 10,
         ingredients =
@@ -680,14 +680,14 @@ data:extend({
         enabled = true,
         icon = "__factorio-not-included__/graphics/plant-3-1/item-recipe/32.png",
         icon_size = 32,
-        category = "plant-3-1",
+        category = "farm-3-1",
         subgroup = "fni-item",
         energy_required = 10,
         ingredients =
         {
             { type = "fluid", name = "water", amount = 1600 },
             { type = "fluid", name = "chlorine", amount = 400 },
-            { "dirt", 4},
+            { "dirt", 4 },
         },
         results =
         {
@@ -701,7 +701,7 @@ data:extend({
         enabled = true,
         icon = "__factorio-not-included__/graphics/plant-3-2/item-recipe/32.png",
         icon_size = 32,
-        category = "plant-3-2",
+        category = "farm-3-2",
         subgroup = "fni-item",
         energy_required = 10,
         ingredients =
@@ -722,7 +722,7 @@ data:extend({
         enabled = true,
         icon = "__factorio-not-included__/graphics/meat-3-1/item-recipe/32.png",
         icon_size = 32,
-        category = "meat-3-1",
+        category = "pasture-3-1",
         subgroup = "fni-item",
         energy_required = 10,
         ingredients =
@@ -743,7 +743,7 @@ data:extend({
         enabled = true,
         icon = "__factorio-not-included__/graphics/meat-3-2/item-recipe/32.png",
         icon_size = 32,
-        category = "meat-3-2",
+        category = "pasture-3-2",
         subgroup = "fni-item",
         energy_required = 10,
         ingredients =
@@ -764,7 +764,7 @@ data:extend({
         enabled = true,
         icon = "__factorio-not-included__/graphics/clothes-1/item-recipe/32.png",
         icon_size = 32,
-        category = "clothes-1",
+        category = "textile-loom-1",
         subgroup = "fni-item",
         energy_required = 10,
         ingredients =
@@ -783,7 +783,7 @@ data:extend({
         enabled = true,
         icon = "__factorio-not-included__/graphics/recycle-1/item-recipe/32.png",
         icon_size = 32,
-        category = "recycle-1",
+        category = "recycler-1",
         subgroup = "fni-item",
         energy_required = 10,
         ingredients =
@@ -804,7 +804,7 @@ data:extend({
         enabled = true,
         icon = "__factorio-not-included__/graphics/electrolyse-1/item-recipe/32.png",
         icon_size = 32,
-        category = "electrolyse-1",
+        category = "electrolyzer-1",
         subgroup = "fni-item",
         energy_required = 10,
         ingredients =
@@ -823,7 +823,7 @@ data:extend({
         enabled = true,
         icon = "__factorio-not-included__/graphics/compost-plant-3-1/item-recipe/32.png",
         icon_size = 32,
-        category = "compost-plant-3-1",
+        category = "compost-1",
         subgroup = "fni-item",
         energy_required = 10,
         ingredients =
@@ -843,7 +843,7 @@ data:extend({
         enabled = true,
         icon = "__factorio-not-included__/graphics/compost-plant-3-2/item-recipe/32.png",
         icon_size = 32,
-        category = "compost-plant-3-2",
+        category = "compost-1",
         subgroup = "fni-item",
         energy_required = 10,
         ingredients =
@@ -863,7 +863,7 @@ data:extend({
         enabled = true,
         icon = "__factorio-not-included__/graphics/compost-meat-3-1/item-recipe/32.png",
         icon_size = 32,
-        category = "compost-meat-3-1",
+        category = "compost-1",
         subgroup = "fni-item",
         energy_required = 10,
         ingredients =
@@ -883,7 +883,7 @@ data:extend({
         enabled = true,
         icon = "__factorio-not-included__/graphics/compost-meat-3-2/item-recipe/32.png",
         icon_size = 32,
-        category = "compost-meat-3-2",
+        category = "compost-1",
         subgroup = "fni-item",
         energy_required = 10,
         ingredients =
