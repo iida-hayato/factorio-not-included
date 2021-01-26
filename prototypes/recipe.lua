@@ -792,7 +792,6 @@ data:extend({
         },
         results =
         {
-            { "recycle-1", 10 },
             { type = "fluid", name = "co2", amount = 1200 },
             { type = "fluid", name = "chlorine", amount = 300 },
             { "iron-ore", 0.25 },
