@@ -273,4 +273,396 @@ data:extend({
         prerequisites = { "steel-processing" },
         order = "c-a"
     },
+    {
+        type = "technology",
+        name = "human-3",
+        icon_size = 256,
+        icon = "__factorio-not-included__/graphics/human-3/tech/256.png",
+        effects =
+        {
+            {
+                type = "unlock-recipe",
+                recipe = "entity-colony-3"
+            },
+            {
+                type = "unlock-recipe",
+                recipe = "human-3"
+            },
+        },
+        unit =
+        {
+            count = 100,
+            ingredients = {
+                { "automation-science-pack", 1 },
+                { "logistic-science-pack", 1 }
+            },
+            time = 15
+        },
+        prerequisites = { "logistic-science-pack" },
+        order = "c-a"
+    } ,
+    {
+        type = "technology",
+        name = "food-3",
+        icon_size = 256,
+        icon = "__factorio-not-included__/graphics/food-3/tech/256.png",
+        effects =
+        {
+            {
+                type = "unlock-recipe",
+                recipe = "entity-cooker-1"
+            },
+            {
+                type = "unlock-recipe",
+                recipe = "food-3"
+            },
+        },
+        unit =
+        {
+            count = 100,
+            ingredients = {
+                { "automation-science-pack", 1 },
+                { "logistic-science-pack", 1 }
+            },
+            time = 15
+        },
+        prerequisites = { "logistic-science-pack" },
+        order = "c-a"
+    } ,
+    {
+        type = "technology",
+        name = "sparkling-water",
+        icon_size = 256,
+        icon = "__factorio-not-included__/graphics/sparkling-water/tech/256.png",
+        effects =
+        {
+            {
+                type = "unlock-recipe",
+                recipe = "entity-cooker-1"
+            },
+            {
+                type = "unlock-recipe",
+                recipe = "sparkling-water"
+            },
+        },
+        unit =
+        {
+            count = 100,
+            ingredients = {
+                { "automation-science-pack", 1 },
+                { "logistic-science-pack", 1 }
+            },
+            time = 15
+        },
+        prerequisites = { "logistic-science-pack" },
+        order = "c-a"
+    } ,
+    {
+        type = "technology",
+        name = "plant-3-1",
+        icon_size = 256,
+        icon = "__factorio-not-included__/graphics/plant-3-1/tech/256.png",
+        effects =
+        {
+            {
+                type = "unlock-recipe",
+                recipe = "entity-farm-3-1"
+            },
+            {
+                type = "unlock-recipe",
+                recipe = "plant-3-1"
+            },
+        },
+        unit =
+        {
+            count = 100,
+            ingredients = {
+                { "automation-science-pack", 1 },
+                { "logistic-science-pack", 1 }
+            },
+            time = 15
+        },
+        prerequisites = { "logistic-science-pack" },
+        order = "c-a"
+    } ,
+    {
+        type = "technology",
+        name = "plant-3-2",
+        icon_size = 256,
+        icon = "__factorio-not-included__/graphics/plant-3-2/tech/256.png",
+        effects =
+        {
+            {
+                type = "unlock-recipe",
+                recipe = "entity-farm-3-2"
+            },
+            {
+                type = "unlock-recipe",
+                recipe = "plant-3-2"
+            },
+        },
+        unit =
+        {
+            count = 100,
+            ingredients = {
+                { "automation-science-pack", 1 },
+                { "logistic-science-pack", 1 }
+            },
+            time = 15
+        },
+        prerequisites = { "logistic-science-pack" },
+        order = "c-a"
+    } ,
+    {
+        type = "technology",
+        name = "meat-3-1",
+        icon_size = 256,
+        icon = "__factorio-not-included__/graphics/meat-3-1/tech/256.png",
+        effects =
+        {
+            {
+                type = "unlock-recipe",
+                recipe = "entity-pasture-3-1"
+            },
+            {
+                type = "unlock-recipe",
+                recipe = "meat-3-1"
+            },
+        },
+        unit =
+        {
+            count = 100,
+            ingredients = {
+                { "automation-science-pack", 1 },
+                { "logistic-science-pack", 1 }
+            },
+            time = 15
+        },
+        prerequisites = { "logistic-science-pack" },
+        order = "c-a"
+    } ,
+    {
+        type = "technology",
+        name = "meat-3-2",
+        icon_size = 256,
+        icon = "__factorio-not-included__/graphics/meat-3-2/tech/256.png",
+        effects =
+        {
+            {
+                type = "unlock-recipe",
+                recipe = "entity-pasture-3-2"
+            },
+            {
+                type = "unlock-recipe",
+                recipe = "meat-3-2"
+            },
+        },
+        unit =
+        {
+            count = 100,
+            ingredients = {
+                { "automation-science-pack", 1 },
+                { "logistic-science-pack", 1 }
+            },
+            time = 15
+        },
+        prerequisites = { "logistic-science-pack" },
+        order = "c-a"
+    } ,
+    {
+        type = "technology",
+        name = "clothes-1",
+        icon_size = 256,
+        icon = "__factorio-not-included__/graphics/clothes-1/tech/256.png",
+        effects =
+        {
+            {
+                type = "unlock-recipe",
+                recipe = "entity-textile-loom-1"
+            },
+            {
+                type = "unlock-recipe",
+                recipe = "clothes-1"
+            },
+        },
+        unit =
+        {
+            count = 100,
+            ingredients = {
+                { "automation-science-pack", 1 },
+                { "logistic-science-pack", 1 }
+            },
+            time = 15
+        },
+        prerequisites = { "logistic-science-pack" },
+        order = "c-a"
+    } ,
+    {
+        type = "technology",
+        name = "recycle-1",
+        icon_size = 256,
+        icon = "__factorio-not-included__/graphics/recycle-1/tech/256.png",
+        effects =
+        {
+            {
+                type = "unlock-recipe",
+                recipe = "entity-recycler-1"
+            },
+            {
+                type = "unlock-recipe",
+                recipe = "recycle-1"
+            },
+        },
+        unit =
+        {
+            count = 100,
+            ingredients = {
+                { "automation-science-pack", 1 },
+                { "logistic-science-pack", 1 }
+            },
+            time = 15
+        },
+        prerequisites = { "logistic-science-pack" },
+        order = "c-a"
+    } ,
+    {
+        type = "technology",
+        name = "electrolyse-1",
+        icon_size = 256,
+        icon = "__factorio-not-included__/graphics/electrolyse-1/tech/256.png",
+        effects =
+        {
+            {
+                type = "unlock-recipe",
+                recipe = "entity-electrolyzer-1"
+            },
+            {
+                type = "unlock-recipe",
+                recipe = "electrolyse-1"
+            },
+        },
+        unit =
+        {
+            count = 100,
+            ingredients = {
+                { "automation-science-pack", 1 },
+                { "logistic-science-pack", 1 }
+            },
+            time = 15
+        },
+        prerequisites = { "logistic-science-pack" },
+        order = "c-a"
+    } ,
+    {
+        type = "technology",
+        name = "compost-plant-3-1",
+        icon_size = 256,
+        icon = "__factorio-not-included__/graphics/compost-plant-3-1/tech/256.png",
+        effects =
+        {
+            {
+                type = "unlock-recipe",
+                recipe = "entity-compost-1"
+            },
+            {
+                type = "unlock-recipe",
+                recipe = "compost-plant-3-1"
+            },
+        },
+        unit =
+        {
+            count = 100,
+            ingredients = {
+                { "automation-science-pack", 1 },
+                { "logistic-science-pack", 1 }
+            },
+            time = 15
+        },
+        prerequisites = { "logistic-science-pack" },
+        order = "c-a"
+    } ,
+    {
+        type = "technology",
+        name = "compost-plant-3-2",
+        icon_size = 256,
+        icon = "__factorio-not-included__/graphics/compost-plant-3-2/tech/256.png",
+        effects =
+        {
+            {
+                type = "unlock-recipe",
+                recipe = "entity-compost-1"
+            },
+            {
+                type = "unlock-recipe",
+                recipe = "compost-plant-3-2"
+            },
+        },
+        unit =
+        {
+            count = 100,
+            ingredients = {
+                { "automation-science-pack", 1 },
+                { "logistic-science-pack", 1 }
+            },
+            time = 15
+        },
+        prerequisites = { "logistic-science-pack" },
+        order = "c-a"
+    } ,
+    {
+        type = "technology",
+        name = "compost-meat-3-1",
+        icon_size = 256,
+        icon = "__factorio-not-included__/graphics/compost-meat-3-1/tech/256.png",
+        effects =
+        {
+            {
+                type = "unlock-recipe",
+                recipe = "entity-compost-1"
+            },
+            {
+                type = "unlock-recipe",
+                recipe = "compost-meat-3-1"
+            },
+        },
+        unit =
+        {
+            count = 100,
+            ingredients = {
+                { "automation-science-pack", 1 },
+                { "logistic-science-pack", 1 }
+            },
+            time = 15
+        },
+        prerequisites = { "logistic-science-pack" },
+        order = "c-a"
+    } ,
+    {
+        type = "technology",
+        name = "compost-meat-3-2",
+        icon_size = 256,
+        icon = "__factorio-not-included__/graphics/compost-meat-3-2/tech/256.png",
+        effects =
+        {
+            {
+                type = "unlock-recipe",
+                recipe = "entity-compost-1"
+            },
+            {
+                type = "unlock-recipe",
+                recipe = "compost-meat-3-2"
+            },
+        },
+        unit =
+        {
+            count = 100,
+            ingredients = {
+                { "automation-science-pack", 1 },
+                { "logistic-science-pack", 1 }
+            },
+            time = 15
+        },
+        prerequisites = { "logistic-science-pack" },
+        order = "c-a"
+    } ,
 })

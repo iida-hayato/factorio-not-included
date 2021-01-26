@@ -16,6 +16,7 @@ with open('./code_gen.tsv', mode='r', newline='', encoding='utf-8') as f:
     item_code = ""
     recipe_code = ""
     tech_code = ""
+    recipe_category_code = ""
     for row in read_data:
         name = row[0]
         type = row[1]
@@ -46,6 +47,8 @@ with open('./code_gen.tsv', mode='r', newline='', encoding='utf-8') as f:
             with open('./temp_tech.lua', mode='r', newline='', encoding='utf-8') as tech_template:
                 tech_code += tech_template.read().replace('$__1__$', name).replace('$__2__$', category)
             image_tsv_code += name + '\ttech\t256\n'
+            with open('./temp_recipe_category.lua', mode='r', newline='', encoding='utf-8') as recipe_category_template:
+                recipe_category_code += recipe_category_template.read().replace('$__1__$', name).replace('$__2__$', category)
 
 
 
@@ -72,4 +75,6 @@ if (entity_code != ""):
         recipe_file.write(recipe_code)
     with open(out_path + '/tech.lua', mode='w', newline='', encoding='utf-8') as tech_file:
         tech_file.write(tech_code)
+    with open(out_path + '/recipe_category.lua', mode='w', newline='', encoding='utf-8') as recipe_category_file:
+        recipe_category_file.write(recipe_category_code)
 

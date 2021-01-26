@@ -12,8 +12,15 @@ data.raw.recipe["logistic-science-pack"].ingredients =
 }
 data.raw.recipe["military-science-pack"].ingredients =
 {
-    {"piercing-rounds-magazine", 1},
-    {"grenade", 1},
-    {"stone-wall", 2 },
+    { "piercing-rounds-magazine", 1 },
+    { "grenade", 1 },
+    { "stone-wall", 2 },
     { "human-2", 10 },
+}
+data.raw.recipe["chemical-science-pack"].ingredients =
+{
+    { "human-3", 10 },
+    { "engine-unit", 2 },
+    { "advanced-circuit", 3 },
+    { "sulfur", 1 }
 }
