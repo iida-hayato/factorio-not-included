@@ -4,7 +4,7 @@
         enabled = true,
         icon = "__factorio-not-included__/graphics/$__1__$/item-recipe/32.png",
         icon_size = 32,
-        category = "$__1__$",
+        category = "$__2__$",
         subgroup = "fni-item",
         energy_required = 10,
         ingredients =
