@@ -609,7 +609,7 @@ data:extend({
     {
         type = "recipe",
         name = "human-3",
-        enabled = true,
+        enabled = false,
         icon = "__factorio-not-included__/graphics/human-3/item-recipe/32.png",
         icon_size = 32,
         category = "colony-3",
@@ -634,7 +634,7 @@ data:extend({
     {
         type = "recipe",
         name = "food-3",
-        enabled = true,
+        enabled = false,
         icon = "__factorio-not-included__/graphics/food-3/item-recipe/32.png",
         icon_size = 32,
         category = "cooker-1",
@@ -657,7 +657,7 @@ data:extend({
     {
         type = "recipe",
         name = "sparkling-water",
-        enabled = true,
+        enabled = false,
         icon = "__factorio-not-included__/graphics/sparkling-water/item-recipe/32.png",
         icon_size = 32,
         category = "cooker-1",
@@ -677,7 +677,7 @@ data:extend({
     {
         type = "recipe",
         name = "plant-3-1",
-        enabled = true,
+        enabled = false,
         icon = "__factorio-not-included__/graphics/plant-3-1/item-recipe/32.png",
         icon_size = 32,
         category = "farm-3-1",
@@ -698,7 +698,7 @@ data:extend({
     {
         type = "recipe",
         name = "plant-3-2",
-        enabled = true,
+        enabled = false,
         icon = "__factorio-not-included__/graphics/plant-3-2/item-recipe/32.png",
         icon_size = 32,
         category = "farm-3-2",
@@ -719,7 +719,7 @@ data:extend({
     {
         type = "recipe",
         name = "meat-3-1",
-        enabled = true,
+        enabled = false,
         icon = "__factorio-not-included__/graphics/meat-3-1/item-recipe/32.png",
         icon_size = 32,
         category = "pasture-3-1",
@@ -740,7 +740,7 @@ data:extend({
     {
         type = "recipe",
         name = "meat-3-2",
-        enabled = true,
+        enabled = false,
         icon = "__factorio-not-included__/graphics/meat-3-2/item-recipe/32.png",
         icon_size = 32,
         category = "pasture-3-2",
@@ -761,7 +761,7 @@ data:extend({
     {
         type = "recipe",
         name = "clothes-1",
-        enabled = true,
+        enabled = false,
         icon = "__factorio-not-included__/graphics/clothes-1/item-recipe/32.png",
         icon_size = 32,
         category = "textile-loom-1",
@@ -780,7 +780,7 @@ data:extend({
     {
         type = "recipe",
         name = "recycle-1",
-        enabled = true,
+        enabled = false,
         icon = "__factorio-not-included__/graphics/recycle-1/item-recipe/32.png",
         icon_size = 32,
         category = "recycler-1",
@@ -800,7 +800,7 @@ data:extend({
     {
         type = "recipe",
         name = "electrolyse-1",
-        enabled = true,
+        enabled = false,
         icon = "__factorio-not-included__/graphics/electrolyse-1/item-recipe/32.png",
         icon_size = 32,
         category = "electrolyzer-1",
@@ -819,7 +819,7 @@ data:extend({
     {
         type = "recipe",
         name = "compost-plant-3-1",
-        enabled = true,
+        enabled = false,
         icon = "__factorio-not-included__/graphics/compost-plant-3-1/item-recipe/32.png",
         icon_size = 32,
         category = "compost-1",
@@ -839,7 +839,7 @@ data:extend({
     {
         type = "recipe",
         name = "compost-plant-3-2",
-        enabled = true,
+        enabled = false,
         icon = "__factorio-not-included__/graphics/compost-plant-3-2/item-recipe/32.png",
         icon_size = 32,
         category = "compost-1",
@@ -859,7 +859,7 @@ data:extend({
     {
         type = "recipe",
         name = "compost-meat-3-1",
-        enabled = true,
+        enabled = false,
         icon = "__factorio-not-included__/graphics/compost-meat-3-1/item-recipe/32.png",
         icon_size = 32,
         category = "compost-1",
@@ -879,7 +879,7 @@ data:extend({
     {
         type = "recipe",
         name = "compost-meat-3-2",
-        enabled = true,
+        enabled = false,
         icon = "__factorio-not-included__/graphics/compost-meat-3-2/item-recipe/32.png",
         icon_size = 32,
         category = "compost-1",
