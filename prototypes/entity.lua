@@ -1943,7 +1943,7 @@ data:extend({
             usage_priority = "secondary-input",
             drain = "25kW",
         },
-        energy_usage = "150kW",
+        energy_usage = "750kW",
         ingredient_count = 4,
         module_specification = {
             module_slots = 2,
