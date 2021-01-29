@@ -750,11 +750,12 @@ data:extend({
         {
             { type = "fluid", name = "o2", amount = 1200 },
             { "plant-3-1", 1 },
+            { "plant-3-2", 1 },
         },
         results =
         {
             { "meat-3-2", 1 },
-            { "copper-ore", 1 },
+            { "sand", 10 },
             { type = "fluid", name = "chlorine", amount = 200 },
         }
     },
