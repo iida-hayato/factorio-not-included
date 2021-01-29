@@ -665,7 +665,7 @@ data:extend({
         energy_required = 10,
         ingredients =
         {
-            { type = "fluid", name = "water", amount = 1000 },
+            { type = "fluid", name = "drinkable-water", amount = 1000 },
             { type = "fluid", name = "co2", amount = 600 },
         },
         results =
@@ -793,7 +793,7 @@ data:extend({
         },
         results =
         {
-            { type = "fluid", name = "co2", amount = 1200 },
+            { type = "fluid", name = "co2", amount = 300 },
             { type = "fluid", name = "chlorine", amount = 300 },
             { name = "iron-ore", amount = 10, probability = 0.25 },
         }
