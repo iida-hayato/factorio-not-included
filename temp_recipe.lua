@@ -1,7 +1,7 @@
     {
         type = "recipe",
         name = "$__1__$",
-        enabled = true,
+        enabled = false,
         icon = "__factorio-not-included__/graphics/$__1__$/item-recipe/32.png",
         icon_size = 32,
         category = "$__2__$",

@@ -19,10 +19,11 @@
             count = 100,
             ingredients = {
                 { "automation-science-pack", 1 },
-                { "logistic-science-pack", 1 }
+                { "logistic-science-pack", 1 },
+                { "chemical-science-pack", 1 },
             },
-            time = 15
+            time = 30
         },
-        prerequisites = { "steel-processing" },
+        prerequisites = { "chemical-science-pack" },
         order = "c-a"
     } ,
