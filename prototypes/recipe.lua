@@ -795,7 +795,7 @@ data:extend({
         {
             { type = "fluid", name = "co2", amount = 1200 },
             { type = "fluid", name = "chlorine", amount = 300 },
-            { "iron-ore", 0.25 },
+            { name = "iron-ore", amout = 10, probability = 0.25 },
         }
     },
     {
