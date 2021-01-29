@@ -95,7 +95,7 @@ data:extend({
         type = "recipe-category",
         name = "electrolyzer-1"
     },
---    4
+    --    4
     {
         type = "recipe-category",
         name = "colony-4"
@@ -132,7 +132,6 @@ data:extend({
         type = "recipe-category",
         name = "h2-generator"
     },
-
 })
 data:extend({
     {
@@ -935,7 +934,7 @@ data:extend({
             { type = "fluid", name = "chlorine", amount = 200 },
         }
     },
---    4
+    --    4
     {
         type = "recipe",
         name = "human-4",
@@ -997,7 +996,7 @@ data:extend({
         },
         results =
         {
-            { "juice", 5 },
+            { type = "fluid", name = "juice", amount = 100 },
             { type = "fluid", name = "co2", amount = 100 },
             { type = "fluid", name = "polluted-water", amount = 1400 },
         }
@@ -1354,5 +1353,4 @@ data:extend({
             { type = "fluid", name = "polluted-water", amount = 1400 },
         }
     },
-
 })
