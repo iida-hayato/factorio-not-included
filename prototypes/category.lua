@@ -4,9 +4,17 @@ data:extend(
             {
                 type = "item-group",
                 name = "fni",
+                order = "f-b",
+                inventory_order = "f-b",
+                icon = "__factorio-not-included__/graphics/FNI.png",
+                icon_size = 128,
+            },
+            {
+                type = "item-group",
+                name = "fni-buildings",
                 order = "f-a",
                 inventory_order = "f-a",
-                icon = "__factorio-not-included__/graphics/FNI.png",
+                icon = "__factorio-not-included__/graphics/FNIBuildings.png",
                 icon_size = 128,
             },
             {
@@ -24,7 +32,7 @@ data:extend(
             {
                 type = "item-subgroup",
                 name = "fni-building",
-                group = "fni",
+                group = "fni-buildings",
                 order = "g-c",
             },
             {
