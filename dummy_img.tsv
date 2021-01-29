@@ -189,10 +189,7 @@ recycle-1	tech	256
 electrolyse-1	item-recipe	32
 electrolyse-1	tech	256
 compost-plant-3-1	item-recipe	32
-compost-plant-3-1	tech	256
 compost-plant-3-2	item-recipe	32
-compost-plant-3-2	tech	256
 compost-meat-3-1	item-recipe	32
-compost-meat-3-1	tech	256
 compost-meat-3-2	item-recipe	32
-compost-meat-3-2	tech	256
+compost-3	tech	256

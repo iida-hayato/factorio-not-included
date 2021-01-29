@@ -555,98 +555,22 @@ data:extend({
     } ,
     {
         type = "technology",
-        name = "compost-plant-3-1",
+        name = "compost-3",
         icon_size = 256,
-        icon = "__factorio-not-included__/graphics/compost-plant-3-1/tech/256.png",
+        icon = "__factorio-not-included__/graphics/compost-3/tech/256.png",
         effects =
         {
-            {
-                type = "unlock-recipe",
-                recipe = "entity-compost-1"
-            },
             {
                 type = "unlock-recipe",
                 recipe = "compost-plant-3-1"
-            },
-        },
-        unit =
-        {
-            count = 100,
-            ingredients = {
-                { "automation-science-pack", 1 },
-                { "logistic-science-pack", 1 }
-            },
-            time = 15
-        },
-        prerequisites = { "logistic-science-pack" },
-        order = "c-a"
-    } ,
-    {
-        type = "technology",
-        name = "compost-plant-3-2",
-        icon_size = 256,
-        icon = "__factorio-not-included__/graphics/compost-plant-3-2/tech/256.png",
-        effects =
-        {
-            {
-                type = "unlock-recipe",
-                recipe = "entity-compost-1"
             },
             {
                 type = "unlock-recipe",
                 recipe = "compost-plant-3-2"
             },
-        },
-        unit =
-        {
-            count = 100,
-            ingredients = {
-                { "automation-science-pack", 1 },
-                { "logistic-science-pack", 1 }
-            },
-            time = 15
-        },
-        prerequisites = { "logistic-science-pack" },
-        order = "c-a"
-    } ,
-    {
-        type = "technology",
-        name = "compost-meat-3-1",
-        icon_size = 256,
-        icon = "__factorio-not-included__/graphics/compost-meat-3-1/tech/256.png",
-        effects =
-        {
-            {
-                type = "unlock-recipe",
-                recipe = "entity-compost-1"
-            },
             {
                 type = "unlock-recipe",
                 recipe = "compost-meat-3-1"
-            },
-        },
-        unit =
-        {
-            count = 100,
-            ingredients = {
-                { "automation-science-pack", 1 },
-                { "logistic-science-pack", 1 }
-            },
-            time = 15
-        },
-        prerequisites = { "logistic-science-pack" },
-        order = "c-a"
-    } ,
-    {
-        type = "technology",
-        name = "compost-meat-3-2",
-        icon_size = 256,
-        icon = "__factorio-not-included__/graphics/compost-meat-3-2/tech/256.png",
-        effects =
-        {
-            {
-                type = "unlock-recipe",
-                recipe = "entity-compost-1"
             },
             {
                 type = "unlock-recipe",
@@ -662,7 +586,7 @@ data:extend({
             },
             time = 15
         },
-        prerequisites = { "logistic-science-pack" },
+        prerequisites = { "logistic-science-pack", "compost-2" },
         order = "c-a"
     } ,
 })
