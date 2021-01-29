@@ -14,8 +14,10 @@ human-4	item
 oversize-garbage	item
 plant-4-1	item
 plant-4-2	item
+plant-4-3	item
 meat-4-1	item
 meat-4-2	item
+meat-4-3	item
 human-4	recipe	colony-4
 food-4	recipe	cooker-1
 juice	recipe	cooker-1

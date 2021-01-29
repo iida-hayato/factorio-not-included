@@ -227,8 +227,10 @@ human-4	item	64
 oversize-garbage	item	64
 plant-4-1	item	64
 plant-4-2	item	64
+plant-4-3	item	64
 meat-4-1	item	64
 meat-4-2	item	64
+meat-4-3	item	64
 human-4	item-recipe	32
 human-4	tech	256
 food-4	item-recipe	32
