@@ -1369,7 +1369,7 @@ data:extend({
         },
         order = "d-b",
         allowed_effects = { "consumption", "pollution" }
-    } ,
+    },
     {
         type = "assembling-machine",
         name = "farm-3-1",
@@ -1454,7 +1454,7 @@ data:extend({
         },
         order = "d-b",
         allowed_effects = { "consumption", "pollution" }
-    } ,
+    },
     {
         type = "assembling-machine",
         name = "farm-3-2",
@@ -1539,7 +1539,7 @@ data:extend({
         },
         order = "d-b",
         allowed_effects = { "consumption", "pollution" }
-    } ,
+    },
     {
         type = "assembling-machine",
         name = "pasture-3-1",
@@ -1624,7 +1624,7 @@ data:extend({
         },
         order = "d-b",
         allowed_effects = { "consumption", "pollution" }
-    } ,
+    },
     {
         type = "assembling-machine",
         name = "pasture-3-2",
@@ -1709,7 +1709,7 @@ data:extend({
         },
         order = "d-b",
         allowed_effects = { "consumption", "pollution" }
-    } ,
+    },
     {
         type = "assembling-machine",
         name = "textile-loom-1",
@@ -1794,7 +1794,7 @@ data:extend({
         },
         order = "d-b",
         allowed_effects = { "consumption", "pollution" }
-    } ,
+    },
     {
         type = "assembling-machine",
         name = "recycler-1",
@@ -1879,7 +1879,7 @@ data:extend({
         },
         order = "d-b",
         allowed_effects = { "consumption", "pollution" }
-    } ,
+    },
     {
         type = "assembling-machine",
         name = "electrolyzer-1",
@@ -1964,5 +1964,762 @@ data:extend({
         },
         order = "d-b",
         allowed_effects = { "consumption", "pollution" }
-    } ,
+    },
+    --    4
+    {
+        type = "assembling-machine",
+        name = "colony-4",
+        icon = "__factorio-not-included__/graphics/colony-4/entity/32.png",
+        icon_size = 32,
+        flags = { "placeable-neutral", "placeable-player", "player-creation" },
+        minable = { mining_time = 1, result = "colony-4" },
+        max_health = 600,
+        fluid_boxes =
+        {
+            {
+                production_type = "input",
+                pipe_picture = assembler2pipepictures(),
+                pipe_covers = pipecoverspictures(),
+                base_area = 10,
+                base_level = -2,
+                pipe_connections = {
+                    { type = "input", position = { 3, 2 } },
+                }
+            },
+            {
+                production_type = "input",
+                pipe_picture = assembler2pipepictures(),
+                pipe_covers = pipecoverspictures(),
+                base_area = 10,
+                base_level = -2,
+                pipe_connections = {
+                    { type = "input", position = { 3, -2 } },
+                }
+            },
+            {
+                production_type = "output",
+                pipe_picture = assembler2pipepictures(),
+                pipe_covers = pipecoverspictures(),
+                base_area = 10,
+                base_level = 2,
+                pipe_connections = {
+                    { type = "output", position = { -3, 2 } },
+                }
+            },
+            {
+                production_type = "output",
+                pipe_picture = assembler2pipepictures(),
+                pipe_covers = pipecoverspictures(),
+                base_area = 10,
+                base_level = 2,
+                pipe_connections = {
+                    { type = "output", position = { -3, -2 } },
+                }
+            },
+            off_when_no_fluid_recipe = false
+        },
+        crafting_categories = { "colony-4" },
+        crafting_speed = 1,
+        selection_box = { { -2.75, -2.75 }, { 2.75, 2.75 } },
+        collision_box = { { -2.25, -2.25 }, { 2.25, 2.25 } },
+        open_sound = { filename = "__base__/sound/machine-open.ogg", volume = 0.85 },
+        close_sound = { filename = "__base__/sound/machine-close.ogg", volume = 0.75 },
+        energy_source = {
+            type = "electric",
+            usage_priority = "secondary-input",
+            drain = "25kW",
+        },
+        energy_usage = "150kW",
+        module_specification = {
+            module_slots = 2,
+            module_info_icon_shift = { 0, 0.5 },
+            module_info_multi_row_initial_height_modifier = -0.3
+        },
+        animation =
+        {
+            layers =
+            {
+                {
+                    filename = "__factorio-not-included__/graphics/colony-4/entity/150.png",
+                    frame_count = 1,
+                    height = 150,
+                    width = 150,
+                },
+            }
+        },
+        order = "d-b",
+        allowed_effects = { "consumption", "pollution" }
+    },
+    {
+        type = "assembling-machine",
+        name = "farm-4-1",
+        icon = "__factorio-not-included__/graphics/farm-4-1/entity/32.png",
+        icon_size = 32,
+        flags = { "placeable-neutral", "placeable-player", "player-creation" },
+        minable = { mining_time = 1, result = "farm-4-1" },
+        max_health = 600,
+        fluid_boxes =
+        {
+            {
+                production_type = "input",
+                pipe_picture = assembler2pipepictures(),
+                pipe_covers = pipecoverspictures(),
+                base_area = 10,
+                base_level = -2,
+                pipe_connections = {
+                    { type = "input", position = { 3, 2 } },
+                }
+            },
+            {
+                production_type = "input",
+                pipe_picture = assembler2pipepictures(),
+                pipe_covers = pipecoverspictures(),
+                base_area = 10,
+                base_level = -2,
+                pipe_connections = {
+                    { type = "input", position = { 3, -2 } },
+                }
+            },
+            {
+                production_type = "output",
+                pipe_picture = assembler2pipepictures(),
+                pipe_covers = pipecoverspictures(),
+                base_area = 10,
+                base_level = 2,
+                pipe_connections = {
+                    { type = "output", position = { -3, 2 } },
+                }
+            },
+            {
+                production_type = "output",
+                pipe_picture = assembler2pipepictures(),
+                pipe_covers = pipecoverspictures(),
+                base_area = 10,
+                base_level = 2,
+                pipe_connections = {
+                    { type = "output", position = { -3, -2 } },
+                }
+            },
+            off_when_no_fluid_recipe = false
+        },
+        crafting_categories = { "farm-4-1" },
+        crafting_speed = 1,
+        selection_box = { { -2.75, -2.75 }, { 2.75, 2.75 } },
+        collision_box = { { -2.25, -2.25 }, { 2.25, 2.25 } },
+        open_sound = { filename = "__base__/sound/machine-open.ogg", volume = 0.85 },
+        close_sound = { filename = "__base__/sound/machine-close.ogg", volume = 0.75 },
+        energy_source = {
+            type = "electric",
+            usage_priority = "secondary-input",
+            drain = "25kW",
+        },
+        energy_usage = "150kW",
+        module_specification = {
+            module_slots = 2,
+            module_info_icon_shift = { 0, 0.5 },
+            module_info_multi_row_initial_height_modifier = -0.3
+        },
+        animation =
+        {
+            layers =
+            {
+                {
+                    filename = "__factorio-not-included__/graphics/farm-4-1/entity/150.png",
+                    frame_count = 1,
+                    height = 150,
+                    width = 150,
+                },
+            }
+        },
+        order = "d-b",
+        allowed_effects = { "consumption", "pollution" }
+    },
+    {
+        type = "assembling-machine",
+        name = "farm-4-2",
+        icon = "__factorio-not-included__/graphics/farm-4-2/entity/32.png",
+        icon_size = 32,
+        flags = { "placeable-neutral", "placeable-player", "player-creation" },
+        minable = { mining_time = 1, result = "farm-4-2" },
+        max_health = 600,
+        fluid_boxes =
+        {
+            {
+                production_type = "input",
+                pipe_picture = assembler2pipepictures(),
+                pipe_covers = pipecoverspictures(),
+                base_area = 10,
+                base_level = -2,
+                pipe_connections = {
+                    { type = "input", position = { 3, 2 } },
+                }
+            },
+            {
+                production_type = "input",
+                pipe_picture = assembler2pipepictures(),
+                pipe_covers = pipecoverspictures(),
+                base_area = 10,
+                base_level = -2,
+                pipe_connections = {
+                    { type = "input", position = { 3, -2 } },
+                }
+            },
+            {
+                production_type = "output",
+                pipe_picture = assembler2pipepictures(),
+                pipe_covers = pipecoverspictures(),
+                base_area = 10,
+                base_level = 2,
+                pipe_connections = {
+                    { type = "output", position = { -3, 2 } },
+                }
+            },
+            {
+                production_type = "output",
+                pipe_picture = assembler2pipepictures(),
+                pipe_covers = pipecoverspictures(),
+                base_area = 10,
+                base_level = 2,
+                pipe_connections = {
+                    { type = "output", position = { -3, -2 } },
+                }
+            },
+            off_when_no_fluid_recipe = false
+        },
+        crafting_categories = { "farm-4-2" },
+        crafting_speed = 1,
+        selection_box = { { -2.75, -2.75 }, { 2.75, 2.75 } },
+        collision_box = { { -2.25, -2.25 }, { 2.25, 2.25 } },
+        open_sound = { filename = "__base__/sound/machine-open.ogg", volume = 0.85 },
+        close_sound = { filename = "__base__/sound/machine-close.ogg", volume = 0.75 },
+        energy_source = {
+            type = "electric",
+            usage_priority = "secondary-input",
+            drain = "25kW",
+        },
+        energy_usage = "150kW",
+        module_specification = {
+            module_slots = 2,
+            module_info_icon_shift = { 0, 0.5 },
+            module_info_multi_row_initial_height_modifier = -0.3
+        },
+        animation =
+        {
+            layers =
+            {
+                {
+                    filename = "__factorio-not-included__/graphics/farm-4-2/entity/150.png",
+                    frame_count = 1,
+                    height = 150,
+                    width = 150,
+                },
+            }
+        },
+        order = "d-b",
+        allowed_effects = { "consumption", "pollution" }
+    },
+    {
+        type = "assembling-machine",
+        name = "farm-4-3",
+        icon = "__factorio-not-included__/graphics/farm-4-3/entity/32.png",
+        icon_size = 32,
+        flags = { "placeable-neutral", "placeable-player", "player-creation" },
+        minable = { mining_time = 1, result = "farm-4-3" },
+        max_health = 600,
+        fluid_boxes =
+        {
+            {
+                production_type = "input",
+                pipe_picture = assembler2pipepictures(),
+                pipe_covers = pipecoverspictures(),
+                base_area = 10,
+                base_level = -2,
+                pipe_connections = {
+                    { type = "input", position = { 3, 2 } },
+                }
+            },
+            {
+                production_type = "input",
+                pipe_picture = assembler2pipepictures(),
+                pipe_covers = pipecoverspictures(),
+                base_area = 10,
+                base_level = -2,
+                pipe_connections = {
+                    { type = "input", position = { 3, -2 } },
+                }
+            },
+            {
+                production_type = "output",
+                pipe_picture = assembler2pipepictures(),
+                pipe_covers = pipecoverspictures(),
+                base_area = 10,
+                base_level = 2,
+                pipe_connections = {
+                    { type = "output", position = { -3, 2 } },
+                }
+            },
+            {
+                production_type = "output",
+                pipe_picture = assembler2pipepictures(),
+                pipe_covers = pipecoverspictures(),
+                base_area = 10,
+                base_level = 2,
+                pipe_connections = {
+                    { type = "output", position = { -3, -2 } },
+                }
+            },
+            off_when_no_fluid_recipe = false
+        },
+        crafting_categories = { "farm-4-3" },
+        crafting_speed = 1,
+        selection_box = { { -2.75, -2.75 }, { 2.75, 2.75 } },
+        collision_box = { { -2.25, -2.25 }, { 2.25, 2.25 } },
+        open_sound = { filename = "__base__/sound/machine-open.ogg", volume = 0.85 },
+        close_sound = { filename = "__base__/sound/machine-close.ogg", volume = 0.75 },
+        energy_source = {
+            type = "electric",
+            usage_priority = "secondary-input",
+            drain = "25kW",
+        },
+        energy_usage = "150kW",
+        module_specification = {
+            module_slots = 2,
+            module_info_icon_shift = { 0, 0.5 },
+            module_info_multi_row_initial_height_modifier = -0.3
+        },
+        animation =
+        {
+            layers =
+            {
+                {
+                    filename = "__factorio-not-included__/graphics/farm-4-3/entity/150.png",
+                    frame_count = 1,
+                    height = 150,
+                    width = 150,
+                },
+            }
+        },
+        order = "d-b",
+        allowed_effects = { "consumption", "pollution" }
+    },
+    {
+        type = "assembling-machine",
+        name = "pasture-4-1",
+        icon = "__factorio-not-included__/graphics/pasture-4-1/entity/32.png",
+        icon_size = 32,
+        flags = { "placeable-neutral", "placeable-player", "player-creation" },
+        minable = { mining_time = 1, result = "pasture-4-1" },
+        max_health = 600,
+        fluid_boxes =
+        {
+            {
+                production_type = "input",
+                pipe_picture = assembler2pipepictures(),
+                pipe_covers = pipecoverspictures(),
+                base_area = 10,
+                base_level = -2,
+                pipe_connections = {
+                    { type = "input", position = { 3, 2 } },
+                }
+            },
+            {
+                production_type = "input",
+                pipe_picture = assembler2pipepictures(),
+                pipe_covers = pipecoverspictures(),
+                base_area = 10,
+                base_level = -2,
+                pipe_connections = {
+                    { type = "input", position = { 3, -2 } },
+                }
+            },
+            {
+                production_type = "output",
+                pipe_picture = assembler2pipepictures(),
+                pipe_covers = pipecoverspictures(),
+                base_area = 10,
+                base_level = 2,
+                pipe_connections = {
+                    { type = "output", position = { -3, 2 } },
+                }
+            },
+            {
+                production_type = "output",
+                pipe_picture = assembler2pipepictures(),
+                pipe_covers = pipecoverspictures(),
+                base_area = 10,
+                base_level = 2,
+                pipe_connections = {
+                    { type = "output", position = { -3, -2 } },
+                }
+            },
+            off_when_no_fluid_recipe = false
+        },
+        crafting_categories = { "pasture-4-1" },
+        crafting_speed = 1,
+        selection_box = { { -2.75, -2.75 }, { 2.75, 2.75 } },
+        collision_box = { { -2.25, -2.25 }, { 2.25, 2.25 } },
+        open_sound = { filename = "__base__/sound/machine-open.ogg", volume = 0.85 },
+        close_sound = { filename = "__base__/sound/machine-close.ogg", volume = 0.75 },
+        energy_source = {
+            type = "electric",
+            usage_priority = "secondary-input",
+            drain = "25kW",
+        },
+        energy_usage = "150kW",
+        module_specification = {
+            module_slots = 2,
+            module_info_icon_shift = { 0, 0.5 },
+            module_info_multi_row_initial_height_modifier = -0.3
+        },
+        animation =
+        {
+            layers =
+            {
+                {
+                    filename = "__factorio-not-included__/graphics/pasture-4-1/entity/150.png",
+                    frame_count = 1,
+                    height = 150,
+                    width = 150,
+                },
+            }
+        },
+        order = "d-b",
+        allowed_effects = { "consumption", "pollution" }
+    },
+    {
+        type = "assembling-machine",
+        name = "pasture-4-2",
+        icon = "__factorio-not-included__/graphics/pasture-4-2/entity/32.png",
+        icon_size = 32,
+        flags = { "placeable-neutral", "placeable-player", "player-creation" },
+        minable = { mining_time = 1, result = "pasture-4-2" },
+        max_health = 600,
+        fluid_boxes =
+        {
+            {
+                production_type = "input",
+                pipe_picture = assembler2pipepictures(),
+                pipe_covers = pipecoverspictures(),
+                base_area = 10,
+                base_level = -2,
+                pipe_connections = {
+                    { type = "input", position = { 3, 2 } },
+                }
+            },
+            {
+                production_type = "input",
+                pipe_picture = assembler2pipepictures(),
+                pipe_covers = pipecoverspictures(),
+                base_area = 10,
+                base_level = -2,
+                pipe_connections = {
+                    { type = "input", position = { 3, -2 } },
+                }
+            },
+            {
+                production_type = "output",
+                pipe_picture = assembler2pipepictures(),
+                pipe_covers = pipecoverspictures(),
+                base_area = 10,
+                base_level = 2,
+                pipe_connections = {
+                    { type = "output", position = { -3, 2 } },
+                }
+            },
+            {
+                production_type = "output",
+                pipe_picture = assembler2pipepictures(),
+                pipe_covers = pipecoverspictures(),
+                base_area = 10,
+                base_level = 2,
+                pipe_connections = {
+                    { type = "output", position = { -3, -2 } },
+                }
+            },
+            off_when_no_fluid_recipe = false
+        },
+        crafting_categories = { "pasture-4-2" },
+        crafting_speed = 1,
+        selection_box = { { -2.75, -2.75 }, { 2.75, 2.75 } },
+        collision_box = { { -2.25, -2.25 }, { 2.25, 2.25 } },
+        open_sound = { filename = "__base__/sound/machine-open.ogg", volume = 0.85 },
+        close_sound = { filename = "__base__/sound/machine-close.ogg", volume = 0.75 },
+        energy_source = {
+            type = "electric",
+            usage_priority = "secondary-input",
+            drain = "25kW",
+        },
+        energy_usage = "150kW",
+        module_specification = {
+            module_slots = 2,
+            module_info_icon_shift = { 0, 0.5 },
+            module_info_multi_row_initial_height_modifier = -0.3
+        },
+        animation =
+        {
+            layers =
+            {
+                {
+                    filename = "__factorio-not-included__/graphics/pasture-4-2/entity/150.png",
+                    frame_count = 1,
+                    height = 150,
+                    width = 150,
+                },
+            }
+        },
+        order = "d-b",
+        allowed_effects = { "consumption", "pollution" }
+    },
+    {
+        type = "assembling-machine",
+        name = "pasture-4-3",
+        icon = "__factorio-not-included__/graphics/pasture-4-3/entity/32.png",
+        icon_size = 32,
+        flags = { "placeable-neutral", "placeable-player", "player-creation" },
+        minable = { mining_time = 1, result = "pasture-4-3" },
+        max_health = 600,
+        fluid_boxes =
+        {
+            {
+                production_type = "input",
+                pipe_picture = assembler2pipepictures(),
+                pipe_covers = pipecoverspictures(),
+                base_area = 10,
+                base_level = -2,
+                pipe_connections = {
+                    { type = "input", position = { 3, 2 } },
+                }
+            },
+            {
+                production_type = "input",
+                pipe_picture = assembler2pipepictures(),
+                pipe_covers = pipecoverspictures(),
+                base_area = 10,
+                base_level = -2,
+                pipe_connections = {
+                    { type = "input", position = { 3, -2 } },
+                }
+            },
+            {
+                production_type = "output",
+                pipe_picture = assembler2pipepictures(),
+                pipe_covers = pipecoverspictures(),
+                base_area = 10,
+                base_level = 2,
+                pipe_connections = {
+                    { type = "output", position = { -3, 2 } },
+                }
+            },
+            {
+                production_type = "output",
+                pipe_picture = assembler2pipepictures(),
+                pipe_covers = pipecoverspictures(),
+                base_area = 10,
+                base_level = 2,
+                pipe_connections = {
+                    { type = "output", position = { -3, -2 } },
+                }
+            },
+            off_when_no_fluid_recipe = false
+        },
+        crafting_categories = { "pasture-4-3" },
+        crafting_speed = 1,
+        selection_box = { { -2.75, -2.75 }, { 2.75, 2.75 } },
+        collision_box = { { -2.25, -2.25 }, { 2.25, 2.25 } },
+        open_sound = { filename = "__base__/sound/machine-open.ogg", volume = 0.85 },
+        close_sound = { filename = "__base__/sound/machine-close.ogg", volume = 0.75 },
+        energy_source = {
+            type = "electric",
+            usage_priority = "secondary-input",
+            drain = "25kW",
+        },
+        energy_usage = "150kW",
+        module_specification = {
+            module_slots = 2,
+            module_info_icon_shift = { 0, 0.5 },
+            module_info_multi_row_initial_height_modifier = -0.3
+        },
+        animation =
+        {
+            layers =
+            {
+                {
+                    filename = "__factorio-not-included__/graphics/pasture-4-3/entity/150.png",
+                    frame_count = 1,
+                    height = 150,
+                    width = 150,
+                },
+            }
+        },
+        order = "d-b",
+        allowed_effects = { "consumption", "pollution" }
+    },
+    {
+        type = "assembling-machine",
+        name = "fuel-generator",
+        icon = "__factorio-not-included__/graphics/fuel-generator/entity/32.png",
+        icon_size = 32,
+        flags = { "placeable-neutral", "placeable-player", "player-creation" },
+        minable = { mining_time = 1, result = "fuel-generator" },
+        max_health = 600,
+        fluid_boxes =
+        {
+            {
+                production_type = "input",
+                pipe_picture = assembler2pipepictures(),
+                pipe_covers = pipecoverspictures(),
+                base_area = 10,
+                base_level = -2,
+                pipe_connections = {
+                    { type = "input", position = { 3, 2 } },
+                }
+            },
+            {
+                production_type = "input",
+                pipe_picture = assembler2pipepictures(),
+                pipe_covers = pipecoverspictures(),
+                base_area = 10,
+                base_level = -2,
+                pipe_connections = {
+                    { type = "input", position = { 3, -2 } },
+                }
+            },
+            {
+                production_type = "output",
+                pipe_picture = assembler2pipepictures(),
+                pipe_covers = pipecoverspictures(),
+                base_area = 10,
+                base_level = 2,
+                pipe_connections = {
+                    { type = "output", position = { -3, 2 } },
+                }
+            },
+            {
+                production_type = "output",
+                pipe_picture = assembler2pipepictures(),
+                pipe_covers = pipecoverspictures(),
+                base_area = 10,
+                base_level = 2,
+                pipe_connections = {
+                    { type = "output", position = { -3, -2 } },
+                }
+            },
+            off_when_no_fluid_recipe = false
+        },
+        crafting_categories = { "fuel-generator" },
+        crafting_speed = 1,
+        selection_box = { { -2.75, -2.75 }, { 2.75, 2.75 } },
+        collision_box = { { -2.25, -2.25 }, { 2.25, 2.25 } },
+        open_sound = { filename = "__base__/sound/machine-open.ogg", volume = 0.85 },
+        close_sound = { filename = "__base__/sound/machine-close.ogg", volume = 0.75 },
+        energy_source = {
+            type = "electric",
+            usage_priority = "secondary-input",
+            drain = "25kW",
+        },
+        energy_usage = "150kW",
+        module_specification = {
+            module_slots = 2,
+            module_info_icon_shift = { 0, 0.5 },
+            module_info_multi_row_initial_height_modifier = -0.3
+        },
+        animation =
+        {
+            layers =
+            {
+                {
+                    filename = "__factorio-not-included__/graphics/fuel-generator/entity/150.png",
+                    frame_count = 1,
+                    height = 150,
+                    width = 150,
+                },
+            }
+        },
+        order = "d-b",
+        allowed_effects = { "consumption", "pollution" }
+    },
+    {
+        type = "assembling-machine",
+        name = "h2-generator",
+        icon = "__factorio-not-included__/graphics/h2-generator/entity/32.png",
+        icon_size = 32,
+        flags = { "placeable-neutral", "placeable-player", "player-creation" },
+        minable = { mining_time = 1, result = "h2-generator" },
+        max_health = 600,
+        fluid_boxes =
+        {
+            {
+                production_type = "input",
+                pipe_picture = assembler2pipepictures(),
+                pipe_covers = pipecoverspictures(),
+                base_area = 10,
+                base_level = -2,
+                pipe_connections = {
+                    { type = "input", position = { 3, 2 } },
+                }
+            },
+            {
+                production_type = "input",
+                pipe_picture = assembler2pipepictures(),
+                pipe_covers = pipecoverspictures(),
+                base_area = 10,
+                base_level = -2,
+                pipe_connections = {
+                    { type = "input", position = { 3, -2 } },
+                }
+            },
+            {
+                production_type = "output",
+                pipe_picture = assembler2pipepictures(),
+                pipe_covers = pipecoverspictures(),
+                base_area = 10,
+                base_level = 2,
+                pipe_connections = {
+                    { type = "output", position = { -3, 2 } },
+                }
+            },
+            {
+                production_type = "output",
+                pipe_picture = assembler2pipepictures(),
+                pipe_covers = pipecoverspictures(),
+                base_area = 10,
+                base_level = 2,
+                pipe_connections = {
+                    { type = "output", position = { -3, -2 } },
+                }
+            },
+            off_when_no_fluid_recipe = false
+        },
+        crafting_categories = { "h2-generator" },
+        crafting_speed = 1,
+        selection_box = { { -2.75, -2.75 }, { 2.75, 2.75 } },
+        collision_box = { { -2.25, -2.25 }, { 2.25, 2.25 } },
+        open_sound = { filename = "__base__/sound/machine-open.ogg", volume = 0.85 },
+        close_sound = { filename = "__base__/sound/machine-close.ogg", volume = 0.75 },
+        energy_source = {
+            type = "electric",
+            usage_priority = "secondary-input",
+            drain = "25kW",
+        },
+        energy_usage = "150kW",
+        module_specification = {
+            module_slots = 2,
+            module_info_icon_shift = { 0, 0.5 },
+            module_info_multi_row_initial_height_modifier = -0.3
+        },
+        animation =
+        {
+            layers =
+            {
+                {
+                    filename = "__factorio-not-included__/graphics/h2-generator/entity/150.png",
+                    frame_count = 1,
+                    height = 150,
+                    width = 150,
+                },
+            }
+        },
+        order = "d-b",
+        allowed_effects = { "consumption", "pollution" }
+    },
 })
