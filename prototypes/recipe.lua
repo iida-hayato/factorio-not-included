@@ -654,7 +654,7 @@ data:extend({
         energy_required = 10,
         ingredients =
         {
-            { type = "fluid", name = "o2", amount = 6000 },
+            { type = "fluid", name = "o2", amount = 4500 },
             { type = "fluid", name = "sparkling-water", amount = 2000 },
             { "small-lamp", 10 },
             { "clothes-1", 5 },
@@ -946,7 +946,7 @@ data:extend({
         energy_required = 10,
         ingredients =
         {
-            { type = "fluid", name = "o2", amount = 9000 },
+            { type = "fluid", name = "o2", amount = 6000 },
             { type = "fluid", name = "juice", amount = 900 },
             { "tv", 1 },
             { "clothes-1", 1 },
@@ -1291,7 +1291,6 @@ data:extend({
             { "polluted-dirt", 1 },
             { type = "fluid", name = "co2", amount = 200 },
         }
-
     },
     {
         type = "recipe",
