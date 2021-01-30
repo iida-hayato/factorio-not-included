@@ -15,7 +15,7 @@
         },
         results =
         {
-            { "$__1__$", 5 },
+            { "$__1__$", 1 },
             { type = "fluid", name = "co2", amount = 100 },
             { type = "fluid", name = "polluted-water", amount = 1400 },
         }
