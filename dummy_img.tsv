@@ -216,10 +216,8 @@ pasture-4-3	entity	150
 pasture-4-3	item	64
 fuel-generator	entity	32
 fuel-generator	entity	150
-fuel-generator	item	64
 h2-generator	entity	32
 h2-generator	entity	150
-h2-generator	item	64
 juice	item	64
 natural-gas	item	64
 food-4	item	64
@@ -263,3 +261,5 @@ compost-plant-4-3	item-recipe	32
 compost-meat-4-1	item-recipe	32
 compost-meat-4-2	item-recipe	32
 compost-meat-4-3	item-recipe	32
+fuel-generator	tech	256
+h2-generator	tech	256
