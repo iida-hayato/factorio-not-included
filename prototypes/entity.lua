@@ -64,7 +64,6 @@ data:extend({
             drain = "25kW",
         },
         energy_usage = "150kW",
-        ingredient_count = 4,
         module_specification = {
             module_slots = 2,
             module_info_icon_shift = { 0, 0.5 },
@@ -139,7 +138,6 @@ data:extend({
             drain = "25kW",
         },
         energy_usage = "150kW",
-        ingredient_count = 4,
         module_specification = {
             module_slots = 2,
             module_info_icon_shift = { 0, 0.5 },
@@ -204,7 +202,6 @@ data:extend({
             drain = "25kW",
         },
         energy_usage = "150kW",
-        ingredient_count = 4,
         module_specification = {
             module_slots = 2,
             module_info_icon_shift = { 0, 0.5 },
@@ -289,7 +286,6 @@ data:extend({
             drain = "25kW",
         },
         energy_usage = "150kW",
-        ingredient_count = 4,
         module_specification = {
             module_slots = 2,
             module_info_icon_shift = { 0, 0.5 },
@@ -330,7 +326,6 @@ data:extend({
             drain = "25kW",
         },
         energy_usage = "150kW",
-        ingredient_count = 4,
         module_specification = {
             module_slots = 2,
             module_info_icon_shift = { 0, 0.5 },
@@ -415,7 +410,6 @@ data:extend({
             drain = "25kW",
         },
         energy_usage = "150kW",
-        ingredient_count = 4,
         module_specification = {
             module_slots = 2,
             module_info_icon_shift = { 0, 0.5 },
@@ -500,7 +494,6 @@ data:extend({
             drain = "25kW",
         },
         energy_usage = "150kW",
-        ingredient_count = 4,
         module_specification = {
             module_slots = 2,
             module_info_icon_shift = { 0, 0.5 },
@@ -565,7 +558,6 @@ data:extend({
             drain = "25kW",
         },
         energy_usage = "150kW",
-        ingredient_count = 4,
         module_specification = {
             module_slots = 2,
             module_info_icon_shift = { 0, 0.5 },
@@ -640,7 +632,6 @@ data:extend({
             drain = "25kW",
         },
         energy_usage = "150kW",
-        ingredient_count = 4,
         module_specification = {
             module_slots = 2,
             module_info_icon_shift = { 0, 0.5 },
@@ -749,7 +740,6 @@ data:extend({
             drain = "25kW",
         },
         energy_usage = "150kW",
-        ingredient_count = 4,
         module_specification = {
             module_slots = 2,
             module_info_icon_shift = { 0, 0.5 },
@@ -834,7 +824,6 @@ data:extend({
             drain = "25kW",
         },
         energy_usage = "150kW",
-        ingredient_count = 4,
         module_specification = {
             module_slots = 2,
             module_info_icon_shift = { 0, 0.5 },
@@ -919,7 +908,6 @@ data:extend({
             drain = "25kW",
         },
         energy_usage = "150kW",
-        ingredient_count = 4,
         module_specification = {
             module_slots = 2,
             module_info_icon_shift = { 0, 0.5 },
@@ -984,7 +972,6 @@ data:extend({
             drain = "25kW",
         },
         energy_usage = "150kW",
-        ingredient_count = 4,
         module_specification = {
             module_slots = 2,
             module_info_icon_shift = { 0, 0.5 },
@@ -1049,7 +1036,6 @@ data:extend({
             drain = "25kW",
         },
         energy_usage = "150kW",
-        ingredient_count = 4,
         module_specification = {
             module_slots = 2,
             module_info_icon_shift = { 0, 0.5 },
@@ -1114,7 +1100,6 @@ data:extend({
             drain = "25kW",
         },
         energy_usage = "150kW",
-        ingredient_count = 4,
         module_specification = {
             module_slots = 2,
             module_info_icon_shift = { 0, 0.5 },
@@ -1179,7 +1164,6 @@ data:extend({
             drain = "25kW",
         },
         energy_usage = "150kW",
-        ingredient_count = 4,
         module_specification = {
             module_slots = 2,
             module_info_icon_shift = { 0, 0.5 },
@@ -1264,7 +1248,6 @@ data:extend({
             drain = "25kW",
         },
         energy_usage = "150kW",
-        ingredient_count = 4,
         module_specification = {
             module_slots = 2,
             module_info_icon_shift = { 0, 0.5 },
@@ -1349,7 +1332,6 @@ data:extend({
             drain = "25kW",
         },
         energy_usage = "150kW",
-        ingredient_count = 4,
         module_specification = {
             module_slots = 2,
             module_info_icon_shift = { 0, 0.5 },
@@ -1434,7 +1416,6 @@ data:extend({
             drain = "25kW",
         },
         energy_usage = "150kW",
-        ingredient_count = 4,
         module_specification = {
             module_slots = 2,
             module_info_icon_shift = { 0, 0.5 },
@@ -1519,7 +1500,6 @@ data:extend({
             drain = "25kW",
         },
         energy_usage = "150kW",
-        ingredient_count = 4,
         module_specification = {
             module_slots = 2,
             module_info_icon_shift = { 0, 0.5 },
@@ -1604,7 +1584,6 @@ data:extend({
             drain = "25kW",
         },
         energy_usage = "150kW",
-        ingredient_count = 4,
         module_specification = {
             module_slots = 2,
             module_info_icon_shift = { 0, 0.5 },
@@ -1689,7 +1668,6 @@ data:extend({
             drain = "25kW",
         },
         energy_usage = "150kW",
-        ingredient_count = 4,
         module_specification = {
             module_slots = 2,
             module_info_icon_shift = { 0, 0.5 },
@@ -1774,7 +1752,6 @@ data:extend({
             drain = "25kW",
         },
         energy_usage = "150kW",
-        ingredient_count = 4,
         module_specification = {
             module_slots = 2,
             module_info_icon_shift = { 0, 0.5 },
@@ -1859,7 +1836,6 @@ data:extend({
             drain = "25kW",
         },
         energy_usage = "150kW",
-        ingredient_count = 4,
         module_specification = {
             module_slots = 2,
             module_info_icon_shift = { 0, 0.5 },
@@ -1944,7 +1920,6 @@ data:extend({
             drain = "25kW",
         },
         energy_usage = "750kW",
-        ingredient_count = 4,
         module_specification = {
             module_slots = 2,
             module_info_icon_shift = { 0, 0.5 },
@@ -2722,7 +2697,7 @@ data:extend({
         order = "d-b",
         allowed_effects = { "consumption", "pollution" }
     },
---    5
+    --    5
     {
         type = "assembling-machine",
         name = "colony-5",
@@ -2806,7 +2781,7 @@ data:extend({
         },
         order = "d-b",
         allowed_effects = { "consumption", "pollution" }
-    } ,
+    },
     {
         type = "assembling-machine",
         name = "farm-5-1",
@@ -2890,7 +2865,7 @@ data:extend({
         },
         order = "d-b",
         allowed_effects = { "consumption", "pollution" }
-    } ,
+    },
     {
         type = "assembling-machine",
         name = "farm-5-2",
@@ -2974,7 +2949,7 @@ data:extend({
         },
         order = "d-b",
         allowed_effects = { "consumption", "pollution" }
-    } ,
+    },
     {
         type = "assembling-machine",
         name = "farm-5-3",
@@ -3058,7 +3033,7 @@ data:extend({
         },
         order = "d-b",
         allowed_effects = { "consumption", "pollution" }
-    } ,
+    },
     {
         type = "assembling-machine",
         name = "pasture-5-1",
@@ -3142,7 +3117,7 @@ data:extend({
         },
         order = "d-b",
         allowed_effects = { "consumption", "pollution" }
-    } ,
+    },
     {
         type = "assembling-machine",
         name = "pasture-5-2",
@@ -3226,7 +3201,7 @@ data:extend({
         },
         order = "d-b",
         allowed_effects = { "consumption", "pollution" }
-    } ,
+    },
     {
         type = "assembling-machine",
         name = "pasture-5-3",
@@ -3310,7 +3285,7 @@ data:extend({
         },
         order = "d-b",
         allowed_effects = { "consumption", "pollution" }
-    } ,
+    },
     {
         type = "assembling-machine",
         name = "natural-gas-generator",
@@ -3394,5 +3369,5 @@ data:extend({
         },
         order = "d-b",
         allowed_effects = { "consumption", "pollution" }
-    } ,
+    },
 })
