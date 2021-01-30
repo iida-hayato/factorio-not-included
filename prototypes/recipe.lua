@@ -1498,7 +1498,7 @@ data:extend({
         results =
         {
             { "plant-5-3", 1 },
-            { type = "fluid", name = "concenrated-polluted-water", amount = 200 },
+            { type = "fluid", name = "concentrated-polluted-water", amount = 200 },
         }
     },
     {
