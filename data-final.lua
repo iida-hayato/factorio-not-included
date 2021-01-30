@@ -24,3 +24,10 @@ data.raw.recipe["chemical-science-pack"].ingredients =
     { "advanced-circuit", 3 },
     { "sulfur", 1 }
 }
+data.raw.recipe["production-science-pack"].ingredients =
+{
+    { "human-4", 10 },
+    { "electric-furnace", 1 },
+    { "productivity-module", 1 },
+    { "rail", 30 }
+}
