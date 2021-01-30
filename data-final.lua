@@ -31,3 +31,17 @@ data.raw.recipe["production-science-pack"].ingredients =
     { "productivity-module", 1 },
     { "rail", 30 }
 }
+data.raw.recipe["utility-science-pack"].ingredients =
+{
+    { "human-5", 10 },
+    { "low-density-structure", 3 },
+    { "processing-unit", 2 },
+    { "flying-robot-frame", 1 }
+}
+data.raw.recipe["rocket-part"].ingredients =
+{
+    { "human-6", 10 },
+    { "rocket-control-unit", 10 },
+    { "low-density-structure", 10 },
+    { "rocket-fuel", 10 }
+}
