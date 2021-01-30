@@ -1655,7 +1655,7 @@ data:extend({
         enabled = false,
         icon = "__factorio-not-included__/graphics/clean-concentrated-polluted-water/item-recipe/32.png",
         icon_size = 32,
-        category = "natural-gas-generator",
+        category = "water-sieve-1",
         subgroup = "fni-item",
         energy_required = 10,
         ingredients =
