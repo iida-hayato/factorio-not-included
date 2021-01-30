@@ -1385,7 +1385,7 @@ data:extend({
         results =
         {
             { "human-5", 1 },
-            { "electlic-waste", 10 },
+            { "electric-garbage", 10 },
             { "oversize-waste", 1 },
             { "general-waste", 1 },
             { type = "fluid", name = "co2", amount = 3600 },
@@ -1577,7 +1577,7 @@ data:extend({
         energy_required = 10,
         ingredients =
         {
-            { "electric-waste", 1 },
+            { "electric-garbage", 1 },
         },
         results =
         {
