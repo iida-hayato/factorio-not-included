@@ -165,4 +165,21 @@ data:extend({
         flow_to_energy_ratio = 0.59,
         order = "c-a"
     },
+--    5
+    {
+        type = "fluid",
+        name = "wine",
+        icon = "__factorio-not-included__/graphics/wine/item/64.png",
+        icon_size = 64,
+        subgroup = "fni-fluid",
+        base_color = { r = 0.8, g = 0, b = 0.7, a = 1 },
+        flow_color = { r = 0.7, g = 0.7, b = 0.7, a = 1 },
+        default_temperature = 15,
+        max_temperature = 100,
+        heat_capacity = "0.6KJ",
+        pressure_to_speed_ratio = 0.15,
+        flow_to_energy_ratio = 0.59,
+        order = "c-a"
+    },
+
 })
