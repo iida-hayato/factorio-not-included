@@ -1,40 +1,33 @@
-colony-5	entity
-farm-5-1	entity
-farm-5-2	entity
-farm-5-3	entity
-pasture-5-1	entity
-pasture-5-2	entity
-pasture-5-3	entity
-natural-gas-generator	entity
-wine	fluid
-food-5	item
-human-5	item
-electric-garbage	item
-plant-5-1	item
-plant-5-2	item
-plant-5-3	item
-meat-5-1	item
-meat-5-2	item
-meat-5-3	item
-pc	item
-fashionable-clothes	item
-concentrated-polluted-water	item
-human-5	recipe	colony-5
-food-5	recipe	cooker-1
-wine	recipe	cooker-1
-plant-5-1	recipe	farm-5-1
-plant-5-2	recipe	farm-5-2
-plant-5-3	recipe	farm-5-3
-meat-5-1	recipe	pasture-5-1
-meat-5-2	recipe	pasture-5-2
-meat-5-3	recipe	pasture-5-3
-recycle-3	recipe	recycler-1
-pc	recipe	crafting
-textile-loom-2	recipe	textile-loom-1
-natural-gas-generator	recipe	natural-gas-generator
-compost-plant-5-1	recipe	compost-1
-compost-plant-5-2	recipe	compost-1
-compost-plant-5-3	recipe	compost-1
-compost-meat-5-1	recipe	compost-1
-compost-meat-5-2	recipe	compost-1
-compost-meat-5-3	recipe	compost-1
+colony-6	entity
+farm-6-1	entity
+farm-6-2	entity
+farm-6-3	entity
+pasture-6-1	entity
+pasture-6-2	entity
+pasture-6-3	entity
+food-6	item
+human-6	item
+plant-6-1	item
+plant-6-2	item
+plant-6-3	item
+meat-6-1	item
+meat-6-2	item
+meat-6-3	item
+factory-game	item
+space-suite	item
+human-6	recipe	colony-6
+food-6	recipe	cooker-1
+plant-6-1	recipe	farm-6-1
+plant-6-2	recipe	farm-6-2
+plant-6-3	recipe	farm-6-3
+meat-6-1	recipe	pasture-6-1
+meat-6-2	recipe	pasture-6-2
+meat-6-3	recipe	pasture-6-3
+factory-game	recipe	crafting
+space-suite	recipe	textile-loom-1
+compost-plant-6-1	recipe	compost-1
+compost-plant-6-2	recipe	compost-1
+compost-plant-6-3	recipe	compost-1
+compost-meat-6-1	recipe	compost-1
+compost-meat-6-2	recipe	compost-1
+compost-meat-6-3	recipe	compost-1

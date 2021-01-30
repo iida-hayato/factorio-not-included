@@ -10,8 +10,7 @@
         ingredients =
         {
             { type = "fluid", name = "o2", amount = 1000 },
-            { type = "fluid", name = "water", amount = 1000 },
-            { "food-1", 1 },
+            { "food", 1 },
         },
         results =
         {

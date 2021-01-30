@@ -38,10 +38,10 @@ data.raw.recipe["utility-science-pack"].ingredients =
     { "processing-unit", 2 },
     { "flying-robot-frame", 1 }
 }
---data.raw.recipe["rocket-part"].ingredients =
---{
---    { "human-6", 10 },
---    { "rocket-control-unit", 10 },
---    { "low-density-structure", 10 },
---    { "rocket-fuel", 10 }
---}
+data.raw.recipe["rocket-part"].ingredients =
+{
+    { "human-6", 10 },
+    { "rocket-control-unit", 10 },
+    { "low-density-structure", 10 },
+    { "rocket-fuel", 10 }
+}
