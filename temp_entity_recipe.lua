@@ -11,7 +11,7 @@
                 {
                         { "steel-plate", 5 },
                         { "copper-plate", 5 },
-                        { "advanced-circuit", 6 },
+                        { "processing-unit", 6 },
                         { "iron-gear-wheel", 6 },
                 },
         },
