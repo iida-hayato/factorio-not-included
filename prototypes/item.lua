@@ -406,14 +406,4 @@ data:extend({
         subgroup = "fni-item",
         stack_size = 1,
     },
-    {
-        type = "item",
-        name = "concentrated-polluted-water",
-        icon = "__factorio-not-included__/graphics/concentrated-polluted-water/item/64.png",
-        icon_size = 64,
-        order = "w-b-a",
-        subgroup = "fni-item",
-        stack_size = 1,
-    },
-
 })
