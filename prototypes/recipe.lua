@@ -164,6 +164,34 @@ data:extend({
         type = "recipe-category",
         name = "natural-gas-generator"
     },
+    {
+        type = "recipe-category",
+        name = "colony-6"
+    },
+    {
+        type = "recipe-category",
+        name = "farm-6-1"
+    },
+    {
+        type = "recipe-category",
+        name = "farm-6-2"
+    },
+    {
+        type = "recipe-category",
+        name = "farm-6-3"
+    },
+    {
+        type = "recipe-category",
+        name = "pasture-6-1"
+    },
+    {
+        type = "recipe-category",
+        name = "pasture-6-2"
+    },
+    {
+        type = "recipe-category",
+        name = "pasture-6-3"
+    },
 })
 data:extend({
     {
@@ -1386,8 +1414,8 @@ data:extend({
         {
             { "human-5", 1 },
             { "electric-garbage", 10 },
-            { "oversize-garbage", 1 },
-            { "general-waste", 1 },
+            { "oversize-garbage", 20 },
+            { "general-waste", 30 },
             { type = "fluid", name = "co2", amount = 3600 },
             { type = "fluid", name = "concentrated-polluted-water", amount = 1200 },
         }
@@ -1784,6 +1812,349 @@ data:extend({
         {
             { type = "fluid", name = "polluted-oxygen", amount = 400 },
             { "meat-5-3", 1 },
+        },
+        results =
+        {
+            { "polluted-dirt", 1 },
+            { type = "fluid", name = "natural-gas", amount = 200 },
+        }
+    },
+    --    6
+    {
+        type = "recipe",
+        name = "human-6",
+        enabled = false,
+        icon = "__factorio-not-included__/graphics/human-6/item-recipe/32.png",
+        icon_size = 32,
+        category = "colony-6",
+        subgroup = "fni-item",
+        energy_required = 10,
+        ingredients =
+        {
+            { type = "fluid", name = "o2", amount = 9000 },
+            { "food-6", 1 },
+            { "space-suite", 1 },
+            { "pc", 1 },
+            { "factory-game", 1 },
+        },
+        results =
+        {
+            { "human-6", 1 },
+            { "electric-garbage", 20 },
+            { "oversize-garbage", 30 },
+            { "general-waste", 40 },
+            { type = "fluid", name = "co2", amount = 4200 },
+            { type = "fluid", name = "concentrated-polluted-water", amount = 1600 },
+        }
+    },
+    {
+        type = "recipe",
+        name = "food-6",
+        enabled = false,
+        icon = "__factorio-not-included__/graphics/food-6/item-recipe/32.png",
+        icon_size = 32,
+        category = "cooker-1",
+        subgroup = "fni-item",
+        energy_required = 10,
+        ingredients =
+        {
+            { "plant-6-1", 1 },
+            { "plant-6-2", 1 },
+            { "plant-6-3", 1 },
+            { "meat-6-1", 1 },
+            { "meat-6-2", 1 },
+            { "meat-6-3", 1 },
+            { type = "fluid", name = "wine", amount = 200 },
+        },
+        results =
+        {
+            { "food-6", 1 },
+            { type = "fluid", name = "concentrated-polluted-water", amount = 1200 },
+        }
+    },
+    {
+        type = "recipe",
+        name = "plant-6-1",
+        enabled = false,
+        icon = "__factorio-not-included__/graphics/plant-6-1/item-recipe/32.png",
+        icon_size = 32,
+        category = "farm-6-1",
+        subgroup = "fni-item",
+        energy_required = 10,
+        ingredients =
+        {
+            { type = "fluid", name = "co2", amount = 1200 },
+            { type = "fluid", name = "concentrated-polluted-water", amount = 400 },
+            { "dirt", 4 },
+        },
+        results =
+        {
+            { "plant-6-1", 1 },
+            { type = "fluid", name = "polluted-oxygen", amount = 600 },
+        }
+    },
+    {
+        type = "recipe",
+        name = "plant-6-2",
+        enabled = false,
+        icon = "__factorio-not-included__/graphics/plant-6-2/item-recipe/32.png",
+        icon_size = 32,
+        category = "farm-6-2",
+        subgroup = "fni-item",
+        energy_required = 10,
+        ingredients =
+        {
+            { type = "fluid", name = "n2", amount = 1200 },
+            { type = "fluid", name = "polluted-oxygen", amount = 800 },
+            { "polluted-dirt", 4 },
+        },
+        results =
+        {
+            { "plant-6-2", 1 },
+            { type = "fluid", name = "h2", amount = 1200 },
+        }
+    },
+    {
+        type = "recipe",
+        name = "plant-6-3",
+        enabled = false,
+        icon = "__factorio-not-included__/graphics/plant-6-3/item-recipe/32.png",
+        icon_size = 32,
+        category = "farm-6-3",
+        subgroup = "fni-item",
+        energy_required = 10,
+        ingredients =
+        {
+            { type = "fluid", name = "chlorine", amount = 800 },
+            { type = "fluid", name = "h2", amount = 600 },
+            { "slime", 4 },
+        },
+        results =
+        {
+            { "plant-6-3", 1 },
+            { type = "fluid", name = "natural-gas", amount = 800 },
+        }
+    },
+    {
+        type = "recipe",
+        name = "meat-6-1",
+        enabled = false,
+        icon = "__factorio-not-included__/graphics/meat-6-1/item-recipe/32.png",
+        icon_size = 32,
+        category = "pasture-6-1",
+        subgroup = "fni-item",
+        energy_required = 10,
+        ingredients =
+        {
+            { "plant-6-1", 1 },
+            { "meat-5-1", 2 },
+            { "copper-cable", 8 },
+            { type = "fluid", name = "natural-gas", amount = 1200 },
+        },
+        results =
+        {
+            { "meat-6-1", 1 },
+            { type = "fluid", name = "co2", amount = 1600 },
+        }
+    },
+    {
+        type = "recipe",
+        name = "meat-6-2",
+        enabled = false,
+        icon = "__factorio-not-included__/graphics/meat-6-2/item-recipe/32.png",
+        icon_size = 32,
+        category = "pasture-6-2",
+        subgroup = "fni-item",
+        energy_required = 10,
+        ingredients =
+        {
+            { "plant-6-2", 1 },
+            { "meat-5-2", 2 },
+            { "iron-stick", 8 },
+            { type = "fluid", name = "chlorine", amount = 600 },
+        },
+        results =
+        {
+            { "meat-6-2", 1 },
+            { type = "fluid", name = "concentrated-polluted-water", amount = 800 },
+        }
+    },
+    {
+        type = "recipe",
+        name = "meat-6-3",
+        enabled = false,
+        icon = "__factorio-not-included__/graphics/meat-6-3/item-recipe/32.png",
+        icon_size = 32,
+        category = "pasture-6-3",
+        subgroup = "fni-item",
+        energy_required = 10,
+        ingredients =
+        {
+            { "plant-6-3", 1 },
+            { "meat-5-3", 2 },
+            { "plastic-bar", 8 },
+            { type = "fluid", name = "h2", amount = 600 },
+        },
+        results =
+        {
+            { "meat-6-3", 1 },
+            { type = "fluid", name = "natural-gas", amount = 1200 },
+        }
+    },
+    {
+        type = "recipe",
+        name = "factory-game",
+        enabled = false,
+        icon = "__factorio-not-included__/graphics/factory-game/item-recipe/32.png",
+        icon_size = 32,
+        category = "crafting",
+        subgroup = "fni-item",
+        energy_required = 10,
+        ingredients =
+        {
+            { "processing-unit", 2 },
+            { "advanced-circuit", 8 },
+            { "electronic-circuit", 16 },
+        },
+        results =
+        {
+            { "factory-game", 1 },
+        }
+    },
+    {
+        type = "recipe",
+        name = "space-suite",
+        enabled = false,
+        icon = "__factorio-not-included__/graphics/space-suite/item-recipe/32.png",
+        icon_size = 32,
+        category = "textile-loom-1",
+        subgroup = "fni-item",
+        energy_required = 10,
+        ingredients =
+        {
+            { "processing-unit", 3 },
+            { "fiber", 8 },
+            { "plastic-bar", 16 },
+        },
+        results =
+        {
+            { "space-suite", 1 },
+            { type = "fluid", name = "concentrated-polluted-water", amount = 400 },
+        }
+    },
+    {
+        type = "recipe",
+        name = "compost-plant-6-1",
+        enabled = false,
+        icon = "__factorio-not-included__/graphics/compost-plant-6-1/item-recipe/32.png",
+        icon_size = 32,
+        category = "compost-1",
+        subgroup = "fni-item",
+        energy_required = 10,
+        ingredients =
+        {
+            { type = "fluid", name = "o2", amount = 400 },
+            { "plant-6-1", 1 },
+        },
+        results =
+        {
+            { "polluted-dirt", 1 },
+            { type = "fluid", name = "polluted-oxygen", amount = 200 },
+        }
+    },
+    {
+        type = "recipe",
+        name = "compost-plant-6-2",
+        enabled = false,
+        icon = "__factorio-not-included__/graphics/compost-plant-6-2/item-recipe/32.png",
+        icon_size = 32,
+        category = "compost-1",
+        subgroup = "fni-item",
+        energy_required = 10,
+        ingredients =
+        {
+            { type = "fluid", name = "polluted-oxygen", amount = 400 },
+            { "plant-6-2", 1 },
+        },
+        results =
+        {
+            { "polluted-dirt", 1 },
+            { type = "fluid", name = "natural-gas", amount = 200 },
+        }
+    },
+    {
+        type = "recipe",
+        name = "compost-plant-6-3",
+        enabled = false,
+        icon = "__factorio-not-included__/graphics/compost-plant-6-3/item-recipe/32.png",
+        icon_size = 32,
+        category = "compost-1",
+        subgroup = "fni-item",
+        energy_required = 10,
+        ingredients =
+        {
+            { type = "fluid", name = "polluted-oxygen", amount = 400 },
+            { "plant-6-3", 1 },
+        },
+        results =
+        {
+            { "polluted-dirt", 1 },
+            { type = "fluid", name = "h2", amount = 200 },
+        }
+    },
+    {
+        type = "recipe",
+        name = "compost-meat-6-1",
+        enabled = false,
+        icon = "__factorio-not-included__/graphics/compost-meat-6-1/item-recipe/32.png",
+        icon_size = 32,
+        category = "compost-1",
+        subgroup = "fni-item",
+        energy_required = 10,
+        ingredients =
+        {
+            { type = "fluid", name = "polluted-oxygen", amount = 400 },
+            { "meat-6-1", 1 },
+        },
+        results =
+        {
+            { "polluted-dirt", 1 },
+            { type = "fluid", name = "co2", amount = 200 },
+        }
+    },
+    {
+        type = "recipe",
+        name = "compost-meat-6-2",
+        enabled = false,
+        icon = "__factorio-not-included__/graphics/compost-meat-6-2/item-recipe/32.png",
+        icon_size = 32,
+        category = "compost-1",
+        subgroup = "fni-item",
+        energy_required = 10,
+        ingredients =
+        {
+            { type = "fluid", name = "polluted-oxygen", amount = 400 },
+            { "meat-6-2", 1 },
+        },
+        results =
+        {
+            { "polluted-dirt", 1 },
+            { type = "fluid", name = "concentrated-polluted-water", amount = 200 },
+        }
+    },
+    {
+        type = "recipe",
+        name = "compost-meat-6-3",
+        enabled = false,
+        icon = "__factorio-not-included__/graphics/compost-meat-6-3/item-recipe/32.png",
+        icon_size = 32,
+        category = "compost-1",
+        subgroup = "fni-item",
+        energy_required = 10,
+        ingredients =
+        {
+            { type = "fluid", name = "polluted-oxygen", amount = 400 },
+            { "meat-6-3", 1 },
         },
         results =
         {

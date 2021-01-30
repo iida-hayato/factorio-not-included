@@ -1451,4 +1451,357 @@ data:extend({
         prerequisites = { "production-science-pack", "compost-4" },
         order = "c-a"
     },
+    {
+        type = "technology",
+        name = "human-6",
+        icon_size = 256,
+        icon = "__factorio-not-included__/graphics/human-6/tech/256.png",
+        effects =
+        {
+            {
+                type = "unlock-recipe",
+                recipe = "entity-colony-6"
+            },
+            {
+                type = "unlock-recipe",
+                recipe = "human-6"
+            },
+        },
+        unit =
+        {
+            count = 100,
+            ingredients = {
+                { "automation-science-pack", 1 },
+                { "logistic-science-pack", 1 },
+                { "chemical-science-pack", 1 },
+                { "production-science-pack", 1 },
+                { "utility-science-pack", 1 },
+            },
+            time = 60
+        },
+        prerequisites = { "utility-science-pack" },
+        order = "c-a"
+    },
+    {
+        type = "technology",
+        name = "food-6",
+        icon_size = 256,
+        icon = "__factorio-not-included__/graphics/food-6/tech/256.png",
+        effects =
+        {
+            {
+                type = "unlock-recipe",
+                recipe = "entity-cooker-1"
+            },
+            {
+                type = "unlock-recipe",
+                recipe = "food-6"
+            },
+        },
+        unit =
+        {
+            count = 100,
+            ingredients = {
+                { "automation-science-pack", 1 },
+                { "logistic-science-pack", 1 },
+                { "chemical-science-pack", 1 },
+                { "production-science-pack", 1 },
+                { "utility-science-pack", 1 },
+            },
+            time = 60
+        },
+        prerequisites = { "utility-science-pack" },
+        order = "c-a"
+    },
+    {
+        type = "technology",
+        name = "plant-6-1",
+        icon_size = 256,
+        icon = "__factorio-not-included__/graphics/plant-6-1/tech/256.png",
+        effects =
+        {
+            {
+                type = "unlock-recipe",
+                recipe = "entity-farm-6-1"
+            },
+            {
+                type = "unlock-recipe",
+                recipe = "plant-6-1"
+            },
+        },
+        unit =
+        {
+            count = 100,
+            ingredients = {
+                { "automation-science-pack", 1 },
+                { "logistic-science-pack", 1 },
+                { "chemical-science-pack", 1 },
+                { "production-science-pack", 1 },
+                { "utility-science-pack", 1 },
+            },
+            time = 60
+        },
+        prerequisites = { "utility-science-pack" },
+        order = "c-a"
+    },
+    {
+        type = "technology",
+        name = "plant-6-2",
+        icon_size = 256,
+        icon = "__factorio-not-included__/graphics/plant-6-2/tech/256.png",
+        effects =
+        {
+            {
+                type = "unlock-recipe",
+                recipe = "entity-farm-6-2"
+            },
+            {
+                type = "unlock-recipe",
+                recipe = "plant-6-2"
+            },
+        },
+        unit =
+        {
+            count = 100,
+            ingredients = {
+                { "automation-science-pack", 1 },
+                { "logistic-science-pack", 1 },
+                { "chemical-science-pack", 1 },
+                { "production-science-pack", 1 },
+                { "utility-science-pack", 1 },
+            },
+            time = 60
+        },
+        prerequisites = { "utility-science-pack" },
+        order = "c-a"
+    },
+    {
+        type = "technology",
+        name = "plant-6-3",
+        icon_size = 256,
+        icon = "__factorio-not-included__/graphics/plant-6-3/tech/256.png",
+        effects =
+        {
+            {
+                type = "unlock-recipe",
+                recipe = "entity-farm-6-3"
+            },
+            {
+                type = "unlock-recipe",
+                recipe = "plant-6-3"
+            },
+        },
+        unit =
+        {
+            count = 100,
+            ingredients = {
+                { "automation-science-pack", 1 },
+                { "logistic-science-pack", 1 },
+                { "chemical-science-pack", 1 },
+                { "production-science-pack", 1 },
+                { "utility-science-pack", 1 },
+            },
+            time = 60
+        },
+        prerequisites = { "utility-science-pack" },
+        order = "c-a"
+    },
+    {
+        type = "technology",
+        name = "meat-6-1",
+        icon_size = 256,
+        icon = "__factorio-not-included__/graphics/meat-6-1/tech/256.png",
+        effects =
+        {
+            {
+                type = "unlock-recipe",
+                recipe = "entity-pasture-6-1"
+            },
+            {
+                type = "unlock-recipe",
+                recipe = "meat-6-1"
+            },
+        },
+        unit =
+        {
+            count = 100,
+            ingredients = {
+                { "automation-science-pack", 1 },
+                { "logistic-science-pack", 1 },
+                { "chemical-science-pack", 1 },
+                { "production-science-pack", 1 },
+                { "utility-science-pack", 1 },
+            },
+            time = 60
+        },
+        prerequisites = { "utility-science-pack" },
+        order = "c-a"
+    },
+    {
+        type = "technology",
+        name = "meat-6-2",
+        icon_size = 256,
+        icon = "__factorio-not-included__/graphics/meat-6-2/tech/256.png",
+        effects =
+        {
+            {
+                type = "unlock-recipe",
+                recipe = "entity-pasture-6-2"
+            },
+            {
+                type = "unlock-recipe",
+                recipe = "meat-6-2"
+            },
+        },
+        unit =
+        {
+            count = 100,
+            ingredients = {
+                { "automation-science-pack", 1 },
+                { "logistic-science-pack", 1 },
+                { "chemical-science-pack", 1 },
+                { "production-science-pack", 1 },
+                { "utility-science-pack", 1 },
+            },
+            time = 60
+        },
+        prerequisites = { "utility-science-pack" },
+        order = "c-a"
+    },
+    {
+        type = "technology",
+        name = "meat-6-3",
+        icon_size = 256,
+        icon = "__factorio-not-included__/graphics/meat-6-3/tech/256.png",
+        effects =
+        {
+            {
+                type = "unlock-recipe",
+                recipe = "entity-pasture-6-3"
+            },
+            {
+                type = "unlock-recipe",
+                recipe = "meat-6-3"
+            },
+        },
+        unit =
+        {
+            count = 100,
+            ingredients = {
+                { "automation-science-pack", 1 },
+                { "logistic-science-pack", 1 },
+                { "chemical-science-pack", 1 },
+                { "production-science-pack", 1 },
+                { "utility-science-pack", 1 },
+            },
+            time = 60
+        },
+        prerequisites = { "utility-science-pack" },
+        order = "c-a"
+    },
+    {
+        type = "technology",
+        name = "factory-game",
+        icon_size = 256,
+        icon = "__factorio-not-included__/graphics/factory-game/tech/256.png",
+        effects =
+        {
+            {
+                type = "unlock-recipe",
+                recipe = "factory-game"
+            },
+        },
+        unit =
+        {
+            count = 100,
+            ingredients = {
+                { "automation-science-pack", 1 },
+                { "logistic-science-pack", 1 },
+                { "chemical-science-pack", 1 },
+                { "production-science-pack", 1 },
+                { "utility-science-pack", 1 },
+            },
+            time = 60
+        },
+        prerequisites = { "utility-science-pack" },
+        order = "c-a"
+    },
+    {
+        type = "technology",
+        name = "space-suite",
+        icon_size = 256,
+        icon = "__factorio-not-included__/graphics/space-suite/tech/256.png",
+        effects =
+        {
+            {
+                type = "unlock-recipe",
+                recipe = "entity-textile-loom-1"
+            },
+            {
+                type = "unlock-recipe",
+                recipe = "space-suite"
+            },
+        },
+        unit =
+        {
+            count = 100,
+            ingredients = {
+                { "automation-science-pack", 1 },
+                { "logistic-science-pack", 1 },
+                { "chemical-science-pack", 1 },
+                { "production-science-pack", 1 },
+                { "utility-science-pack", 1 },
+            },
+            time = 60
+        },
+        prerequisites = { "utility-science-pack" },
+        order = "c-a"
+    },
+    {
+        type = "technology",
+        name = "compost-6",
+        icon_size = 256,
+        icon = "__factorio-not-included__/graphics/compost-6/tech/256.png",
+        effects =
+        {
+            {
+                type = "unlock-recipe",
+                recipe = "compost-plant-6-1"
+            },
+            {
+                type = "unlock-recipe",
+                recipe = "compost-plant-6-2"
+            },
+            {
+                type = "unlock-recipe",
+                recipe = "compost-plant-6-3"
+            },
+            {
+                type = "unlock-recipe",
+                recipe = "compost-meat-6-1"
+            },
+            {
+                type = "unlock-recipe",
+                recipe = "compost-meat-6-2"
+            },
+            {
+                type = "unlock-recipe",
+                recipe = "compost-meat-6-3"
+            },
+        },
+        unit =
+        {
+            count = 100,
+            ingredients = {
+                { "automation-science-pack", 1 },
+                { "logistic-science-pack", 1 },
+                { "chemical-science-pack", 1 },
+                { "production-science-pack", 1 },
+                { "utility-science-pack", 1 },
+            },
+            time = 60
+        },
+        prerequisites = { "utility-science-pack", "compost-5" },
+        order = "c-a"
+    },
 })

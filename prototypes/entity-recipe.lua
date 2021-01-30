@@ -692,4 +692,125 @@ data:extend({
             { "iron-gear-wheel", 6 },
         },
     },
+--    6
+    {
+        type = "recipe",
+        name = "entity-colony-6",
+        result = "colony-6",
+        enabled = false,
+        icon = "__factorio-not-included__/graphics/colony-6/entity/32.png",
+        icon_size = 32,
+        category = "crafting",
+        subgroup = "fni-building",
+        ingredients =
+        {
+            { "steel-plate", 5 },
+            { "copper-plate", 5 },
+            { "processing-unit", 6 },
+            { "iron-gear-wheel", 6 },
+        },
+    },
+    {
+        type = "recipe",
+        name = "entity-farm-6-1",
+        result = "farm-6-1",
+        enabled = false,
+        icon = "__factorio-not-included__/graphics/farm-6-1/entity/32.png",
+        icon_size = 32,
+        category = "crafting",
+        subgroup = "fni-building",
+        ingredients =
+        {
+            { "steel-plate", 5 },
+            { "copper-plate", 5 },
+            { "processing-unit", 6 },
+            { "iron-gear-wheel", 6 },
+        },
+    },
+    {
+        type = "recipe",
+        name = "entity-farm-6-2",
+        result = "farm-6-2",
+        enabled = false,
+        icon = "__factorio-not-included__/graphics/farm-6-2/entity/32.png",
+        icon_size = 32,
+        category = "crafting",
+        subgroup = "fni-building",
+        ingredients =
+        {
+            { "steel-plate", 5 },
+            { "copper-plate", 5 },
+            { "processing-unit", 6 },
+            { "iron-gear-wheel", 6 },
+        },
+    },
+    {
+        type = "recipe",
+        name = "entity-farm-6-3",
+        result = "farm-6-3",
+        enabled = false,
+        icon = "__factorio-not-included__/graphics/farm-6-3/entity/32.png",
+        icon_size = 32,
+        category = "crafting",
+        subgroup = "fni-building",
+        ingredients =
+        {
+            { "steel-plate", 5 },
+            { "copper-plate", 5 },
+            { "processing-unit", 6 },
+            { "iron-gear-wheel", 6 },
+        },
+    },
+    {
+        type = "recipe",
+        name = "entity-pasture-6-1",
+        result = "pasture-6-1",
+        enabled = false,
+        icon = "__factorio-not-included__/graphics/pasture-6-1/entity/32.png",
+        icon_size = 32,
+        category = "crafting",
+        subgroup = "fni-building",
+        ingredients =
+        {
+            { "steel-plate", 5 },
+            { "copper-plate", 5 },
+            { "processing-unit", 6 },
+            { "iron-gear-wheel", 6 },
+        },
+    },
+    {
+        type = "recipe",
+        name = "entity-pasture-6-2",
+        result = "pasture-6-2",
+        enabled = false,
+        icon = "__factorio-not-included__/graphics/pasture-6-2/entity/32.png",
+        icon_size = 32,
+        category = "crafting",
+        subgroup = "fni-building",
+        ingredients =
+        {
+            { "steel-plate", 5 },
+            { "copper-plate", 5 },
+            { "processing-unit", 6 },
+            { "iron-gear-wheel", 6 },
+        },
+    },
+    {
+        type = "recipe",
+        name = "entity-pasture-6-3",
+        result = "pasture-6-3",
+        enabled = false,
+        icon = "__factorio-not-included__/graphics/pasture-6-3/entity/32.png",
+        icon_size = 32,
+        category = "crafting",
+        subgroup = "fni-building",
+        ingredients =
+        {
+            { "steel-plate", 5 },
+            { "copper-plate", 5 },
+            { "processing-unit", 6 },
+            { "iron-gear-wheel", 6 },
+        },
+    },
+
 })
