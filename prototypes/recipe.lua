@@ -1542,7 +1542,7 @@ data:extend({
         {
             { "meat-5-2", 1 },
             { type = "fluid", name = "crude-oil", amount = 200 },
-            { type = "fluid", name = "clorine", amount = 600 },
+            { type = "fluid", name = "chlorine", amount = 600 },
         }
     },
     {
