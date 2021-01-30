@@ -889,10 +889,6 @@ data:extend({
         {
             {
                 type = "unlock-recipe",
-                recipe = "entity-crafting"
-            },
-            {
-                type = "unlock-recipe",
                 recipe = "tv"
             },
         },

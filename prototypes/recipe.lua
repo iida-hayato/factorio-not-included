@@ -1020,7 +1020,7 @@ data:extend({
         {
             { type = "fluid", name = "polluted-water", amount = 1600 },
             { type = "fluid", name = "co2", amount = 1200 },
-            { type = "fluid", name = "dirt", amount = 400 },
+            { name = "dirt", amount = 4 },
         },
         results =
         {
@@ -1166,14 +1166,12 @@ data:extend({
         energy_required = 10,
         ingredients =
         {
-            { type = "fluid", name = "h2", amount = 400 },
-            { "copper-cabel", 8 },
+            { "copper-cable", 8 },
             { "small-lamp", 4 },
         },
         results =
         {
             { "tv", 1 },
-            { type = "fluid", name = "polluted-water", amount = 400 },
         }
     },
     {
