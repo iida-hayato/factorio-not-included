@@ -1008,7 +1008,7 @@ data:extend({
         prerequisites = { "chemical-science-pack", "compost-3" },
         order = "c-a"
     },
---    5
+    --    5
     {
         type = "technology",
         name = "human-5",
@@ -1038,7 +1038,7 @@ data:extend({
         },
         prerequisites = { "utility-science-pack" },
         order = "c-a"
-    } ,
+    },
     {
         type = "technology",
         name = "food-5",
@@ -1046,10 +1046,6 @@ data:extend({
         icon = "__factorio-not-included__/graphics/food-5/tech/256.png",
         effects =
         {
-            {
-                type = "unlock-recipe",
-                recipe = "entity-cooker-1"
-            },
             {
                 type = "unlock-recipe",
                 recipe = "food-5"
@@ -1068,7 +1064,7 @@ data:extend({
         },
         prerequisites = { "utility-science-pack" },
         order = "c-a"
-    } ,
+    },
     {
         type = "technology",
         name = "wine",
@@ -1076,10 +1072,6 @@ data:extend({
         icon = "__factorio-not-included__/graphics/wine/tech/256.png",
         effects =
         {
-            {
-                type = "unlock-recipe",
-                recipe = "entity-cooker-1"
-            },
             {
                 type = "unlock-recipe",
                 recipe = "wine"
@@ -1098,7 +1090,7 @@ data:extend({
         },
         prerequisites = { "utility-science-pack" },
         order = "c-a"
-    } ,
+    },
     {
         type = "technology",
         name = "plant-5-1",
@@ -1128,7 +1120,7 @@ data:extend({
         },
         prerequisites = { "utility-science-pack" },
         order = "c-a"
-    } ,
+    },
     {
         type = "technology",
         name = "plant-5-2",
@@ -1158,7 +1150,7 @@ data:extend({
         },
         prerequisites = { "utility-science-pack" },
         order = "c-a"
-    } ,
+    },
     {
         type = "technology",
         name = "plant-5-3",
@@ -1188,7 +1180,7 @@ data:extend({
         },
         prerequisites = { "utility-science-pack" },
         order = "c-a"
-    } ,
+    },
     {
         type = "technology",
         name = "meat-5-1",
@@ -1218,7 +1210,7 @@ data:extend({
         },
         prerequisites = { "utility-science-pack" },
         order = "c-a"
-    } ,
+    },
     {
         type = "technology",
         name = "meat-5-2",
@@ -1248,7 +1240,7 @@ data:extend({
         },
         prerequisites = { "utility-science-pack" },
         order = "c-a"
-    } ,
+    },
     {
         type = "technology",
         name = "meat-5-3",
@@ -1278,7 +1270,7 @@ data:extend({
         },
         prerequisites = { "utility-science-pack" },
         order = "c-a"
-    } ,
+    },
     {
         type = "technology",
         name = "recycle-3",
@@ -1286,10 +1278,6 @@ data:extend({
         icon = "__factorio-not-included__/graphics/recycle-3/tech/256.png",
         effects =
         {
-            {
-                type = "unlock-recipe",
-                recipe = "entity-recycler-1"
-            },
             {
                 type = "unlock-recipe",
                 recipe = "recycle-3"
@@ -1308,7 +1296,7 @@ data:extend({
         },
         prerequisites = { "utility-science-pack" },
         order = "c-a"
-    } ,
+    },
     {
         type = "technology",
         name = "pc",
@@ -1316,10 +1304,6 @@ data:extend({
         icon = "__factorio-not-included__/graphics/pc/tech/256.png",
         effects =
         {
-            {
-                type = "unlock-recipe",
-                recipe = "entity-crafting"
-            },
             {
                 type = "unlock-recipe",
                 recipe = "pc"
@@ -1338,21 +1322,17 @@ data:extend({
         },
         prerequisites = { "utility-science-pack" },
         order = "c-a"
-    } ,
+    },
     {
         type = "technology",
-        name = "textile-loom-2",
+        name = "fashionable-clothes",
         icon_size = 256,
-        icon = "__factorio-not-included__/graphics/textile-loom-2/tech/256.png",
+        icon = "__factorio-not-included__/graphics/fashionable-clothes/tech/256.png",
         effects =
         {
             {
                 type = "unlock-recipe",
-                recipe = "entity-textile-loom-1"
-            },
-            {
-                type = "unlock-recipe",
-                recipe = "textile-loom-2"
+                recipe = "fashionable-clothes"
             },
         },
         unit =
@@ -1368,7 +1348,33 @@ data:extend({
         },
         prerequisites = { "utility-science-pack" },
         order = "c-a"
-    } ,
+    },
+    {
+        type = "technology",
+        name = "clean-concentrated-polluted-water",
+        icon_size = 256,
+        icon = "__factorio-not-included__/graphics/clean-concentrated-polluted-water/tech/256.png",
+        effects =
+        {
+            {
+                type = "unlock-recipe",
+                recipe = "clean-concentrated-polluted-water"
+            },
+        },
+        unit =
+        {
+            count = 100,
+            ingredients = {
+                { "automation-science-pack", 1 },
+                { "logistic-science-pack", 1 },
+                { "chemical-science-pack", 1 },
+                { "utility-science-pack", 1 },
+            },
+            time = 60
+        },
+        prerequisites = { "utility-science-pack" },
+        order = "c-a"
+    },
     {
         type = "technology",
         name = "natural-gas-generator",
@@ -1398,167 +1404,33 @@ data:extend({
         },
         prerequisites = { "utility-science-pack" },
         order = "c-a"
-    } ,
+    },
     {
         type = "technology",
-        name = "compost-plant-5-1",
+        name = "compost-5",
         icon_size = 256,
-        icon = "__factorio-not-included__/graphics/compost-plant-5-1/tech/256.png",
+        icon = "__factorio-not-included__/graphics/compost-5/tech/256.png",
         effects =
         {
-            {
-                type = "unlock-recipe",
-                recipe = "entity-compost-1"
-            },
             {
                 type = "unlock-recipe",
                 recipe = "compost-plant-5-1"
-            },
-        },
-        unit =
-        {
-            count = 100,
-            ingredients = {
-                { "automation-science-pack", 1 },
-                { "logistic-science-pack", 1 },
-                { "chemical-science-pack", 1 },
-                { "utility-science-pack", 1 },
-            },
-            time = 60
-        },
-        prerequisites = { "utility-science-pack" },
-        order = "c-a"
-    } ,
-    {
-        type = "technology",
-        name = "compost-plant-5-2",
-        icon_size = 256,
-        icon = "__factorio-not-included__/graphics/compost-plant-5-2/tech/256.png",
-        effects =
-        {
-            {
-                type = "unlock-recipe",
-                recipe = "entity-compost-1"
             },
             {
                 type = "unlock-recipe",
                 recipe = "compost-plant-5-2"
             },
-        },
-        unit =
-        {
-            count = 100,
-            ingredients = {
-                { "automation-science-pack", 1 },
-                { "logistic-science-pack", 1 },
-                { "chemical-science-pack", 1 },
-                { "utility-science-pack", 1 },
-            },
-            time = 60
-        },
-        prerequisites = { "utility-science-pack" },
-        order = "c-a"
-    } ,
-    {
-        type = "technology",
-        name = "compost-plant-5-3",
-        icon_size = 256,
-        icon = "__factorio-not-included__/graphics/compost-plant-5-3/tech/256.png",
-        effects =
-        {
-            {
-                type = "unlock-recipe",
-                recipe = "entity-compost-1"
-            },
             {
                 type = "unlock-recipe",
                 recipe = "compost-plant-5-3"
-            },
-        },
-        unit =
-        {
-            count = 100,
-            ingredients = {
-                { "automation-science-pack", 1 },
-                { "logistic-science-pack", 1 },
-                { "chemical-science-pack", 1 },
-                { "utility-science-pack", 1 },
-            },
-            time = 60
-        },
-        prerequisites = { "utility-science-pack" },
-        order = "c-a"
-    } ,
-    {
-        type = "technology",
-        name = "compost-meat-5-1",
-        icon_size = 256,
-        icon = "__factorio-not-included__/graphics/compost-meat-5-1/tech/256.png",
-        effects =
-        {
-            {
-                type = "unlock-recipe",
-                recipe = "entity-compost-1"
             },
             {
                 type = "unlock-recipe",
                 recipe = "compost-meat-5-1"
             },
-        },
-        unit =
-        {
-            count = 100,
-            ingredients = {
-                { "automation-science-pack", 1 },
-                { "logistic-science-pack", 1 },
-                { "chemical-science-pack", 1 },
-                { "utility-science-pack", 1 },
-            },
-            time = 60
-        },
-        prerequisites = { "utility-science-pack" },
-        order = "c-a"
-    } ,
-    {
-        type = "technology",
-        name = "compost-meat-5-2",
-        icon_size = 256,
-        icon = "__factorio-not-included__/graphics/compost-meat-5-2/tech/256.png",
-        effects =
-        {
-            {
-                type = "unlock-recipe",
-                recipe = "entity-compost-1"
-            },
             {
                 type = "unlock-recipe",
                 recipe = "compost-meat-5-2"
-            },
-        },
-        unit =
-        {
-            count = 100,
-            ingredients = {
-                { "automation-science-pack", 1 },
-                { "logistic-science-pack", 1 },
-                { "chemical-science-pack", 1 },
-                { "utility-science-pack", 1 },
-            },
-            time = 60
-        },
-        prerequisites = { "utility-science-pack" },
-        order = "c-a"
-    } ,
-    {
-        type = "technology",
-        name = "compost-meat-5-3",
-        icon_size = 256,
-        icon = "__factorio-not-included__/graphics/compost-meat-5-3/tech/256.png",
-        effects =
-        {
-            {
-                type = "unlock-recipe",
-                recipe = "entity-compost-1"
             },
             {
                 type = "unlock-recipe",
@@ -1576,8 +1448,7 @@ data:extend({
             },
             time = 60
         },
-        prerequisites = { "utility-science-pack" },
+        prerequisites = { "utility-science-pack", "compost-4" },
         order = "c-a"
-    } ,
-
+    },
 })
