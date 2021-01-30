@@ -31,7 +31,7 @@ data.raw.recipe["production-science-pack"].ingredients =
     { "productivity-module", 1 },
     { "rail", 30 }
 }
-data.raw.recipe["utility-science-pack"].ingredients =
+data.raw.recipe["production-science-pack"].ingredients =
 {
     { "human-5", 10 },
     { "low-density-structure", 3 },

@@ -1032,11 +1032,11 @@ data:extend({
                 { "automation-science-pack", 1 },
                 { "logistic-science-pack", 1 },
                 { "chemical-science-pack", 1 },
-                { "utility-science-pack", 1 },
+                { "production-science-pack", 1 },
             },
             time = 60
         },
-        prerequisites = { "utility-science-pack" },
+        prerequisites = { "production-science-pack" },
         order = "c-a"
     },
     {
@@ -1058,11 +1058,11 @@ data:extend({
                 { "automation-science-pack", 1 },
                 { "logistic-science-pack", 1 },
                 { "chemical-science-pack", 1 },
-                { "utility-science-pack", 1 },
+                { "production-science-pack", 1 },
             },
             time = 60
         },
-        prerequisites = { "utility-science-pack" },
+        prerequisites = { "production-science-pack" },
         order = "c-a"
     },
     {
@@ -1084,11 +1084,11 @@ data:extend({
                 { "automation-science-pack", 1 },
                 { "logistic-science-pack", 1 },
                 { "chemical-science-pack", 1 },
-                { "utility-science-pack", 1 },
+                { "production-science-pack", 1 },
             },
             time = 60
         },
-        prerequisites = { "utility-science-pack" },
+        prerequisites = { "production-science-pack" },
         order = "c-a"
     },
     {
@@ -1114,11 +1114,11 @@ data:extend({
                 { "automation-science-pack", 1 },
                 { "logistic-science-pack", 1 },
                 { "chemical-science-pack", 1 },
-                { "utility-science-pack", 1 },
+                { "production-science-pack", 1 },
             },
             time = 60
         },
-        prerequisites = { "utility-science-pack" },
+        prerequisites = { "production-science-pack" },
         order = "c-a"
     },
     {
@@ -1144,11 +1144,11 @@ data:extend({
                 { "automation-science-pack", 1 },
                 { "logistic-science-pack", 1 },
                 { "chemical-science-pack", 1 },
-                { "utility-science-pack", 1 },
+                { "production-science-pack", 1 },
             },
             time = 60
         },
-        prerequisites = { "utility-science-pack" },
+        prerequisites = { "production-science-pack" },
         order = "c-a"
     },
     {
@@ -1174,11 +1174,11 @@ data:extend({
                 { "automation-science-pack", 1 },
                 { "logistic-science-pack", 1 },
                 { "chemical-science-pack", 1 },
-                { "utility-science-pack", 1 },
+                { "production-science-pack", 1 },
             },
             time = 60
         },
-        prerequisites = { "utility-science-pack" },
+        prerequisites = { "production-science-pack" },
         order = "c-a"
     },
     {
@@ -1204,11 +1204,11 @@ data:extend({
                 { "automation-science-pack", 1 },
                 { "logistic-science-pack", 1 },
                 { "chemical-science-pack", 1 },
-                { "utility-science-pack", 1 },
+                { "production-science-pack", 1 },
             },
             time = 60
         },
-        prerequisites = { "utility-science-pack" },
+        prerequisites = { "production-science-pack" },
         order = "c-a"
     },
     {
@@ -1234,11 +1234,11 @@ data:extend({
                 { "automation-science-pack", 1 },
                 { "logistic-science-pack", 1 },
                 { "chemical-science-pack", 1 },
-                { "utility-science-pack", 1 },
+                { "production-science-pack", 1 },
             },
             time = 60
         },
-        prerequisites = { "utility-science-pack" },
+        prerequisites = { "production-science-pack" },
         order = "c-a"
     },
     {
@@ -1264,11 +1264,11 @@ data:extend({
                 { "automation-science-pack", 1 },
                 { "logistic-science-pack", 1 },
                 { "chemical-science-pack", 1 },
-                { "utility-science-pack", 1 },
+                { "production-science-pack", 1 },
             },
             time = 60
         },
-        prerequisites = { "utility-science-pack" },
+        prerequisites = { "production-science-pack" },
         order = "c-a"
     },
     {
@@ -1290,11 +1290,11 @@ data:extend({
                 { "automation-science-pack", 1 },
                 { "logistic-science-pack", 1 },
                 { "chemical-science-pack", 1 },
-                { "utility-science-pack", 1 },
+                { "production-science-pack", 1 },
             },
             time = 60
         },
-        prerequisites = { "utility-science-pack" },
+        prerequisites = { "production-science-pack" },
         order = "c-a"
     },
     {
@@ -1316,11 +1316,11 @@ data:extend({
                 { "automation-science-pack", 1 },
                 { "logistic-science-pack", 1 },
                 { "chemical-science-pack", 1 },
-                { "utility-science-pack", 1 },
+                { "production-science-pack", 1 },
             },
             time = 60
         },
-        prerequisites = { "utility-science-pack" },
+        prerequisites = { "production-science-pack" },
         order = "c-a"
     },
     {
@@ -1342,11 +1342,11 @@ data:extend({
                 { "automation-science-pack", 1 },
                 { "logistic-science-pack", 1 },
                 { "chemical-science-pack", 1 },
-                { "utility-science-pack", 1 },
+                { "production-science-pack", 1 },
             },
             time = 60
         },
-        prerequisites = { "utility-science-pack" },
+        prerequisites = { "production-science-pack" },
         order = "c-a"
     },
     {
@@ -1368,11 +1368,11 @@ data:extend({
                 { "automation-science-pack", 1 },
                 { "logistic-science-pack", 1 },
                 { "chemical-science-pack", 1 },
-                { "utility-science-pack", 1 },
+                { "production-science-pack", 1 },
             },
             time = 60
         },
-        prerequisites = { "utility-science-pack" },
+        prerequisites = { "production-science-pack" },
         order = "c-a"
     },
     {
@@ -1398,11 +1398,11 @@ data:extend({
                 { "automation-science-pack", 1 },
                 { "logistic-science-pack", 1 },
                 { "chemical-science-pack", 1 },
-                { "utility-science-pack", 1 },
+                { "production-science-pack", 1 },
             },
             time = 60
         },
-        prerequisites = { "utility-science-pack" },
+        prerequisites = { "production-science-pack" },
         order = "c-a"
     },
     {
@@ -1444,11 +1444,11 @@ data:extend({
                 { "automation-science-pack", 1 },
                 { "logistic-science-pack", 1 },
                 { "chemical-science-pack", 1 },
-                { "utility-science-pack", 1 },
+                { "production-science-pack", 1 },
             },
             time = 60
         },
-        prerequisites = { "utility-science-pack", "compost-4" },
+        prerequisites = { "production-science-pack", "compost-4" },
         order = "c-a"
     },
 })
