@@ -947,7 +947,7 @@ data:extend({
         ingredients =
         {
             { type = "fluid", name = "o2", amount = 9000 },
-            { type = "fluid", name = "jouice", amount = 900 },
+            { type = "fluid", name = "juice", amount = 900 },
             { "tv", 1 },
             { "clothes-1", 1 },
             { "food-4", 1 },

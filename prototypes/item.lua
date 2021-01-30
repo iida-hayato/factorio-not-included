@@ -297,4 +297,13 @@ data:extend({
         subgroup = "fni-item",
         stack_size = 1,
     },
+    {
+        type = "item",
+        name = "tv",
+        icon = "__factorio-not-included__/graphics/tv/item/64.png",
+        icon_size = 64,
+        order = "w-b-a",
+        subgroup = "fni-item",
+        stack_size = 1,
+    },
 })
