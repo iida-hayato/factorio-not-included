@@ -1386,7 +1386,7 @@ data:extend({
         {
             { "human-5", 1 },
             { "electric-garbage", 10 },
-            { "oversize-waste", 1 },
+            { "oversize-garbage", 1 },
             { "general-waste", 1 },
             { type = "fluid", name = "co2", amount = 3600 },
             { type = "fluid", name = "concentrated-polluted-water", amount = 1200 },
