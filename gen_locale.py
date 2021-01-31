@@ -8,7 +8,9 @@ def gen_from_file(type, path):
     with open(path) as f:
         lineList = f.readlines()
         for line in lineList:
-            if re.search(r'\bname\b', line):
+            target = r'^ *name = '
+
+            if re.search(target, line):
                 new_line = re.findall(r'name = "(.*)"',line)
                 name = new_line[0]
                 print(f'{name}={name}')
