@@ -3380,7 +3380,7 @@ data:extend({
         order = "d-b",
         allowed_effects = { "consumption", "pollution" }
     },
---    6
+    --    6
     {
         type = "assembling-machine",
         name = "colony-6",
@@ -3464,7 +3464,7 @@ data:extend({
         },
         order = "d-b",
         allowed_effects = { "consumption", "pollution" }
-    } ,
+    },
     {
         type = "assembling-machine",
         name = "farm-6-1",
@@ -3548,7 +3548,7 @@ data:extend({
         },
         order = "d-b",
         allowed_effects = { "consumption", "pollution" }
-    } ,
+    },
     {
         type = "assembling-machine",
         name = "farm-6-2",
@@ -3632,7 +3632,7 @@ data:extend({
         },
         order = "d-b",
         allowed_effects = { "consumption", "pollution" }
-    } ,
+    },
     {
         type = "assembling-machine",
         name = "farm-6-3",
@@ -3716,7 +3716,7 @@ data:extend({
         },
         order = "d-b",
         allowed_effects = { "consumption", "pollution" }
-    } ,
+    },
     {
         type = "assembling-machine",
         name = "pasture-6-1",
@@ -3800,7 +3800,7 @@ data:extend({
         },
         order = "d-b",
         allowed_effects = { "consumption", "pollution" }
-    } ,
+    },
     {
         type = "assembling-machine",
         name = "pasture-6-2",
@@ -3884,7 +3884,7 @@ data:extend({
         },
         order = "d-b",
         allowed_effects = { "consumption", "pollution" }
-    } ,
+    },
     {
         type = "assembling-machine",
         name = "pasture-6-3",
@@ -3968,5 +3968,5 @@ data:extend({
         },
         order = "d-b",
         allowed_effects = { "consumption", "pollution" }
-    } ,
+    },
 })
