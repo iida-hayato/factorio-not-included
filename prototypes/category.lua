@@ -21,7 +21,7 @@ data:extend(
                 type = "item-subgroup",
                 name = "fni-building",
                 group = "fni-buildings",
-                order = "g-c",
+                order = "g-0",
             },
             {
                 type = "item-subgroup",

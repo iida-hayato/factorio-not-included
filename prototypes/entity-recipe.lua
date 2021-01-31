@@ -375,7 +375,7 @@ data:extend({
         icon = "__factorio-not-included__/graphics/recycler-1/entity/32.png",
         icon_size = 32,
         category = "crafting",
-        subgroup = "fni-building",
+        subgroup = "fni-recycler",
         ingredients =
         {
             { "steel-plate", 5 },
