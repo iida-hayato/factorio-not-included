@@ -18,8 +18,9 @@ def gen_from_file(type, path):
 
 print(f'[item-name]')
 gen_with('item','prototypes/entity-item.lua')
-gen_with('fluid','prototypes/fluids.lua')
 gen_with('item')
+print(f'[fluid-name]')
+gen_with('fluid','prototypes/fluids.lua')
 print(f'[entity-name]')
 gen_with('entity')
 print(f'[recipe-name]')
