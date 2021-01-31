@@ -5,7 +5,7 @@
   "version": "1.0.0",
   "author": "hayato.iida",
   "factorio_version": "1.1",
-  "contact": "hayato.iida on forums.factorio.com",
+  "contact": "https://twitter.com/iida_0213",
   "dependencies": ["base >= 1.0.0"],
   "description": ""
 }
