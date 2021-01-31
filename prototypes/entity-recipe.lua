@@ -683,7 +683,7 @@ data:extend({
         icon = "__factorio-not-included__/graphics/natural-gas-generator/entity/32.png",
         icon_size = 32,
         category = "crafting",
-        subgroup = "fni-natural-gas-generatory",
+        subgroup = "fni-natural-gas-generator",
         ingredients =
         {
             { "steel-plate", 5 },
