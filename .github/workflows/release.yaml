@@ -25,7 +25,7 @@ jobs:
           mkdir ${{ steps.setup.outputs.mod_name }}
           sed -e 's/"version": "1.0.0",/"version": "${{ steps.setup.outputs.mod_version }}",/g' info.json info.json
           cp -r info.json graphics locale prototypes data.lua data-final.lua ${{ steps.setup.outputs.mod_name }}
-          ls -al  ${{ steps.setup.outputs.mod_name }}
+          cat  ${{ steps.setup.outputs.mod_name }}/info.json
       - name: Package
         id: packaging
         uses: Roang-zero1/factorio-mod-package@master
