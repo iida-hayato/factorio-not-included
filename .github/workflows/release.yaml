@@ -23,7 +23,7 @@ jobs:
         id: build
         run: |-
           mkdir ${{ steps.setup.outputs.mod_name }}
-          cp info.json graphics locale prototypes data.lua data-final.lua ${{ steps.setup.outputs.mod_name }}
+          cp -r info.json graphics locale prototypes data.lua data-final.lua ${{ steps.setup.outputs.mod_name }}
       - name: Package
         id: packaging
         uses: Tei1988/factorio-mod-package@master
