@@ -3333,6 +3333,16 @@ data:extend({
                 base_area = 10,
                 base_level = 2,
                 pipe_connections = {
+                    { type = "output", position = { -3, 0 } },
+                }
+            },
+            {
+                production_type = "output",
+                pipe_picture = assembler2pipepictures(),
+                pipe_covers = pipecoverspictures(),
+                base_area = 10,
+                base_level = 2,
+                pipe_connections = {
                     { type = "output", position = { -3, -2 } },
                 }
             },
