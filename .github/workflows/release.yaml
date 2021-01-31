@@ -29,8 +29,6 @@ jobs:
       - name: Package
         id: packaging
         uses: Roang-zero1/factorio-mod-package@master
-        run: |-
-          ll  ${{ steps.setup.outputs.mod_name }}
         with:
           mod_base_dir: ${{ steps.setup.outputs.mod_name }}
       - name: Create Release
