@@ -6,7 +6,7 @@ data:extend({
         icon = "__factorio-not-included__/graphics/colony-1/entity/32.png",
         icon_size = 32,
         category = "crafting",
-        subgroup = "fni-building",
+        subgroup = "fni-colony",
         ingredients =
         {
             { "iron-plate", 10 },
@@ -25,7 +25,7 @@ data:extend({
         icon = "__factorio-not-included__/graphics/farm-1/entity/32.png",
         icon_size = 32,
         category = "crafting",
-        subgroup = "fni-building",
+        subgroup = "fni-farm",
         ingredients =
         {
             { "copper-plate", 5 },
@@ -41,7 +41,7 @@ data:extend({
         icon = "__factorio-not-included__/graphics/pasture-1/entity/32.png",
         icon_size = 32,
         category = "crafting",
-        subgroup = "fni-building",
+        subgroup = "fni-pasture",
         ingredients =
         {
             { "copper-plate", 5 },
@@ -57,7 +57,7 @@ data:extend({
         icon = "__factorio-not-included__/graphics/cooker-1/entity/32.png",
         icon_size = 32,
         category = "crafting",
-        subgroup = "fni-building",
+        subgroup = "fni-cooker",
         ingredients =
         {
             { "iron-plate", 5 },
@@ -73,7 +73,7 @@ data:extend({
         icon = "__factorio-not-included__/graphics/water-sieve-1/entity/32.png",
         icon_size = 32,
         category = "crafting",
-        subgroup = "fni-building",
+        subgroup = "fni-water-sieve",
         ingredients =
         {
             { "iron-plate", 10 },
@@ -89,7 +89,7 @@ data:extend({
         icon = "__factorio-not-included__/graphics/compost-1/entity/32.png",
         icon_size = 32,
         category = "crafting",
-        subgroup = "fni-building",
+        subgroup = "fni-compost",
         ingredients =
         {
             { "iron-plate", 10 },
@@ -104,7 +104,7 @@ data:extend({
         icon = "__factorio-not-included__/graphics/air-cleaner-1/entity/32.png",
         icon_size = 32,
         category = "crafting",
-        subgroup = "fni-building",
+        subgroup = "fni-air-cleaner",
         ingredients =
         {
             { "iron-plate", 10 },
@@ -120,7 +120,7 @@ data:extend({
         icon = "__factorio-not-included__/graphics/carbon-skimmer-1/entity/32.png",
         icon_size = 32,
         category = "crafting",
-        subgroup = "fni-building",
+        subgroup = "fni-carbon-skimmer",
         ingredients =
         {
             { "iron-plate", 10 },
@@ -136,7 +136,7 @@ data:extend({
         icon = "__factorio-not-included__/graphics/gas-pump-1/entity/32.png",
         icon_size = 32,
         category = "crafting",
-        subgroup = "fni-building",
+        subgroup = "fni-gas-pump",
         ingredients =
         {
             { "iron-plate", 10 },
@@ -151,7 +151,7 @@ data:extend({
         icon = "__factorio-not-included__/graphics/colony-2/entity/32.png",
         icon_size = 32,
         category = "crafting",
-        subgroup = "fni-building",
+        subgroup = "fni-colony",
         ingredients =
         {
             { "steel-plate", 10 },
@@ -171,7 +171,7 @@ data:extend({
         icon = "__factorio-not-included__/graphics/farm-2-1/entity/32.png",
         icon_size = 32,
         category = "crafting",
-        subgroup = "fni-building",
+        subgroup = "fni-farm",
         ingredients =
         {
             { "steel-plate", 5 },
@@ -188,7 +188,7 @@ data:extend({
         icon = "__factorio-not-included__/graphics/farm-2-2/entity/32.png",
         icon_size = 32,
         category = "crafting",
-        subgroup = "fni-building",
+        subgroup = "fni-farm",
         ingredients =
         {
             { "steel-plate", 5 },
@@ -205,7 +205,7 @@ data:extend({
         icon = "__factorio-not-included__/graphics/pasture-2-1/entity/32.png",
         icon_size = 32,
         category = "crafting",
-        subgroup = "fni-building",
+        subgroup = "fni-pasture",
         ingredients =
         {
             { "steel-plate", 5 },
@@ -222,7 +222,7 @@ data:extend({
         icon = "__factorio-not-included__/graphics/pasture-2-2/entity/32.png",
         icon_size = 32,
         category = "crafting",
-        subgroup = "fni-building",
+        subgroup = "fni-pasture",
         ingredients =
         {
             { "steel-plate", 5 },
@@ -239,7 +239,7 @@ data:extend({
         icon = "__factorio-not-included__/graphics/distiller-1/entity/32.png",
         icon_size = 32,
         category = "crafting",
-        subgroup = "fni-building",
+        subgroup = "fni-distiller",
         ingredients =
         {
             { "steel-plate", 5 },
@@ -256,7 +256,7 @@ data:extend({
         icon = "__factorio-not-included__/graphics/terrarium-1/entity/32.png",
         icon_size = 32,
         category = "crafting",
-        subgroup = "fni-building",
+        subgroup = "fni-terrarium",
         ingredients =
         {
             { "steel-plate", 5 },
@@ -273,7 +273,7 @@ data:extend({
         icon = "__factorio-not-included__/graphics/colony-3/entity/32.png",
         icon_size = 32,
         category = "crafting",
-        subgroup = "fni-building",
+        subgroup = "fni-colony",
         ingredients =
         {
             { "steel-plate", 5 },
@@ -290,7 +290,7 @@ data:extend({
         icon = "__factorio-not-included__/graphics/farm-3-1/entity/32.png",
         icon_size = 32,
         category = "crafting",
-        subgroup = "fni-building",
+        subgroup = "fni-farm",
         ingredients =
         {
             { "steel-plate", 5 },
@@ -307,7 +307,7 @@ data:extend({
         icon = "__factorio-not-included__/graphics/farm-3-2/entity/32.png",
         icon_size = 32,
         category = "crafting",
-        subgroup = "fni-building",
+        subgroup = "fni-farm",
         ingredients =
         {
             { "steel-plate", 5 },
@@ -324,7 +324,7 @@ data:extend({
         icon = "__factorio-not-included__/graphics/pasture-3-1/entity/32.png",
         icon_size = 32,
         category = "crafting",
-        subgroup = "fni-building",
+        subgroup = "fni-pasture",
         ingredients =
         {
             { "steel-plate", 5 },
@@ -341,7 +341,7 @@ data:extend({
         icon = "__factorio-not-included__/graphics/pasture-3-2/entity/32.png",
         icon_size = 32,
         category = "crafting",
-        subgroup = "fni-building",
+        subgroup = "fni-pasture",
         ingredients =
         {
             { "steel-plate", 5 },
@@ -358,7 +358,7 @@ data:extend({
         icon = "__factorio-not-included__/graphics/textile-loom-1/entity/32.png",
         icon_size = 32,
         category = "crafting",
-        subgroup = "fni-building",
+        subgroup = "fni-textile-loom",
         ingredients =
         {
             { "steel-plate", 5 },
@@ -392,7 +392,7 @@ data:extend({
         icon = "__factorio-not-included__/graphics/electrolyzer-1/entity/32.png",
         icon_size = 32,
         category = "crafting",
-        subgroup = "fni-building",
+        subgroup = "fni-electrolyzer",
         ingredients =
         {
             { "steel-plate", 5 },
@@ -410,7 +410,7 @@ data:extend({
         icon = "__factorio-not-included__/graphics/colony-4/entity/32.png",
         icon_size = 32,
         category = "crafting",
-        subgroup = "fni-building",
+        subgroup = "fni-colony",
         ingredients =
         {
             { "steel-plate", 5 },
@@ -427,7 +427,7 @@ data:extend({
         icon = "__factorio-not-included__/graphics/farm-4-1/entity/32.png",
         icon_size = 32,
         category = "crafting",
-        subgroup = "fni-building",
+        subgroup = "fni-farm",
         ingredients =
         {
             { "steel-plate", 5 },
@@ -444,7 +444,7 @@ data:extend({
         icon = "__factorio-not-included__/graphics/farm-4-2/entity/32.png",
         icon_size = 32,
         category = "crafting",
-        subgroup = "fni-building",
+        subgroup = "fni-farm",
         ingredients =
         {
             { "steel-plate", 5 },
@@ -461,7 +461,7 @@ data:extend({
         icon = "__factorio-not-included__/graphics/farm-4-3/entity/32.png",
         icon_size = 32,
         category = "crafting",
-        subgroup = "fni-building",
+        subgroup = "fni-farm",
         ingredients =
         {
             { "steel-plate", 5 },
@@ -478,7 +478,7 @@ data:extend({
         icon = "__factorio-not-included__/graphics/pasture-4-1/entity/32.png",
         icon_size = 32,
         category = "crafting",
-        subgroup = "fni-building",
+        subgroup = "fni-pasture",
         ingredients =
         {
             { "steel-plate", 5 },
@@ -495,7 +495,7 @@ data:extend({
         icon = "__factorio-not-included__/graphics/pasture-4-2/entity/32.png",
         icon_size = 32,
         category = "crafting",
-        subgroup = "fni-building",
+        subgroup = "fni-pasture",
         ingredients =
         {
             { "steel-plate", 5 },
@@ -512,7 +512,7 @@ data:extend({
         icon = "__factorio-not-included__/graphics/pasture-4-3/entity/32.png",
         icon_size = 32,
         category = "crafting",
-        subgroup = "fni-building",
+        subgroup = "fni-pasture",
         ingredients =
         {
             { "steel-plate", 5 },
@@ -529,7 +529,7 @@ data:extend({
         icon = "__factorio-not-included__/graphics/fuel-generator/entity/32.png",
         icon_size = 32,
         category = "crafting",
-        subgroup = "fni-building",
+        subgroup = "fni-fuel-generator",
         ingredients =
         {
             { "steel-plate", 5 },
@@ -546,7 +546,7 @@ data:extend({
         icon = "__factorio-not-included__/graphics/h2-generator/entity/32.png",
         icon_size = 32,
         category = "crafting",
-        subgroup = "fni-building",
+        subgroup = "fni-h2-generator",
         ingredients =
         {
             { "steel-plate", 5 },
@@ -564,7 +564,7 @@ data:extend({
         icon = "__factorio-not-included__/graphics/colony-5/entity/32.png",
         icon_size = 32,
         category = "crafting",
-        subgroup = "fni-building",
+        subgroup = "fni-colony",
         ingredients =
         {
             { "steel-plate", 5 },
@@ -581,7 +581,7 @@ data:extend({
         icon = "__factorio-not-included__/graphics/farm-5-1/entity/32.png",
         icon_size = 32,
         category = "crafting",
-        subgroup = "fni-building",
+        subgroup = "fni-farm",
         ingredients =
         {
             { "steel-plate", 5 },
@@ -598,7 +598,7 @@ data:extend({
         icon = "__factorio-not-included__/graphics/farm-5-2/entity/32.png",
         icon_size = 32,
         category = "crafting",
-        subgroup = "fni-building",
+        subgroup = "fni-farm",
         ingredients =
         {
             { "steel-plate", 5 },
@@ -615,7 +615,7 @@ data:extend({
         icon = "__factorio-not-included__/graphics/farm-5-3/entity/32.png",
         icon_size = 32,
         category = "crafting",
-        subgroup = "fni-building",
+        subgroup = "fni-farm",
         ingredients =
         {
             { "steel-plate", 5 },
@@ -632,7 +632,7 @@ data:extend({
         icon = "__factorio-not-included__/graphics/pasture-5-1/entity/32.png",
         icon_size = 32,
         category = "crafting",
-        subgroup = "fni-building",
+        subgroup = "fni-pasture",
         ingredients =
         {
             { "steel-plate", 5 },
@@ -649,7 +649,7 @@ data:extend({
         icon = "__factorio-not-included__/graphics/pasture-5-2/entity/32.png",
         icon_size = 32,
         category = "crafting",
-        subgroup = "fni-building",
+        subgroup = "fni-pasture",
         ingredients =
         {
             { "steel-plate", 5 },
@@ -666,7 +666,7 @@ data:extend({
         icon = "__factorio-not-included__/graphics/pasture-5-3/entity/32.png",
         icon_size = 32,
         category = "crafting",
-        subgroup = "fni-building",
+        subgroup = "fni-pasture",
         ingredients =
         {
             { "steel-plate", 5 },
@@ -683,7 +683,7 @@ data:extend({
         icon = "__factorio-not-included__/graphics/natural-gas-generator/entity/32.png",
         icon_size = 32,
         category = "crafting",
-        subgroup = "fni-building",
+        subgroup = "fni-natural-gas-generatory",
         ingredients =
         {
             { "steel-plate", 5 },
@@ -701,7 +701,7 @@ data:extend({
         icon = "__factorio-not-included__/graphics/colony-6/entity/32.png",
         icon_size = 32,
         category = "crafting",
-        subgroup = "fni-building",
+        subgroup = "fni-colony",
         ingredients =
         {
             { "steel-plate", 5 },
@@ -718,7 +718,7 @@ data:extend({
         icon = "__factorio-not-included__/graphics/farm-6-1/entity/32.png",
         icon_size = 32,
         category = "crafting",
-        subgroup = "fni-building",
+        subgroup = "fni-farm",
         ingredients =
         {
             { "steel-plate", 5 },
@@ -735,7 +735,7 @@ data:extend({
         icon = "__factorio-not-included__/graphics/farm-6-2/entity/32.png",
         icon_size = 32,
         category = "crafting",
-        subgroup = "fni-building",
+        subgroup = "fni-farm",
         ingredients =
         {
             { "steel-plate", 5 },
@@ -752,7 +752,7 @@ data:extend({
         icon = "__factorio-not-included__/graphics/farm-6-3/entity/32.png",
         icon_size = 32,
         category = "crafting",
-        subgroup = "fni-building",
+        subgroup = "fni-farm",
         ingredients =
         {
             { "steel-plate", 5 },
@@ -769,7 +769,7 @@ data:extend({
         icon = "__factorio-not-included__/graphics/pasture-6-1/entity/32.png",
         icon_size = 32,
         category = "crafting",
-        subgroup = "fni-building",
+        subgroup = "fni-pasture",
         ingredients =
         {
             { "steel-plate", 5 },
@@ -786,7 +786,7 @@ data:extend({
         icon = "__factorio-not-included__/graphics/pasture-6-2/entity/32.png",
         icon_size = 32,
         category = "crafting",
-        subgroup = "fni-building",
+        subgroup = "fni-pasture",
         ingredients =
         {
             { "steel-plate", 5 },
@@ -803,7 +803,7 @@ data:extend({
         icon = "__factorio-not-included__/graphics/pasture-6-3/entity/32.png",
         icon_size = 32,
         category = "crafting",
-        subgroup = "fni-building",
+        subgroup = "fni-pasture",
         ingredients =
         {
             { "steel-plate", 5 },
