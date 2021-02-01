@@ -689,7 +689,7 @@ data:extend({
         icon_size = 32,
         category = "recycler-1",
         subgroup = "fni-item",
-        energy_required = 10,
+        energy_required = 1,
         ingredients =
         {
             { "general-waste", 1 },
@@ -1008,7 +1008,7 @@ data:extend({
         icon_size = 32,
         category = "recycler-1",
         subgroup = "fni-item",
-        energy_required = 10,
+        energy_required = 2,
         ingredients =
         {
             { "oversize-garbage", 1 },
@@ -1408,7 +1408,7 @@ data:extend({
         icon_size = 32,
         category = "recycler-1",
         subgroup = "fni-item",
-        energy_required = 10,
+        energy_required = 3,
         ingredients =
         {
             { "electric-garbage", 1 },
