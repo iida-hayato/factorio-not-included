@@ -62,6 +62,7 @@ data:extend({
             type = "electric",
             usage_priority = "secondary-input",
             drain = "25kW",
+            emissions_per_minute = 1,
         },
         energy_usage = "150kW",
         module_specification = {
@@ -136,6 +137,7 @@ data:extend({
             type = "electric",
             usage_priority = "secondary-input",
             drain = "25kW",
+            emissions_per_minute = 1,
         },
         energy_usage = "150kW",
         module_specification = {
@@ -200,6 +202,7 @@ data:extend({
             type = "electric",
             usage_priority = "secondary-input",
             drain = "25kW",
+            emissions_per_minute = 1,
         },
         energy_usage = "150kW",
         module_specification = {
@@ -284,6 +287,7 @@ data:extend({
             type = "electric",
             usage_priority = "secondary-input",
             drain = "25kW",
+            emissions_per_minute = 1,
         },
         energy_usage = "150kW",
         module_specification = {
@@ -324,6 +328,7 @@ data:extend({
             type = "electric",
             usage_priority = "secondary-input",
             drain = "25kW",
+            emissions_per_minute = 1,
         },
         energy_usage = "150kW",
         module_specification = {
@@ -408,6 +413,7 @@ data:extend({
             type = "electric",
             usage_priority = "secondary-input",
             drain = "25kW",
+            emissions_per_minute = 1,
         },
         energy_usage = "150kW",
         module_specification = {
@@ -492,6 +498,7 @@ data:extend({
             type = "electric",
             usage_priority = "secondary-input",
             drain = "25kW",
+            emissions_per_minute = 1,
         },
         energy_usage = "150kW",
         module_specification = {
@@ -556,6 +563,7 @@ data:extend({
             type = "electric",
             usage_priority = "secondary-input",
             drain = "25kW",
+            emissions_per_minute = 1,
         },
         energy_usage = "150kW",
         module_specification = {
@@ -630,6 +638,7 @@ data:extend({
             type = "electric",
             usage_priority = "secondary-input",
             drain = "25kW",
+            emissions_per_minute = 1,
         },
         energy_usage = "150kW",
         module_specification = {
@@ -738,6 +747,7 @@ data:extend({
             type = "electric",
             usage_priority = "secondary-input",
             drain = "25kW",
+            emissions_per_minute = 1,
         },
         energy_usage = "150kW",
         module_specification = {
@@ -822,6 +832,7 @@ data:extend({
             type = "electric",
             usage_priority = "secondary-input",
             drain = "25kW",
+            emissions_per_minute = 1,
         },
         energy_usage = "150kW",
         module_specification = {
@@ -906,6 +917,7 @@ data:extend({
             type = "electric",
             usage_priority = "secondary-input",
             drain = "25kW",
+            emissions_per_minute = 1,
         },
         energy_usage = "150kW",
         module_specification = {
@@ -970,6 +982,7 @@ data:extend({
             type = "electric",
             usage_priority = "secondary-input",
             drain = "25kW",
+            emissions_per_minute = 1,
         },
         energy_usage = "150kW",
         module_specification = {
@@ -1034,6 +1047,7 @@ data:extend({
             type = "electric",
             usage_priority = "secondary-input",
             drain = "25kW",
+            emissions_per_minute = 1,
         },
         energy_usage = "150kW",
         module_specification = {
@@ -1098,6 +1112,7 @@ data:extend({
             type = "electric",
             usage_priority = "secondary-input",
             drain = "25kW",
+            emissions_per_minute = 1,
         },
         energy_usage = "150kW",
         module_specification = {
@@ -1182,6 +1197,7 @@ data:extend({
             type = "electric",
             usage_priority = "secondary-input",
             drain = "25kW",
+            emissions_per_minute = 1,
         },
         energy_usage = "150kW",
         module_specification = {
@@ -1266,6 +1282,7 @@ data:extend({
             type = "electric",
             usage_priority = "secondary-input",
             drain = "25kW",
+            emissions_per_minute = 1,
         },
         energy_usage = "150kW",
         module_specification = {
@@ -1350,6 +1367,7 @@ data:extend({
             type = "electric",
             usage_priority = "secondary-input",
             drain = "25kW",
+            emissions_per_minute = 1,
         },
         energy_usage = "150kW",
         module_specification = {
@@ -1434,6 +1452,7 @@ data:extend({
             type = "electric",
             usage_priority = "secondary-input",
             drain = "25kW",
+            emissions_per_minute = 1,
         },
         energy_usage = "150kW",
         module_specification = {
@@ -1518,6 +1537,7 @@ data:extend({
             type = "electric",
             usage_priority = "secondary-input",
             drain = "25kW",
+            emissions_per_minute = 1,
         },
         energy_usage = "150kW",
         module_specification = {
@@ -1602,6 +1622,7 @@ data:extend({
             type = "electric",
             usage_priority = "secondary-input",
             drain = "25kW",
+            emissions_per_minute = 1,
         },
         energy_usage = "150kW",
         module_specification = {
@@ -1686,6 +1707,7 @@ data:extend({
             type = "electric",
             usage_priority = "secondary-input",
             drain = "25kW",
+            emissions_per_minute = 1,
         },
         energy_usage = "150kW",
         module_specification = {
@@ -1770,6 +1792,7 @@ data:extend({
             type = "electric",
             usage_priority = "secondary-input",
             drain = "25kW",
+            emissions_per_minute = 1,
         },
         energy_usage = "150kW",
         module_specification = {
@@ -1854,6 +1877,7 @@ data:extend({
             type = "electric",
             usage_priority = "secondary-input",
             drain = "25kW",
+            emissions_per_minute = 1,
         },
         energy_usage = "750kW",
         module_specification = {
@@ -1939,6 +1963,7 @@ data:extend({
             type = "electric",
             usage_priority = "secondary-input",
             drain = "25kW",
+            emissions_per_minute = 1,
         },
         energy_usage = "150kW",
         module_specification = {
@@ -2023,6 +2048,7 @@ data:extend({
             type = "electric",
             usage_priority = "secondary-input",
             drain = "25kW",
+            emissions_per_minute = 1,
         },
         energy_usage = "150kW",
         module_specification = {
@@ -2107,6 +2133,7 @@ data:extend({
             type = "electric",
             usage_priority = "secondary-input",
             drain = "25kW",
+            emissions_per_minute = 1,
         },
         energy_usage = "150kW",
         module_specification = {
@@ -2191,6 +2218,7 @@ data:extend({
             type = "electric",
             usage_priority = "secondary-input",
             drain = "25kW",
+            emissions_per_minute = 1,
         },
         energy_usage = "150kW",
         module_specification = {
@@ -2275,6 +2303,7 @@ data:extend({
             type = "electric",
             usage_priority = "secondary-input",
             drain = "25kW",
+            emissions_per_minute = 1,
         },
         energy_usage = "150kW",
         module_specification = {
@@ -2359,6 +2388,7 @@ data:extend({
             type = "electric",
             usage_priority = "secondary-input",
             drain = "25kW",
+            emissions_per_minute = 1,
         },
         energy_usage = "150kW",
         module_specification = {
@@ -2443,6 +2473,7 @@ data:extend({
             type = "electric",
             usage_priority = "secondary-input",
             drain = "25kW",
+            emissions_per_minute = 1,
         },
         energy_usage = "150kW",
         module_specification = {
@@ -2527,6 +2558,7 @@ data:extend({
             type = "electric",
             usage_priority = "secondary-input",
             drain = "25kW",
+            emissions_per_minute = 1,
         },
         energy_usage = "150kW",
         module_specification = {
@@ -2611,6 +2643,7 @@ data:extend({
             type = "electric",
             usage_priority = "secondary-input",
             drain = "25kW",
+            emissions_per_minute = 1,
         },
         energy_usage = "150kW",
         module_specification = {
@@ -2696,6 +2729,7 @@ data:extend({
             type = "electric",
             usage_priority = "secondary-input",
             drain = "25kW",
+            emissions_per_minute = 1,
         },
         energy_usage = "150kW",
         module_specification = {
@@ -2780,6 +2814,7 @@ data:extend({
             type = "electric",
             usage_priority = "secondary-input",
             drain = "25kW",
+            emissions_per_minute = 1,
         },
         energy_usage = "150kW",
         module_specification = {
@@ -2864,6 +2899,7 @@ data:extend({
             type = "electric",
             usage_priority = "secondary-input",
             drain = "25kW",
+            emissions_per_minute = 1,
         },
         energy_usage = "150kW",
         module_specification = {
@@ -2948,6 +2984,7 @@ data:extend({
             type = "electric",
             usage_priority = "secondary-input",
             drain = "25kW",
+            emissions_per_minute = 1,
         },
         energy_usage = "150kW",
         module_specification = {
@@ -3032,6 +3069,7 @@ data:extend({
             type = "electric",
             usage_priority = "secondary-input",
             drain = "25kW",
+            emissions_per_minute = 1,
         },
         energy_usage = "150kW",
         module_specification = {
@@ -3116,6 +3154,7 @@ data:extend({
             type = "electric",
             usage_priority = "secondary-input",
             drain = "25kW",
+            emissions_per_minute = 1,
         },
         energy_usage = "150kW",
         module_specification = {
@@ -3200,6 +3239,7 @@ data:extend({
             type = "electric",
             usage_priority = "secondary-input",
             drain = "25kW",
+            emissions_per_minute = 1,
         },
         energy_usage = "150kW",
         module_specification = {
@@ -3294,6 +3334,7 @@ data:extend({
             type = "electric",
             usage_priority = "secondary-input",
             drain = "25kW",
+            emissions_per_minute = 1,
         },
         energy_usage = "150kW",
         module_specification = {
@@ -3379,6 +3420,7 @@ data:extend({
             type = "electric",
             usage_priority = "secondary-input",
             drain = "25kW",
+            emissions_per_minute = 1,
         },
         energy_usage = "150kW",
         module_specification = {
@@ -3463,6 +3505,7 @@ data:extend({
             type = "electric",
             usage_priority = "secondary-input",
             drain = "25kW",
+            emissions_per_minute = 1,
         },
         energy_usage = "150kW",
         module_specification = {
@@ -3547,6 +3590,7 @@ data:extend({
             type = "electric",
             usage_priority = "secondary-input",
             drain = "25kW",
+            emissions_per_minute = 1,
         },
         energy_usage = "150kW",
         module_specification = {
@@ -3631,6 +3675,7 @@ data:extend({
             type = "electric",
             usage_priority = "secondary-input",
             drain = "25kW",
+            emissions_per_minute = 1,
         },
         energy_usage = "150kW",
         module_specification = {
@@ -3715,6 +3760,7 @@ data:extend({
             type = "electric",
             usage_priority = "secondary-input",
             drain = "25kW",
+            emissions_per_minute = 1,
         },
         energy_usage = "150kW",
         module_specification = {
@@ -3799,6 +3845,7 @@ data:extend({
             type = "electric",
             usage_priority = "secondary-input",
             drain = "25kW",
+            emissions_per_minute = 1,
         },
         energy_usage = "150kW",
         module_specification = {
@@ -3883,6 +3930,7 @@ data:extend({
             type = "electric",
             usage_priority = "secondary-input",
             drain = "25kW",
+            emissions_per_minute = 1,
         },
         energy_usage = "150kW",
         module_specification = {
