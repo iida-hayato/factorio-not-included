@@ -53,7 +53,7 @@ data:extend({
             ingredients = { { "automation-science-pack", 1 } },
             time = 15
         },
-        prerequisites = { "compost-1" },
+        prerequisites = { "steel-processing", "compost-1" },
         order = "c-a"
     },
     {
