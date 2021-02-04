@@ -1,4 +1,11 @@
 ---------------------------------------------------------------------------------------------------
+Version: 5.0.0
+Date: 2021-02-04
+  Balance Changes:
+    - Make early game difficulty easier
+      - Increased colony oxygen consumption
+      - Increased composting ingredients
+---------------------------------------------------------------------------------------------------
 Version: 4.0.0
 Date: 2021-02-03
   Fix:
