@@ -400,7 +400,7 @@ data:extend({
         ingredients =
         {
             { "plant-1", 1 },
-            { type = "fluid", name = "polluted-oxygen", amount = 2600 },
+            { type = "fluid", name = "polluted-oxygen", amount = 400 },
         },
         results =
         {
@@ -420,7 +420,7 @@ data:extend({
         ingredients =
         {
             { "meat-1", 1 },
-            { type = "fluid", name = "polluted-oxygen", amount = 2600 },
+            { type = "fluid", name = "polluted-oxygen", amount = 400 },
         },
         results =
         {
@@ -440,7 +440,7 @@ data:extend({
         ingredients =
         {
             { "plant-2-1", 4 },
-            { type = "fluid", name = "polluted-oxygen", amount = 2600 },
+            { type = "fluid", name = "polluted-oxygen", amount = 400 },
         },
         results =
         {
@@ -460,7 +460,7 @@ data:extend({
         ingredients =
         {
             { "plant-2-2", 4 },
-            { type = "fluid", name = "polluted-oxygen", amount = 2600 },
+            { type = "fluid", name = "polluted-oxygen", amount = 400 },
         },
         results =
         {
@@ -480,7 +480,7 @@ data:extend({
         ingredients =
         {
             { "meat-2-1", 4 },
-            { type = "fluid", name = "polluted-oxygen", amount = 2600 },
+            { type = "fluid", name = "polluted-oxygen", amount = 400 },
         },
         results =
         {
@@ -500,7 +500,7 @@ data:extend({
         ingredients =
         {
             { "meat-2-2", 4 },
-            { type = "fluid", name = "polluted-oxygen", amount = 2600 },
+            { type = "fluid", name = "polluted-oxygen", amount = 400 },
         },
         results =
         {
@@ -731,7 +731,7 @@ data:extend({
         energy_required = 10,
         ingredients =
         {
-            { type = "fluid", name = "polluted-oxygen", amount = 2600 },
+            { type = "fluid", name = "polluted-oxygen", amount = 400 },
             { "plant-3-1", 4 },
         },
         results =
@@ -751,7 +751,7 @@ data:extend({
         energy_required = 10,
         ingredients =
         {
-            { type = "fluid", name = "o2", amount = 2600 },
+            { type = "fluid", name = "o2", amount = 400 },
             { "plant-3-2", 4 },
         },
         results =
@@ -771,7 +771,7 @@ data:extend({
         energy_required = 10,
         ingredients =
         {
-            { type = "fluid", name = "polluted-oxygen", amount = 2600 },
+            { type = "fluid", name = "polluted-oxygen", amount = 400 },
             { "meat-3-1", 4 },
         },
         results =
@@ -791,7 +791,7 @@ data:extend({
         energy_required = 10,
         ingredients =
         {
-            { type = "fluid", name = "polluted-oxygen", amount = 2600 },
+            { type = "fluid", name = "polluted-oxygen", amount = 400 },
             { "plant-3-1", 4 },
         },
         results =
@@ -1089,7 +1089,7 @@ data:extend({
         energy_required = 10,
         ingredients =
         {
-            { type = "fluid", name = "polluted-oxygen", amount = 2600 },
+            { type = "fluid", name = "polluted-oxygen", amount = 400 },
             { "plant-4-1", 1 },
         },
         results =
@@ -1109,7 +1109,7 @@ data:extend({
         energy_required = 10,
         ingredients =
         {
-            { type = "fluid", name = "polluted-oxygen", amount = 2600 },
+            { type = "fluid", name = "polluted-oxygen", amount = 400 },
             { "plant-4-2", 1 },
         },
         results =
@@ -1129,7 +1129,7 @@ data:extend({
         energy_required = 10,
         ingredients =
         {
-            { type = "fluid", name = "polluted-oxygen", amount = 2600 },
+            { type = "fluid", name = "polluted-oxygen", amount = 400 },
             { "plant-4-3", 1 },
         },
         results =
@@ -1149,7 +1149,7 @@ data:extend({
         energy_required = 10,
         ingredients =
         {
-            { type = "fluid", name = "polluted-oxygen", amount = 2600 },
+            { type = "fluid", name = "polluted-oxygen", amount = 400 },
             { "meat-4-1", 1 },
         },
         results =
@@ -1169,7 +1169,7 @@ data:extend({
         energy_required = 10,
         ingredients =
         {
-            { type = "fluid", name = "polluted-oxygen", amount = 2600 },
+            { type = "fluid", name = "polluted-oxygen", amount = 400 },
             { "plant-4-2", 1 },
         },
         results =
@@ -1189,7 +1189,7 @@ data:extend({
         energy_required = 10,
         ingredients =
         {
-            { type = "fluid", name = "polluted-oxygen", amount = 2600 },
+            { type = "fluid", name = "polluted-oxygen", amount = 400 },
             { "plant-4-3", 1 },
         },
         results =
@@ -1516,7 +1516,7 @@ data:extend({
         energy_required = 10,
         ingredients =
         {
-            { type = "fluid", name = "polluted-oxygen", amount = 2600 },
+            { type = "fluid", name = "polluted-oxygen", amount = 400 },
             { "plant-5-1", 1 },
         },
         results =
@@ -1536,7 +1536,7 @@ data:extend({
         energy_required = 10,
         ingredients =
         {
-            { type = "fluid", name = "polluted-oxygen", amount = 2600 },
+            { type = "fluid", name = "polluted-oxygen", amount = 400 },
             { "plant-5-2", 1 },
         },
         results =
@@ -1556,7 +1556,7 @@ data:extend({
         energy_required = 10,
         ingredients =
         {
-            { type = "fluid", name = "polluted-oxygen", amount = 2600 },
+            { type = "fluid", name = "polluted-oxygen", amount = 400 },
             { "plant-5-3", 1 },
         },
         results =
@@ -1576,7 +1576,7 @@ data:extend({
         energy_required = 10,
         ingredients =
         {
-            { type = "fluid", name = "polluted-oxygen", amount = 2600 },
+            { type = "fluid", name = "polluted-oxygen", amount = 400 },
             { "meat-5-1", 1 },
         },
         results =
@@ -1596,7 +1596,7 @@ data:extend({
         energy_required = 10,
         ingredients =
         {
-            { type = "fluid", name = "polluted-oxygen", amount = 2600 },
+            { type = "fluid", name = "polluted-oxygen", amount = 400 },
             { "meat-5-2", 1 },
         },
         results =
@@ -1616,7 +1616,7 @@ data:extend({
         energy_required = 10,
         ingredients =
         {
-            { type = "fluid", name = "polluted-oxygen", amount = 2600 },
+            { type = "fluid", name = "polluted-oxygen", amount = 400 },
             { "meat-5-3", 1 },
         },
         results =
@@ -1859,7 +1859,7 @@ data:extend({
         energy_required = 10,
         ingredients =
         {
-            { type = "fluid", name = "o2", amount = 2600 },
+            { type = "fluid", name = "o2", amount = 400 },
             { "plant-6-1", 1 },
         },
         results =
@@ -1879,7 +1879,7 @@ data:extend({
         energy_required = 10,
         ingredients =
         {
-            { type = "fluid", name = "polluted-oxygen", amount = 2600 },
+            { type = "fluid", name = "polluted-oxygen", amount = 400 },
             { "plant-6-2", 1 },
         },
         results =
@@ -1899,7 +1899,7 @@ data:extend({
         energy_required = 10,
         ingredients =
         {
-            { type = "fluid", name = "polluted-oxygen", amount = 2600 },
+            { type = "fluid", name = "polluted-oxygen", amount = 400 },
             { "plant-6-3", 1 },
         },
         results =
@@ -1919,7 +1919,7 @@ data:extend({
         energy_required = 10,
         ingredients =
         {
-            { type = "fluid", name = "polluted-oxygen", amount = 2600 },
+            { type = "fluid", name = "polluted-oxygen", amount = 400 },
             { "meat-6-1", 1 },
         },
         results =
@@ -1939,7 +1939,7 @@ data:extend({
         energy_required = 10,
         ingredients =
         {
-            { type = "fluid", name = "polluted-oxygen", amount = 2600 },
+            { type = "fluid", name = "polluted-oxygen", amount = 400 },
             { "meat-6-2", 1 },
         },
         results =
@@ -1959,7 +1959,7 @@ data:extend({
         energy_required = 10,
         ingredients =
         {
-            { type = "fluid", name = "polluted-oxygen", amount = 2600 },
+            { type = "fluid", name = "polluted-oxygen", amount = 400 },
             { "meat-6-3", 1 },
         },
         results =
