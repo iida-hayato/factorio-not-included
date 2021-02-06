@@ -384,7 +384,7 @@ data:extend({
         },
         results =
         {
-            { type = "fluid", name = "o2", amount = 200 },
+            { type = "fluid", name = "o2", amount = 1000 },
             { type = "fluid", name = "polluted-water", amount = 500 },
         }
     },
