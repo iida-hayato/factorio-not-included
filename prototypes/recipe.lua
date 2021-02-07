@@ -588,7 +588,7 @@ data:extend({
         energy_required = 10,
         ingredients =
         {
-            { type = "fluid", name = "water", amount = 1600 },
+            { type = "fluid", name = "polluted-water", amount = 1600 },
             { type = "fluid", name = "chlorine", amount = 400 },
             { "dirt", 4 },
         },
@@ -610,7 +610,7 @@ data:extend({
         ingredients =
         {
             { type = "fluid", name = "n2", amount = 400 },
-            { type = "fluid", name = "co2", amount = 1200 },
+            { type = "fluid", name = "co2", amount = 600 },
             { "polluted-dirt", 4 },
         },
         results =
