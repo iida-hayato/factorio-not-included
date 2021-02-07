@@ -185,10 +185,10 @@ data:extend({
         icon_size = 32,
         category = "crafting",
         subgroup = "fni-item",
-        energy_required = 5,
+        energy_required = 1,
         ingredients =
         {
-            { "stone", 10 },
+            { "stone", 1 },
         },
         results =
         {
@@ -316,7 +316,7 @@ data:extend({
         ingredients =
         {
             { "plant-2-1", 1 },
-            { "iron-ore", 10 },
+            { "iron-ore", 4 },
             { type = "fluid", name = "chlorine", amount = 400 },
         },
         results =
