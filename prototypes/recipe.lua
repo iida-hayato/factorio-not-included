@@ -610,7 +610,7 @@ data:extend({
         ingredients =
         {
             { type = "fluid", name = "n2", amount = 400 },
-            { type = "fluid", name = "co2", amount = 600 },
+            { type = "fluid", name = "co2", amount = 1200 },
             { "polluted-dirt", 4 },
         },
         results =
