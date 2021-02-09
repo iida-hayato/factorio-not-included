@@ -40,7 +40,7 @@ data.raw.recipe["utility-science-pack"].ingredients =
 }
 data.raw.recipe["rocket-part"].ingredients =
 {
-    { "human-6", 10 },
+    { "human-6", 100 },
     { "rocket-control-unit", 10 },
     { "low-density-structure", 10 },
     { "rocket-fuel", 10 }

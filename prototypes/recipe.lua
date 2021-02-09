@@ -11,14 +11,14 @@ data:extend({
         energy_required = 10,
         ingredients =
         {
-            { type = "fluid", name = "o2", amount = 3000 },
+            { type = "fluid", name = "o2", amount = 1500 },
             { type = "fluid", name = "water", amount = 1000 },
             { "food-1", 1 },
         },
         results =
         {
             { "human-1", 5 },
-            { type = "fluid", name = "co2", amount = 100 },
+            { type = "fluid", name = "co2", amount = 200 },
             { type = "fluid", name = "polluted-water", amount = 1400 },
         }
     },
@@ -206,14 +206,14 @@ data:extend({
         energy_required = 10,
         ingredients =
         {
-            { type = "fluid", name = "o2", amount = 4000 },
+            { type = "fluid", name = "o2", amount = 2000 },
             { type = "fluid", name = "drinkable-water", amount = 1000 },
             { "food-2", 1 },
         },
         results =
         {
             { "human-2", 5 },
-            { type = "fluid", name = "co2", amount = 1800 },
+            { type = "fluid", name = "co2", amount = 900 },
             { type = "fluid", name = "polluted-water", amount = 1200 },
         }
     },
@@ -273,7 +273,7 @@ data:extend({
         {
             { "dirt", 2 },
             { type = "fluid", name = "polluted-water", amount = 800 },
-            { type = "fluid", name = "n2", amount = 200 },
+            { type = "fluid", name = "n2", amount = 400 },
         },
         results =
         {
@@ -295,7 +295,7 @@ data:extend({
         {
             { "polluted-dirt", 2 },
             { type = "fluid", name = "o2", amount = 400 },
-            { type = "fluid", name = "n2", amount = 200 },
+            { type = "fluid", name = "n2", amount = 400 },
         },
         results =
         {
@@ -322,7 +322,7 @@ data:extend({
         results =
         {
             { "meat-2-1", 1 },
-            { "coal", 10 },
+            { "coal", 4 },
             { type = "fluid", name = "co2", amount = 200 },
         }
     },
@@ -520,7 +520,7 @@ data:extend({
         energy_required = 10,
         ingredients =
         {
-            { type = "fluid", name = "o2", amount = 5000 },
+            { type = "fluid", name = "o2", amount = 4500 },
             { type = "fluid", name = "sparkling-water", amount = 2000 },
             { "small-lamp", 10 },
             { "clothes-1", 5 },
@@ -530,7 +530,7 @@ data:extend({
         {
             { "human-3", 5 },
             { "general-waste", 10 },
-            { type = "fluid", name = "co2", amount = 1800 },
+            { type = "fluid", name = "co2", amount = 1200 },
             { type = "fluid", name = "polluted-water", amount = 1200 },
         }
     },
@@ -823,7 +823,7 @@ data:extend({
             { "human-4", 5 },
             { "oversize-garbage", 1 },
             { "general-waste", 1 },
-            { type = "fluid", name = "co2", amount = 2800 },
+            { type = "fluid", name = "co2", amount = 1800 },
             { type = "fluid", name = "polluted-water", amount = 2200 },
         }
     },
@@ -1222,7 +1222,7 @@ data:extend({
             { "electric-garbage", 10 },
             { "oversize-garbage", 20 },
             { "general-waste", 30 },
-            { type = "fluid", name = "co2", amount = 3600 },
+            { type = "fluid", name = "co2", amount = 2400 },
             { type = "fluid", name = "concentrated-polluted-water", amount = 1200 },
         }
     },
@@ -1649,7 +1649,7 @@ data:extend({
             { "electric-garbage", 20 },
             { "oversize-garbage", 30 },
             { "general-waste", 40 },
-            { type = "fluid", name = "co2", amount = 4200 },
+            { type = "fluid", name = "co2", amount = 3000 },
             { type = "fluid", name = "concentrated-polluted-water", amount = 1600 },
         }
     },

@@ -6,7 +6,7 @@ data:extend({
         icon_size = 64,
         order = "w-b-a",
         subgroup = "fni-item",
-        stack_size = 1,
+        stack_size = 100,
     },
     {
         type = "item",
@@ -69,7 +69,7 @@ data:extend({
         icon_size = 64,
         order = "w-b-a",
         subgroup = "fni-item",
-        stack_size = 1,
+        stack_size = 100,
     },
     {
         type = "item",
@@ -150,7 +150,7 @@ data:extend({
         icon_size = 64,
         order = "w-b-a",
         subgroup = "fni-item",
-        stack_size = 1,
+        stack_size = 100,
     },
     {
         type = "item",
@@ -232,7 +232,7 @@ data:extend({
         icon_size = 64,
         order = "w-b-a",
         subgroup = "fni-item",
-        stack_size = 1,
+        stack_size = 100,
     },
     {
         type = "item",
@@ -323,7 +323,7 @@ data:extend({
         icon_size = 64,
         order = "w-b-a",
         subgroup = "fni-item",
-        stack_size = 1,
+        stack_size = 100,
     },
     {
         type = "item",
@@ -423,7 +423,7 @@ data:extend({
         icon_size = 64,
         order = "w-b-a",
         subgroup = "fni-item",
-        stack_size = 1,
+        stack_size = 100,
     },
     {
         type = "item",
