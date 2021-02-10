@@ -8,7 +8,7 @@ data:extend({
         icon_size = 32,
         category = "colony-1",
         subgroup = "fni-item",
-        energy_required = 10,
+        energy_required = 5,
         ingredients =
         {
             { type = "fluid", name = "o2", amount = 1500 },
@@ -203,7 +203,7 @@ data:extend({
         icon_size = 32,
         category = "colony-2",
         subgroup = "fni-item",
-        energy_required = 10,
+        energy_required = 5,
         ingredients =
         {
             { type = "fluid", name = "o2", amount = 2000 },
@@ -517,7 +517,7 @@ data:extend({
         icon_size = 32,
         category = "colony-3",
         subgroup = "fni-item",
-        energy_required = 10,
+        energy_required = 5,
         ingredients =
         {
             { type = "fluid", name = "o2", amount = 4500 },
@@ -809,7 +809,7 @@ data:extend({
         icon_size = 32,
         category = "colony-4",
         subgroup = "fni-item",
-        energy_required = 10,
+        energy_required = 5,
         ingredients =
         {
             { type = "fluid", name = "o2", amount = 6000 },
@@ -1207,7 +1207,7 @@ data:extend({
         icon_size = 32,
         category = "colony-5",
         subgroup = "fni-item",
-        energy_required = 10,
+        energy_required = 5,
         ingredients =
         {
             { type = "fluid", name = "o2", amount = 7500 },
@@ -1634,7 +1634,7 @@ data:extend({
         icon_size = 32,
         category = "colony-6",
         subgroup = "fni-item",
-        energy_required = 10,
+        energy_required = 5,
         ingredients =
         {
             { type = "fluid", name = "o2", amount = 9000 },
