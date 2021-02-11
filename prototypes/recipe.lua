@@ -590,7 +590,7 @@ data:extend({
         {
             { type = "fluid", name = "polluted-water", amount = 1600 },
             { type = "fluid", name = "chlorine", amount = 400 },
-            { "dirt", 4 },
+            { "dirt", 2 },
         },
         results =
         {
@@ -610,8 +610,8 @@ data:extend({
         ingredients =
         {
             { type = "fluid", name = "n2", amount = 400 },
-            { type = "fluid", name = "co2", amount = 1200 },
-            { "polluted-dirt", 4 },
+            { type = "fluid", name = "co2", amount = 600 },
+            { "polluted-dirt", 2 },
         },
         results =
         {
@@ -630,14 +630,14 @@ data:extend({
         energy_required = 5,
         ingredients =
         {
-            { type = "fluid", name = "h2", amount = 1000 },
-            { "plant-1", 4 },
+            { type = "fluid", name = "h2", amount = 500 },
+            { "plant-1", 2 },
         },
         results =
         {
             { "meat-3-1", 1 },
             { "fiber", 1 },
-            { type = "fluid", name = "chlorine", amount = 200 },
+            { type = "fluid", name = "co2", amount = 400 },
         }
     },
     {
@@ -651,15 +651,16 @@ data:extend({
         energy_required = 5,
         ingredients =
         {
-            { type = "fluid", name = "o2", amount = 1200 },
+            { type = "fluid", name = "co2", amount = 600 },
             { "plant-3-1", 1 },
             { "plant-3-2", 1 },
+            { "slime", 1 },
         },
         results =
         {
             { "meat-3-2", 1 },
             { "sand", 10 },
-            { type = "fluid", name = "chlorine", amount = 200 },
+            { type = "fluid", name = "h2", amount = 200 },
         }
     },
     {
@@ -885,7 +886,7 @@ data:extend({
         ingredients =
         {
             { type = "fluid", name = "polluted-water", amount = 1600 },
-            { type = "fluid", name = "co2", amount = 1200 },
+            { type = "fluid", name = "co2", amount = 800 },
             { name = "dirt", amount = 4 },
         },
         results =
@@ -906,7 +907,7 @@ data:extend({
         ingredients =
         {
             { type = "fluid", name = "n2", amount = 400 },
-            { type = "fluid", name = "chlorine", amount = 1200 },
+            { type = "fluid", name = "h2", amount = 1200 },
             { "polluted-dirt", 4 },
         },
         results =
@@ -928,7 +929,7 @@ data:extend({
         {
             { type = "fluid", name = "n2", amount = 400 },
             { type = "fluid", name = "co2", amount = 1200 },
-            { "slime", 1 },
+            { "slime", 2 },
         },
         results =
         {
@@ -947,15 +948,15 @@ data:extend({
         energy_required = 5,
         ingredients =
         {
-            { type = "fluid", name = "co2", amount = 1200 },
+            { type = "fluid", name = "chlorine", amount = 800 },
             { "plant-4-1", 1 },
-            { "meat-4-1", 2 },
+            { "meat-3-1", 1 },
         },
         results =
         {
             { "meat-4-1", 1 },
             { "fiber", 2 },
-            { type = "fluid", name = "h2", amount = 600 },
+            { type = "fluid", name = "polluted-water", amount = 600 },
         }
     },
     {
@@ -976,6 +977,7 @@ data:extend({
         results =
         {
             { "meat-4-2", 1 },
+            { "slime", 2 },
             { type = "fluid", name = "h2", amount = 400 },
         }
     },
@@ -1057,7 +1059,7 @@ data:extend({
         results =
         {
             { type = "fluid", name = "co2", amount = 1000 },
-            { type = "fluid", name = "steam", amount = 1000 },
+            { type = "fluid", name = "steam", amount = 10000 },
         }
     },
     {
@@ -1075,7 +1077,7 @@ data:extend({
         },
         results =
         {
-            { type = "fluid", name = "steam", amount = 1000 },
+            { type = "fluid", name = "steam", amount = 10000 },
         }
     },
     {
@@ -1291,6 +1293,7 @@ data:extend({
         {
             { "plant-5-1", 1 },
             { type = "fluid", name = "h2", amount = 600 },
+            { type = "fluid", name = "polluted-oxygen", amount = 1600 },
         }
     },
     {
@@ -1304,14 +1307,15 @@ data:extend({
         energy_required = 5,
         ingredients =
         {
-            { type = "fluid", name = "h2", amount = 400 },
-            { type = "fluid", name = "polluted-oxygen", amount = 1200 },
+            { type = "fluid", name = "h2", amount = 800 },
+            { type = "fluid", name = "concentrated-polluted-water", amount = 600 },
             { "polluted-dirt", 4 },
         },
         results =
         {
             { "plant-5-2", 1 },
             { type = "fluid", name = "o2", amount = 1200 },
+            { type = "fluid", name = "chlorine", amount = 1000 },
         }
     },
     {
@@ -1327,12 +1331,14 @@ data:extend({
         {
             { type = "fluid", name = "n2", amount = 800 },
             { type = "fluid", name = "natural-gas", amount = 600 },
-            { "slime", 2 },
+            { "slime", 4 },
         },
         results =
         {
             { "plant-5-3", 1 },
-            { type = "fluid", name = "concentrated-polluted-water", amount = 200 },
+            { "coal", 10 },
+            { type = "fluid", name = "concentrated-polluted-water", amount = 400 },
+            { type = "fluid", name = "h2", amount = 1200 },
         }
     },
     {
@@ -1348,13 +1354,14 @@ data:extend({
         {
             { type = "fluid", name = "co2", amount = 1200 },
             { "plant-5-1", 1 },
-            { "meat-4-1", 2 },
+            { "meat-4-1", 1 },
         },
         results =
         {
             { "meat-5-1", 1 },
             { "slime", 4 },
-            { type = "fluid", name = "concentrated-polluted-water", amount = 300 },
+            { type = "fluid", name = "concentrated-polluted-water", amount = 600 },
+            { type = "fluid", name = "n2", amount = 1200 },
         }
     },
     {
@@ -1369,14 +1376,15 @@ data:extend({
         ingredients =
         {
             { "plant-5-2", 1 },
-            { "meat-4-2", 2 },
-            { type = "fluid", name = "natural-gas", amount = 600 },
+            { "meat-4-2", 1 },
+            { type = "fluid", name = "o2", amount = 800 },
+            { type = "fluid", name = "polluted-water", amount = 1200 },
         },
         results =
         {
             { "meat-5-2", 1 },
-            { type = "fluid", name = "crude-oil", amount = 200 },
-            { type = "fluid", name = "chlorine", amount = 600 },
+            { type = "fluid", name = "polluted-oxygen", amount = 800 },
+            { type = "fluid", name = "natural-gas", amount = 600 },
         }
     },
     {
@@ -1391,13 +1399,16 @@ data:extend({
         ingredients =
         {
             { "plant-5-3", 1 },
-            { "meat-4-3", 2 },
+            { "meat-4-3", 1 },
             { type = "fluid", name = "h2", amount = 600 },
+            { type = "fluid", name = "o2", amount = 1200 },
         },
         results =
         {
             { "meat-5-3", 1 },
-            { type = "fluid", name = "natural-gas", amount = 1200 },
+            { "fiber", 6 },
+            { type = "fluid", name = "co2", amount = 1200 },
+            { type = "fluid", name = "concentrated-polluted-water", amount = 800 },
         }
     },
     {
@@ -1435,8 +1446,8 @@ data:extend({
         ingredients =
         {
             { "processing-unit", 2 },
-            { "copper-cable", 16 },
-            { "plastic-bar", 8 },
+            { "copper-cable", 8 },
+            { "plastic-bar", 2 },
         },
         results =
         {
@@ -1455,7 +1466,7 @@ data:extend({
         ingredients =
         {
             { "fiber", 4 },
-            { "plastic-bar", 5 },
+            { "plastic-bar", 1 },
         },
         results =
         {
@@ -1479,7 +1490,7 @@ data:extend({
         results =
         {
             { type = "fluid", name = "concentrated-polluted-water", amount = 400 },
-            { type = "fluid", name = "steam", amount = 1000 },
+            { type = "fluid", name = "steam", amount = 10000 },
             { type = "fluid", name = "co2", amount = 600 },
         }
     },
@@ -1689,14 +1700,15 @@ data:extend({
         energy_required = 5,
         ingredients =
         {
-            { type = "fluid", name = "co2", amount = 1200 },
-            { type = "fluid", name = "concentrated-polluted-water", amount = 400 },
+            { type = "fluid", name = "chlorine", amount = 1200 },
+            { type = "fluid", name = "concentrated-polluted-water", amount = 800 },
             { "dirt", 4 },
         },
         results =
         {
             { "plant-6-1", 1 },
-            { type = "fluid", name = "polluted-oxygen", amount = 600 },
+            { type = "fluid", name = "polluted-water", amount = 1400 },
+            { type = "fluid", name = "h2", amount = 1200 },
         }
     },
     {
@@ -1710,14 +1722,15 @@ data:extend({
         energy_required = 5,
         ingredients =
         {
-            { type = "fluid", name = "n2", amount = 1200 },
-            { type = "fluid", name = "polluted-oxygen", amount = 800 },
+            { type = "fluid", name = "polluted-water", amount = 800 },
+            { type = "fluid", name = "polluted-oxygen", amount = 1200 },
             { "polluted-dirt", 4 },
         },
         results =
         {
             { "plant-6-2", 1 },
-            { type = "fluid", name = "h2", amount = 1200 },
+            { type = "fluid", name = "chlorine", amount = 1400 },
+            { type = "fluid", name = "natural-gas", amount = 1200 },
         }
     },
     {
@@ -1738,7 +1751,8 @@ data:extend({
         results =
         {
             { "plant-6-3", 1 },
-            { type = "fluid", name = "natural-gas", amount = 800 },
+            { type = "fluid", name = "n2", amount = 1600 },
+            { type = "fluid", name = "natural-gas", amount = 1400 },
         }
     },
     {
@@ -1753,13 +1767,16 @@ data:extend({
         ingredients =
         {
             { "plant-6-1", 1 },
-            { "meat-5-1", 2 },
-            { "copper-cable", 8 },
+            { "meat-5-1", 1 },
+            { "copper-cable", 4 },
             { type = "fluid", name = "natural-gas", amount = 1200 },
+            { type = "fluid", name = "polluted-oxygen", amount = 1400 },
         },
         results =
         {
             { "meat-6-1", 1 },
+            { "fiber", 8 },
+            { type = "fluid", name = "polluted-water", amount = 1800 },
             { type = "fluid", name = "co2", amount = 1600 },
         }
     },
@@ -1775,14 +1792,16 @@ data:extend({
         ingredients =
         {
             { "plant-6-2", 1 },
-            { "meat-5-2", 2 },
-            { "iron-stick", 8 },
-            { type = "fluid", name = "chlorine", amount = 600 },
+            { "meat-5-2", 1 },
+            { "iron-stick", 2 },
+            { type = "fluid", name = "polluted-water", amount = 1600 },
+            { type = "fluid", name = "chlorine", amount = 1400 },
         },
         results =
         {
             { "meat-6-2", 1 },
             { type = "fluid", name = "concentrated-polluted-water", amount = 800 },
+            { type = "fluid", name = "o2", amount = 1200 },
         }
     },
     {
@@ -1797,14 +1816,17 @@ data:extend({
         ingredients =
         {
             { "plant-6-3", 1 },
-            { "meat-5-3", 2 },
-            { "plastic-bar", 8 },
-            { type = "fluid", name = "h2", amount = 600 },
+            { "meat-5-3", 1 },
+            { "plastic-bar", 2 },
+            { type = "fluid", name = "natural-gas", amount = 1600 },
+            { type = "fluid", name = "o2", amount = 1200 },
         },
         results =
         {
             { "meat-6-3", 1 },
-            { type = "fluid", name = "natural-gas", amount = 1200 },
+            { "slime", 4 },
+            { type = "fluid", name = "polluted-oxygen", amount = 1800 },
+            { type = "fluid", name = "chlorine", amount = 1200 },
         }
     },
     {
@@ -1818,9 +1840,9 @@ data:extend({
         energy_required = 5,
         ingredients =
         {
-            { "processing-unit", 2 },
-            { "advanced-circuit", 8 },
-            { "electronic-circuit", 16 },
+            { "processing-unit", 1 },
+            { "advanced-circuit", 2 },
+            { "electronic-circuit", 4 },
         },
         results =
         {
@@ -1838,9 +1860,9 @@ data:extend({
         energy_required = 5,
         ingredients =
         {
-            { "processing-unit", 3 },
+            { "processing-unit", 1 },
             { "fiber", 8 },
-            { "plastic-bar", 16 },
+            { "plastic-bar", 4 },
         },
         results =
         {
