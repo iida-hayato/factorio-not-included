@@ -1058,7 +1058,7 @@ data:extend({
         },
         results =
         {
-            { type = "fluid", name = "co2", amount = 1000 },
+            { type = "fluid", name = "co2", amount = 3000 },
             { type = "fluid", name = "steam", amount = 10000 },
         }
     },
@@ -1077,6 +1077,7 @@ data:extend({
         },
         results =
         {
+            { type = "fluid", name = "polluted-water", amount = 800 },
             { type = "fluid", name = "steam", amount = 10000 },
         }
     },
@@ -1489,7 +1490,7 @@ data:extend({
         },
         results =
         {
-            { type = "fluid", name = "concentrated-polluted-water", amount = 400 },
+            { type = "fluid", name = "concentrated-polluted-water", amount = 800 },
             { type = "fluid", name = "steam", amount = 10000 },
             { type = "fluid", name = "co2", amount = 600 },
         }
