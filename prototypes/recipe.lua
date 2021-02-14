@@ -30,7 +30,7 @@ data:extend({
         icon_size = 32,
         category = "farm-1",
         subgroup = "fni-item",
-        energy_required = 5,
+        energy_required = 2,
         ingredients =
         {
             { "dirt", 2 },
@@ -51,7 +51,7 @@ data:extend({
         icon_size = 32,
         category = "pasture-1",
         subgroup = "fni-item",
-        energy_required = 5,
+        energy_required = 2,
         ingredients =
         {
             { "coal", 1 },
@@ -71,7 +71,7 @@ data:extend({
         icon_size = 32,
         category = "cooker-1",
         subgroup = "fni-item",
-        energy_required = 5,
+        energy_required = 2,
         ingredients =
         {
             { "meat-1", 1 },
@@ -90,7 +90,7 @@ data:extend({
         icon_size = 32,
         category = "water-sieve-1",
         subgroup = "fni-fluid",
-        energy_required = 5,
+        energy_required = 2,
         ingredients =
         {
             { "sand", 1 },
@@ -110,7 +110,7 @@ data:extend({
         icon_size = 32,
         category = "compost-1",
         subgroup = "fni-item",
-        energy_required = 5,
+        energy_required = 2,
         ingredients =
         {
             { "polluted-dirt", 1 },
@@ -130,7 +130,7 @@ data:extend({
         icon_size = 32,
         category = "air-cleaner-1",
         subgroup = "fni-fluid",
-        energy_required = 5,
+        energy_required = 2,
         ingredients =
         {
             { "sand", 1 },
@@ -150,7 +150,7 @@ data:extend({
         icon_size = 32,
         category = "carbon-skimmer-1",
         subgroup = "fni-fluid",
-        energy_required = 5,
+        energy_required = 2,
         ingredients =
         {
             { type = "fluid", name = "co2", amount = 600 },
@@ -169,7 +169,7 @@ data:extend({
         icon_size = 32,
         category = "gas-pump-1",
         subgroup = "fni-fluid",
-        energy_required = 5,
+        energy_required = 2,
         ingredients = {},
         results =
         {
@@ -225,7 +225,7 @@ data:extend({
         icon_size = 32,
         category = "water-sieve-1",
         subgroup = "fni-item",
-        energy_required = 5,
+        energy_required = 2,
         ingredients =
         {
             { type = "fluid", name = "water", amount = 1000 },
@@ -245,7 +245,7 @@ data:extend({
         icon_size = 32,
         category = "cooker-1",
         subgroup = "fni-item",
-        energy_required = 5,
+        energy_required = 2,
         ingredients =
         {
             { "plant-2-1", 1 },
@@ -268,7 +268,7 @@ data:extend({
         icon_size = 32,
         category = "farm-2-1",
         subgroup = "fni-item",
-        energy_required = 5,
+        energy_required = 2,
         ingredients =
         {
             { "dirt", 2 },
@@ -290,7 +290,7 @@ data:extend({
         icon_size = 32,
         category = "farm-2-2",
         subgroup = "fni-item",
-        energy_required = 5,
+        energy_required = 2,
         ingredients =
         {
             { "polluted-dirt", 2 },
@@ -312,7 +312,7 @@ data:extend({
         icon_size = 32,
         category = "pasture-2-1",
         subgroup = "fni-item",
-        energy_required = 5,
+        energy_required = 2,
         ingredients =
         {
             { "plant-2-1", 1 },
@@ -334,7 +334,7 @@ data:extend({
         icon_size = 32,
         category = "pasture-2-2",
         subgroup = "fni-item",
-        energy_required = 5,
+        energy_required = 2,
         ingredients =
         {
             { "plant-2-2", 1 },
@@ -355,7 +355,7 @@ data:extend({
         icon_size = 32,
         category = "distiller-1",
         subgroup = "fni-item",
-        energy_required = 5,
+        energy_required = 2,
         ingredients =
         {
             { "slime", 1 },
@@ -375,7 +375,7 @@ data:extend({
         icon_size = 32,
         category = "terrarium-1",
         subgroup = "fni-item",
-        energy_required = 5,
+        energy_required = 2,
         ingredients =
         {
             { "algae", 1 },
@@ -396,7 +396,7 @@ data:extend({
         icon_size = 32,
         category = "compost-1",
         subgroup = "fni-item",
-        energy_required = 5,
+        energy_required = 2,
         ingredients =
         {
             { "plant-1", 1 },
@@ -416,7 +416,7 @@ data:extend({
         icon_size = 32,
         category = "compost-1",
         subgroup = "fni-item",
-        energy_required = 5,
+        energy_required = 2,
         ingredients =
         {
             { "meat-1", 1 },
@@ -436,7 +436,7 @@ data:extend({
         icon_size = 32,
         category = "compost-1",
         subgroup = "fni-item",
-        energy_required = 5,
+        energy_required = 2,
         ingredients =
         {
             { "plant-2-1", 4 },
@@ -456,7 +456,7 @@ data:extend({
         icon_size = 32,
         category = "compost-1",
         subgroup = "fni-item",
-        energy_required = 5,
+        energy_required = 2,
         ingredients =
         {
             { "plant-2-2", 4 },
@@ -476,7 +476,7 @@ data:extend({
         icon_size = 32,
         category = "compost-1",
         subgroup = "fni-item",
-        energy_required = 5,
+        energy_required = 2,
         ingredients =
         {
             { "meat-2-1", 4 },
@@ -496,7 +496,7 @@ data:extend({
         icon_size = 32,
         category = "compost-1",
         subgroup = "fni-item",
-        energy_required = 5,
+        energy_required = 2,
         ingredients =
         {
             { "meat-2-2", 4 },
@@ -542,7 +542,7 @@ data:extend({
         icon_size = 32,
         category = "cooker-1",
         subgroup = "fni-item",
-        energy_required = 5,
+        energy_required = 2,
         ingredients =
         {
             { type = "fluid", name = "drinkable-water", amount = 600 },
@@ -565,7 +565,7 @@ data:extend({
         icon_size = 32,
         category = "cooker-1",
         subgroup = "fni-item",
-        energy_required = 5,
+        energy_required = 2,
         ingredients =
         {
             { type = "fluid", name = "drinkable-water", amount = 1000 },
@@ -585,7 +585,7 @@ data:extend({
         icon_size = 32,
         category = "farm-3-1",
         subgroup = "fni-item",
-        energy_required = 5,
+        energy_required = 2,
         ingredients =
         {
             { type = "fluid", name = "polluted-water", amount = 1600 },
@@ -606,7 +606,7 @@ data:extend({
         icon_size = 32,
         category = "farm-3-2",
         subgroup = "fni-item",
-        energy_required = 5,
+        energy_required = 2,
         ingredients =
         {
             { type = "fluid", name = "n2", amount = 400 },
@@ -627,7 +627,7 @@ data:extend({
         icon_size = 32,
         category = "pasture-3-1",
         subgroup = "fni-item",
-        energy_required = 5,
+        energy_required = 2,
         ingredients =
         {
             { type = "fluid", name = "h2", amount = 500 },
@@ -648,7 +648,7 @@ data:extend({
         icon_size = 32,
         category = "pasture-3-2",
         subgroup = "fni-item",
-        energy_required = 5,
+        energy_required = 2,
         ingredients =
         {
             { type = "fluid", name = "co2", amount = 600 },
@@ -671,7 +671,7 @@ data:extend({
         icon_size = 32,
         category = "textile-loom-1",
         subgroup = "fni-item",
-        energy_required = 5,
+        energy_required = 2,
         ingredients =
         {
             { "fiber", 1 },
@@ -710,7 +710,7 @@ data:extend({
         icon_size = 32,
         category = "electrolyzer-1",
         subgroup = "fni-item",
-        energy_required = 5,
+        energy_required = 2,
         ingredients =
         {
             { type = "fluid", name = "water", amount = 600 },
@@ -729,7 +729,7 @@ data:extend({
         icon_size = 32,
         category = "compost-1",
         subgroup = "fni-item",
-        energy_required = 5,
+        energy_required = 2,
         ingredients =
         {
             { type = "fluid", name = "polluted-oxygen", amount = 400 },
@@ -749,7 +749,7 @@ data:extend({
         icon_size = 32,
         category = "compost-1",
         subgroup = "fni-item",
-        energy_required = 5,
+        energy_required = 2,
         ingredients =
         {
             { type = "fluid", name = "o2", amount = 400 },
@@ -769,7 +769,7 @@ data:extend({
         icon_size = 32,
         category = "compost-1",
         subgroup = "fni-item",
-        energy_required = 5,
+        energy_required = 2,
         ingredients =
         {
             { type = "fluid", name = "polluted-oxygen", amount = 400 },
@@ -789,7 +789,7 @@ data:extend({
         icon_size = 32,
         category = "compost-1",
         subgroup = "fni-item",
-        energy_required = 5,
+        energy_required = 2,
         ingredients =
         {
             { type = "fluid", name = "polluted-oxygen", amount = 400 },
@@ -836,7 +836,7 @@ data:extend({
         icon_size = 32,
         category = "cooker-1",
         subgroup = "fni-item",
-        energy_required = 5,
+        energy_required = 2,
         ingredients =
         {
             { "plant-4-1", 1 },
@@ -861,7 +861,7 @@ data:extend({
         icon_size = 32,
         category = "cooker-1",
         subgroup = "fni-item",
-        energy_required = 5,
+        energy_required = 2,
         ingredients =
         {
             { type = "fluid", name = "sparkling-water", amount = 800 },
@@ -882,7 +882,7 @@ data:extend({
         icon_size = 32,
         category = "farm-4-1",
         subgroup = "fni-item",
-        energy_required = 5,
+        energy_required = 2,
         ingredients =
         {
             { type = "fluid", name = "polluted-water", amount = 1600 },
@@ -903,7 +903,7 @@ data:extend({
         icon_size = 32,
         category = "farm-4-2",
         subgroup = "fni-item",
-        energy_required = 5,
+        energy_required = 2,
         ingredients =
         {
             { type = "fluid", name = "n2", amount = 400 },
@@ -924,7 +924,7 @@ data:extend({
         icon_size = 32,
         category = "farm-4-3",
         subgroup = "fni-item",
-        energy_required = 5,
+        energy_required = 2,
         ingredients =
         {
             { type = "fluid", name = "n2", amount = 400 },
@@ -945,7 +945,7 @@ data:extend({
         icon_size = 32,
         category = "pasture-4-1",
         subgroup = "fni-item",
-        energy_required = 5,
+        energy_required = 2,
         ingredients =
         {
             { type = "fluid", name = "chlorine", amount = 800 },
@@ -967,7 +967,7 @@ data:extend({
         icon_size = 32,
         category = "pasture-4-2",
         subgroup = "fni-item",
-        energy_required = 5,
+        energy_required = 2,
         ingredients =
         {
             { type = "fluid", name = "natural-gas", amount = 1200 },
@@ -989,7 +989,7 @@ data:extend({
         icon_size = 32,
         category = "pasture-4-3",
         subgroup = "fni-item",
-        energy_required = 5,
+        energy_required = 2,
         ingredients =
         {
             { type = "fluid", name = "natural-gas", amount = 600 },
@@ -1031,7 +1031,7 @@ data:extend({
         icon_size = 32,
         category = "crafting",
         subgroup = "fni-item",
-        energy_required = 5,
+        energy_required = 2,
         ingredients =
         {
             { "copper-cable", 8 },
@@ -1050,7 +1050,7 @@ data:extend({
         icon_size = 32,
         category = "fuel-generator",
         subgroup = "fni-item",
-        energy_required = 5,
+        energy_required = 2,
         ingredients =
         {
             { type = "fluid", name = "water", amount = 1000 },
@@ -1070,7 +1070,7 @@ data:extend({
         icon_size = 32,
         category = "h2-generator",
         subgroup = "fni-item",
-        energy_required = 5,
+        energy_required = 2,
         ingredients =
         {
             { type = "fluid", name = "h2", amount = 1000 },
@@ -1089,7 +1089,7 @@ data:extend({
         icon_size = 32,
         category = "compost-1",
         subgroup = "fni-item",
-        energy_required = 5,
+        energy_required = 2,
         ingredients =
         {
             { type = "fluid", name = "polluted-oxygen", amount = 400 },
@@ -1109,7 +1109,7 @@ data:extend({
         icon_size = 32,
         category = "compost-1",
         subgroup = "fni-item",
-        energy_required = 5,
+        energy_required = 2,
         ingredients =
         {
             { type = "fluid", name = "polluted-oxygen", amount = 400 },
@@ -1129,7 +1129,7 @@ data:extend({
         icon_size = 32,
         category = "compost-1",
         subgroup = "fni-item",
-        energy_required = 5,
+        energy_required = 2,
         ingredients =
         {
             { type = "fluid", name = "polluted-oxygen", amount = 400 },
@@ -1149,7 +1149,7 @@ data:extend({
         icon_size = 32,
         category = "compost-1",
         subgroup = "fni-item",
-        energy_required = 5,
+        energy_required = 2,
         ingredients =
         {
             { type = "fluid", name = "polluted-oxygen", amount = 400 },
@@ -1169,7 +1169,7 @@ data:extend({
         icon_size = 32,
         category = "compost-1",
         subgroup = "fni-item",
-        energy_required = 5,
+        energy_required = 2,
         ingredients =
         {
             { type = "fluid", name = "polluted-oxygen", amount = 400 },
@@ -1189,7 +1189,7 @@ data:extend({
         icon_size = 32,
         category = "compost-1",
         subgroup = "fni-item",
-        energy_required = 5,
+        energy_required = 2,
         ingredients =
         {
             { type = "fluid", name = "polluted-oxygen", amount = 400 },
@@ -1237,7 +1237,7 @@ data:extend({
         icon_size = 32,
         category = "cooker-1",
         subgroup = "fni-item",
-        energy_required = 5,
+        energy_required = 2,
         ingredients =
         {
             { type = "fluid", name = "drinkable-water", amount = 1200 },
@@ -1262,7 +1262,7 @@ data:extend({
         icon_size = 32,
         category = "cooker-1",
         subgroup = "fni-item",
-        energy_required = 5,
+        energy_required = 2,
         ingredients =
         {
             { type = "fluid", name = "sparkling-water", amount = 600 },
@@ -1283,7 +1283,7 @@ data:extend({
         icon_size = 32,
         category = "farm-5-1",
         subgroup = "fni-item",
-        energy_required = 5,
+        energy_required = 2,
         ingredients =
         {
             { type = "fluid", name = "concentrated-polluted-water", amount = 600 },
@@ -1305,7 +1305,7 @@ data:extend({
         icon_size = 32,
         category = "farm-5-2",
         subgroup = "fni-item",
-        energy_required = 5,
+        energy_required = 2,
         ingredients =
         {
             { type = "fluid", name = "h2", amount = 800 },
@@ -1327,7 +1327,7 @@ data:extend({
         icon_size = 32,
         category = "farm-5-3",
         subgroup = "fni-item",
-        energy_required = 5,
+        energy_required = 2,
         ingredients =
         {
             { type = "fluid", name = "n2", amount = 800 },
@@ -1350,7 +1350,7 @@ data:extend({
         icon_size = 32,
         category = "pasture-5-1",
         subgroup = "fni-item",
-        energy_required = 5,
+        energy_required = 2,
         ingredients =
         {
             { type = "fluid", name = "co2", amount = 1200 },
@@ -1373,7 +1373,7 @@ data:extend({
         icon_size = 32,
         category = "pasture-5-2",
         subgroup = "fni-item",
-        energy_required = 5,
+        energy_required = 2,
         ingredients =
         {
             { "plant-5-2", 1 },
@@ -1396,7 +1396,7 @@ data:extend({
         icon_size = 32,
         category = "pasture-5-3",
         subgroup = "fni-item",
-        energy_required = 5,
+        energy_required = 2,
         ingredients =
         {
             { "plant-5-3", 1 },
@@ -1443,7 +1443,7 @@ data:extend({
         icon_size = 32,
         category = "crafting",
         subgroup = "fni-item",
-        energy_required = 5,
+        energy_required = 2,
         ingredients =
         {
             { "processing-unit", 2 },
@@ -1463,7 +1463,7 @@ data:extend({
         icon_size = 32,
         category = "textile-loom-1",
         subgroup = "fni-item",
-        energy_required = 5,
+        energy_required = 2,
         ingredients =
         {
             { "fiber", 4 },
@@ -1483,7 +1483,7 @@ data:extend({
         icon_size = 32,
         category = "natural-gas-generator",
         subgroup = "fni-item",
-        energy_required = 5,
+        energy_required = 2,
         ingredients =
         {
             { type = "fluid", name = "natural-gas", amount = 1000 },
@@ -1503,7 +1503,7 @@ data:extend({
         icon_size = 32,
         category = "water-sieve-1",
         subgroup = "fni-item",
-        energy_required = 5,
+        energy_required = 2,
         ingredients =
         {
             { type = "fluid", name = "concentrated-polluted-water", amount = 1000 },
@@ -1525,7 +1525,7 @@ data:extend({
         icon_size = 32,
         category = "compost-1",
         subgroup = "fni-item",
-        energy_required = 5,
+        energy_required = 2,
         ingredients =
         {
             { type = "fluid", name = "polluted-oxygen", amount = 400 },
@@ -1545,7 +1545,7 @@ data:extend({
         icon_size = 32,
         category = "compost-1",
         subgroup = "fni-item",
-        energy_required = 5,
+        energy_required = 2,
         ingredients =
         {
             { type = "fluid", name = "polluted-oxygen", amount = 400 },
@@ -1565,7 +1565,7 @@ data:extend({
         icon_size = 32,
         category = "compost-1",
         subgroup = "fni-item",
-        energy_required = 5,
+        energy_required = 2,
         ingredients =
         {
             { type = "fluid", name = "polluted-oxygen", amount = 400 },
@@ -1585,7 +1585,7 @@ data:extend({
         icon_size = 32,
         category = "compost-1",
         subgroup = "fni-item",
-        energy_required = 5,
+        energy_required = 2,
         ingredients =
         {
             { type = "fluid", name = "polluted-oxygen", amount = 400 },
@@ -1605,7 +1605,7 @@ data:extend({
         icon_size = 32,
         category = "compost-1",
         subgroup = "fni-item",
-        energy_required = 5,
+        energy_required = 2,
         ingredients =
         {
             { type = "fluid", name = "polluted-oxygen", amount = 400 },
@@ -1625,7 +1625,7 @@ data:extend({
         icon_size = 32,
         category = "compost-1",
         subgroup = "fni-item",
-        energy_required = 5,
+        energy_required = 2,
         ingredients =
         {
             { type = "fluid", name = "polluted-oxygen", amount = 400 },
@@ -1673,7 +1673,7 @@ data:extend({
         icon_size = 32,
         category = "cooker-1",
         subgroup = "fni-item",
-        energy_required = 5,
+        energy_required = 2,
         ingredients =
         {
             { "plant-6-1", 1 },
@@ -1698,7 +1698,7 @@ data:extend({
         icon_size = 32,
         category = "farm-6-1",
         subgroup = "fni-item",
-        energy_required = 5,
+        energy_required = 2,
         ingredients =
         {
             { type = "fluid", name = "chlorine", amount = 1200 },
@@ -1720,7 +1720,7 @@ data:extend({
         icon_size = 32,
         category = "farm-6-2",
         subgroup = "fni-item",
-        energy_required = 5,
+        energy_required = 2,
         ingredients =
         {
             { type = "fluid", name = "polluted-water", amount = 800 },
@@ -1742,7 +1742,7 @@ data:extend({
         icon_size = 32,
         category = "farm-6-3",
         subgroup = "fni-item",
-        energy_required = 5,
+        energy_required = 2,
         ingredients =
         {
             { type = "fluid", name = "chlorine", amount = 800 },
@@ -1764,7 +1764,7 @@ data:extend({
         icon_size = 32,
         category = "pasture-6-1",
         subgroup = "fni-item",
-        energy_required = 5,
+        energy_required = 2,
         ingredients =
         {
             { "plant-6-1", 1 },
@@ -1789,7 +1789,7 @@ data:extend({
         icon_size = 32,
         category = "pasture-6-2",
         subgroup = "fni-item",
-        energy_required = 5,
+        energy_required = 2,
         ingredients =
         {
             { "plant-6-2", 1 },
@@ -1813,7 +1813,7 @@ data:extend({
         icon_size = 32,
         category = "pasture-6-3",
         subgroup = "fni-item",
-        energy_required = 5,
+        energy_required = 2,
         ingredients =
         {
             { "plant-6-3", 1 },
@@ -1838,7 +1838,7 @@ data:extend({
         icon_size = 32,
         category = "crafting",
         subgroup = "fni-item",
-        energy_required = 5,
+        energy_required = 2,
         ingredients =
         {
             { "processing-unit", 1 },
@@ -1858,7 +1858,7 @@ data:extend({
         icon_size = 32,
         category = "textile-loom-1",
         subgroup = "fni-item",
-        energy_required = 5,
+        energy_required = 2,
         ingredients =
         {
             { "processing-unit", 1 },
@@ -1879,7 +1879,7 @@ data:extend({
         icon_size = 32,
         category = "compost-1",
         subgroup = "fni-item",
-        energy_required = 5,
+        energy_required = 2,
         ingredients =
         {
             { type = "fluid", name = "o2", amount = 400 },
@@ -1899,7 +1899,7 @@ data:extend({
         icon_size = 32,
         category = "compost-1",
         subgroup = "fni-item",
-        energy_required = 5,
+        energy_required = 2,
         ingredients =
         {
             { type = "fluid", name = "polluted-oxygen", amount = 400 },
@@ -1919,7 +1919,7 @@ data:extend({
         icon_size = 32,
         category = "compost-1",
         subgroup = "fni-item",
-        energy_required = 5,
+        energy_required = 2,
         ingredients =
         {
             { type = "fluid", name = "polluted-oxygen", amount = 400 },
@@ -1939,7 +1939,7 @@ data:extend({
         icon_size = 32,
         category = "compost-1",
         subgroup = "fni-item",
-        energy_required = 5,
+        energy_required = 2,
         ingredients =
         {
             { type = "fluid", name = "polluted-oxygen", amount = 400 },
@@ -1959,7 +1959,7 @@ data:extend({
         icon_size = 32,
         category = "compost-1",
         subgroup = "fni-item",
-        energy_required = 5,
+        energy_required = 2,
         ingredients =
         {
             { type = "fluid", name = "polluted-oxygen", amount = 400 },
@@ -1979,7 +1979,7 @@ data:extend({
         icon_size = 32,
         category = "compost-1",
         subgroup = "fni-item",
-        energy_required = 5,
+        energy_required = 2,
         ingredients =
         {
             { type = "fluid", name = "polluted-oxygen", amount = 400 },
