@@ -1098,7 +1098,7 @@ data:extend({
         results =
         {
             { "polluted-dirt", 1 },
-            { type = "fluid", name = "natural-gas", amount = 200 },
+            { type = "fluid", name = "h2", amount = 200 },
         }
     },
     {
