@@ -956,7 +956,7 @@ data:extend({
         {
             { "meat-4-1", 1 },
             { "fiber", 2 },
-            { type = "fluid", name = "polluted-water", amount = 600 },
+            { type = "fluid", name = "polluted-water", amount = 800 },
         }
     },
     {
@@ -970,7 +970,7 @@ data:extend({
         energy_required = 2,
         ingredients =
         {
-            { type = "fluid", name = "natural-gas", amount = 1200 },
+            { type = "fluid", name = "natural-gas", amount = 1400 },
             { "plant-4-2", 1 },
             { "meat-3-2", 1 },
         },
