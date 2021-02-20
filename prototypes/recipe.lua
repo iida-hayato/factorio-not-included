@@ -1338,8 +1338,8 @@ data:extend({
         {
             { "plant-5-3", 1 },
             { "coal", 10 },
-            { type = "fluid", name = "concentrated-polluted-water", amount = 400 },
-            { type = "fluid", name = "h2", amount = 1200 },
+            { type = "fluid", name = "concentrated-polluted-water", amount = 500 },
+            { type = "fluid", name = "h2", amount = 1300 },
         }
     },
     {
@@ -1379,13 +1379,13 @@ data:extend({
             { "plant-5-2", 1 },
             { "meat-4-2", 1 },
             { type = "fluid", name = "o2", amount = 800 },
-            { type = "fluid", name = "polluted-water", amount = 1200 },
+            { type = "fluid", name = "polluted-water", amount = 1400 },
         },
         results =
         {
             { "meat-5-2", 1 },
             { type = "fluid", name = "polluted-oxygen", amount = 800 },
-            { type = "fluid", name = "natural-gas", amount = 600 },
+            { type = "fluid", name = "natural-gas", amount = 700 },
         }
     },
     {
