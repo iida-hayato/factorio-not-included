@@ -1628,7 +1628,7 @@ data:extend({
         energy_required = 2,
         ingredients =
         {
-            { type = "fluid", name = "polluted-oxygen", amount = 400 },
+            { type = "fluid", name = "polluted-oxygen", amount = 500 },
             { "meat-5-3", 1 },
         },
         results =
@@ -1661,7 +1661,7 @@ data:extend({
             { "electric-garbage", 20 },
             { "oversize-garbage", 30 },
             { "general-waste", 40 },
-            { type = "fluid", name = "co2", amount = 3000 },
+            { type = "fluid", name = "co2", amount = 3200 },
             { type = "fluid", name = "concentrated-polluted-water", amount = 1600 },
         }
     },
@@ -1708,7 +1708,7 @@ data:extend({
         results =
         {
             { "plant-6-1", 1 },
-            { type = "fluid", name = "polluted-water", amount = 1400 },
+            { type = "fluid", name = "polluted-water", amount = 1600 },
             { type = "fluid", name = "h2", amount = 1200 },
         }
     },
